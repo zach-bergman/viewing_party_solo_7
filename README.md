@@ -10,7 +10,14 @@ Viewing Party Solo is an application that allows users to explore movies and cre
 
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
-3. Setup the database: `rails db:create`
+3. Setup the database: `rails db:{create,migrate,seed}`
+
+Spend some time familiarizing yourself with the functionality and structure of the application so far. 
+
+When you run `bundle exec rspec`, you should have 26 passing tests (both features & models combined). 
+
+### Use the application
+`rails s`, navigate to `127.0.0.0:3000` and click around the site. 
 
 
 ## Versions
