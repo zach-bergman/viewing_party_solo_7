@@ -8,7 +8,7 @@ RSpec.describe "User Discover Movies Page", type: :feature do
 
       expect(page).to have_button("Discover Top Rated Movies")
       expect(page).to have_button("Search")
-      fill_in(:search, with: "Crouching Tiger")
+      fill_in(:search, with: "Frozen")
       click_button("Search")
 
       expect(current_path).to eq(user_movies_path(user.id))
