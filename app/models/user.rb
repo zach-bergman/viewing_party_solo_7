@@ -4,4 +4,12 @@ class User < ApplicationRecord
 
    has_many :user_parties
    has_many :viewing_parties, through: :user_parties
+
+   def party_invites
+      viewing_parties.where("user_parties.host = false")
+   end
+
+   def host_parties
+      viewing_parties.where("user_parties.host = true")
+   end
 end

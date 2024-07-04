@@ -44,15 +44,17 @@ http_interactions:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
-      - Miss from cloudfront
+      - Hit from cloudfront
       Via:
-      - 1.1 a70648d67d4a5a7f7eed7b14595ab4fe.cloudfront.net (CloudFront)
+      - 1.1 f111faa3f37b2169cefb225b0f246234.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - PW_dAOX-_M0UhSqC1tCIvXyIlqIi7IHJzc2GFGGSQQ_412_N_9Vihw==
+      - Ca1OhKRLO7oYGTI1Z3GIIXLnp9S-5RpvfRzHsiUwBHeu7UTDV7yyvA==
+      Age:
+      - '15144'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/ipyxbPJrLB1g9AfHq4xH5nLWmew.jpg","genre_ids":[28,53],"id":245891,"original_language":"en","original_title":"John
@@ -103,5 +105,5 @@ http_interactions:
         4 (2023), focusing on Donnie Yen''s character Caine after he has been freed
         from his obligations to the High Table.","popularity":3.338,"poster_path":null,"release_date":"","title":"Untitled
         ''John Wick'' Caine Spin-Off Film","video":false,"vote_average":0.0,"vote_count":0}],"total_pages":1,"total_results":13}'
-  recorded_at: Thu, 04 Jul 2024 19:18:07 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:31 GMT
 recorded_with: VCR 6.2.0

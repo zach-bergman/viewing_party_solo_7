@@ -46,15 +46,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 16d72e0791ff01fc4470d27fc024527a.cloudfront.net (CloudFront)
+      - 1.1 5d351175d5947d478733fbecdab866f6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 8znQMUY_NNItFw_sjp2PYCISars7wmjgnjFfgk0Nbljy8zaEz1CppA==
+      - StSDFyjABYXI2XR_y7VvIoCt93oow10AFd-SMsko1ucHpZREJJE7Fw==
       Age:
-      - '718'
+      - '15151'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/7jQf9wRUwXdi7Mgo2wPnnYw76GQ.jpg","genre_ids":[18,28,35,53],"id":11556,"original_language":"es","original_title":"Nicotina","overview":"A
@@ -144,5 +144,5 @@ http_interactions:
         negative publicity surrounding the doll, and tracks young Andy Barclay to
         a foster home where the chase begins again.","popularity":33.088,"poster_path":"/tFcol3qTcL5ImNRbcGLSsLPTTv1.jpg","release_date":"1990-11-09","title":"Child''s
         Play 2","video":false,"vote_average":6.287,"vote_count":1757}],"total_pages":4346,"total_results":86903}'
-  recorded_at: Thu, 04 Jul 2024 19:29:58 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:31 GMT
 recorded_with: VCR 6.2.0
