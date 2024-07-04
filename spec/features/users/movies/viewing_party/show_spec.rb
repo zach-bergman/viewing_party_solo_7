@@ -18,12 +18,12 @@ RSpec.describe "Viewing Party Show Page" do
       visit user_movie_viewing_party_path(user.id, 245891, party.id)
 
       within "div.buy_movie" do
-        # expect(page).to have_content("img[src*='https://image.tmdb.org/t/p/w200']", count: 6)
+        expect(page).to have_css("img[src*='https://image.tmdb.org/t/p/w200']")
         expect(page).to have_content("Buy: ")
       end
 
       within "div.rent_movie" do
-        # expect(page).to have_css("image", count: 4)
+        expect(page).to have_css("img[src*='https://image.tmdb.org/t/p/w200']")
         expect(page).to have_content("Rent: ")
       end
 

@@ -46,15 +46,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 44e92eddc431cc09e1e2c5b24edc90f8.cloudfront.net (CloudFront)
+      - 1.1 0ecc9d4faf14441bafb84971a4117abc.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - eaVTy579zZRZisDWKHhedvnDxlJ4VGzVN-8ER8v3atJnEoj2q9QBVQ==
+      - xUpDobyUPmFzRZJZo6AkmwO6Q89FZMmrpAOZHinecnGUiOrUgH0BsA==
       Age:
-      - '1352'
+      - '4573'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg","genre_ids":[16,10751,12,14],"id":109445,"original_language":"en","original_title":"Frozen","overview":"Young
@@ -163,7 +163,7 @@ http_interactions:
         to grieve a child that, in their view, is suspended between death and a future
         reawakening.","popularity":2.288,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
         Frozen: A Quest To Live Twice","video":false,"vote_average":6.2,"vote_count":18}],"total_pages":12,"total_results":228}'
-  recorded_at: Thu, 04 Jul 2024 18:24:17 GMT
+  recorded_at: Thu, 04 Jul 2024 19:17:58 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/search/movie?api_key=<TMDB_API_KEY>&query=Frozen
@@ -210,15 +210,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 d09fd0ac0a8733df98f134da74eec098.cloudfront.net (CloudFront)
+      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - DyeRlIkcbenewwBDsgPE7n-9f3oAL7wx-OJM7X0YNLaNxWOij0K83Q==
+      - WO-g5tH-_VjcyNgf1pQEchYBiLDeSWihTMMSiUiwf1nbRGh34RO-8A==
       Age:
-      - '1352'
+      - '4573'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg","genre_ids":[16,10751,12,14],"id":109445,"original_language":"en","original_title":"Frozen","overview":"Young
@@ -327,5 +327,5 @@ http_interactions:
         to grieve a child that, in their view, is suspended between death and a future
         reawakening.","popularity":2.288,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
         Frozen: A Quest To Live Twice","video":false,"vote_average":6.2,"vote_count":18}],"total_pages":12,"total_results":228}'
-  recorded_at: Thu, 04 Jul 2024 18:24:17 GMT
+  recorded_at: Thu, 04 Jul 2024 19:17:58 GMT
 recorded_with: VCR 6.2.0

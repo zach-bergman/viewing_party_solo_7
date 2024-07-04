@@ -3,14 +3,14 @@
 <div class="buy_movie">
   <h3>Buy: <%= @facade.movie.title %></h3>
   <% @facade.buy_movie_from_providers.each do |provider| %>
-    <%= image_tag("https://image.tmdb.org/t/p/w200#{provider[:logo_path]}", width: "60px") %>
+    <%= image_tag("#{@facade.image_begin_url}#{provider[:logo_path]}", width: "60px") %>
   <% end %>
 </div>
 
 <div class="rent_movie">
   <h3>Rent: <%= @facade.movie.title %></h3>
   <% @facade.rent_movie_from_providers.each do |provider| %>
-    <%= image_tag("https://image.tmdb.org/t/p/w200#{provider[:logo_path]}", width: "60px") %>
+    <%= image_tag("#{@facade.image_begin_url}#{provider[:logo_path]}", width: "60px") %>
   <% end %>
 </div>
 

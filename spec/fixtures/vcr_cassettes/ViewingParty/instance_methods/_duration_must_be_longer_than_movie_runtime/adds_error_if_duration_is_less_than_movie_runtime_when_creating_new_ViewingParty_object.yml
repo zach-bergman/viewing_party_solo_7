@@ -38,15 +38,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
+      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 1BLs-sjqsNT_1oAA0fTAKeD_1SNBS0rfejdFgYz2Gp4qUVY-k3WZoQ==
+      - Tzb8PbMXfMW3SfB570_hUcuBr4kiRXn2O2vthXVTpCLxImjVrY4VnQ==
       Age:
-      - '17787'
+      - '21013'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/ipyxbPJrLB1g9AfHq4xH5nLWmew.jpg","belongs_to_collection":{"id":404609,"name":"John
@@ -578,5 +578,5 @@ http_interactions:
         Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":8.0},"content":"Reeves
         is such a great actor. Another action packed filled movie. He nuts on everyone
         all because they killed his dog.","created_at":"2023-07-06T13:28:26.073Z","id":"64a6c17a07faa2011e0331c3","updated_at":"2023-07-06T13:28:26.152Z","url":"https://www.themoviedb.org/review/64a6c17a07faa2011e0331c3"}],"total_pages":1,"total_results":13}}'
-  recorded_at: Thu, 04 Jul 2024 18:24:20 GMT
+  recorded_at: Thu, 04 Jul 2024 19:18:06 GMT
 recorded_with: VCR 6.2.0
