@@ -14,9 +14,34 @@ RSpec.describe ViewingParty, type: :model do
       it { should have_many(:users).through(:user_parties) }
   end
 
+  describe "validations" do
+    it { should validate_presence_of :duration }
+    it { should validate_presence_of :date }
+    it { should validate_presence_of :start_time }
+  end
+
   describe "instance methods" do
     it "returns user that is hosting the party" do
       expect(@party.find_host).to eq (@user_1)
+    end
+
+    describe "#movie" do
+      it "returns the movie associated with the viewing party by id - if id is given", :vcr do
+        party_2 = ViewingParty.create!(date: "2022-11-05", start_time: "05:15", duration: 135, movie_id: 245891)
+
+        expect(@party.movie).to eq(nil)
+        
+        expect(party_2.movie).to be_a Movie
+        expect(party_2.movie.id).to eq(245891)
+      end
+    end
+
+    describe "#duration_must_be_longer_than_movie_runtime" do
+      it "adds error if duration is less than movie runtime when creating new ViewingParty object", :vcr do
+        party_3 = ViewingParty.create(date: "2022-11-05", start_time: "05:15", duration: 5, movie_id: 245891)
+
+        expect(party_3.errors.full_messages).to include("Duration must be longer than movie runtime")
+      end
     end
   end
 end

@@ -7,15 +7,15 @@ class MovieFacade
     @id = id
     @movie = find_movie_by_id
   end
-
+  
   def movies
     results = @service.movie_search(@search)
     
     movies = results.map { |movie_data| Movie.new(movie_data) }
-
+    
     movies.compact[0..19]
   end
-
+  
   def find_movie_by_id
     if @id
       movie_data = @service.find_movie_by_id(@id)
