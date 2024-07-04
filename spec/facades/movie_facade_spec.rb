@@ -111,4 +111,14 @@ RSpec.describe MovieFacade do
       end
     end
   end
+
+  describe "#similar_movies" do
+    it "returns an array of Movie objects", :vcr do
+      facade = MovieFacade.new(nil, 245891)
+
+      facade.similar_movies.each do |movie|
+        expect(movie).to be_a(Movie)
+      end
+    end
+  end
 end

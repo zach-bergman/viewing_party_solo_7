@@ -46,15 +46,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
+      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - VqQeRYvLLVf-ENxqkpjCjCKOwRLWka-HFjDKCnTobCI_tq8yxqaKsA==
+      - L_LQ2OPpu6LhSoGzo3wEWdfFD1Gq3yckCV8ztGFXzLro-N0lT6BxaA==
       Age:
-      - '1353'
+      - '4575'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg","genre_ids":[16,10751,12,14],"id":109445,"original_language":"en","original_title":"Frozen","overview":"Young
@@ -163,7 +163,7 @@ http_interactions:
         to grieve a child that, in their view, is suspended between death and a future
         reawakening.","popularity":2.288,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
         Frozen: A Quest To Live Twice","video":false,"vote_average":6.2,"vote_count":18}],"total_pages":12,"total_results":228}'
-  recorded_at: Thu, 04 Jul 2024 18:24:18 GMT
+  recorded_at: Thu, 04 Jul 2024 19:18:00 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/search/movie?api_key=<TMDB_API_KEY>&query=
@@ -199,28 +199,26 @@ http_interactions:
       X-Memc-Expires:
       - '2778'
       Date:
-      - Thu, 04 Jul 2024 13:46:36 GMT
+      - Thu, 04 Jul 2024 19:18:00 GMT
       Cache-Control:
-      - public, max-age=19839
+      - public, max-age=13639
       Etag:
       - W/"0e23279b004381f72a34159d5c7dfd1f"
       Vary:
       - Origin
       - accept-encoding
       X-Cache:
-      - Hit from cloudfront
+      - RefreshHit from cloudfront
       Via:
-      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
+      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - BTUbL3eScjB_CX8Yi5UjDeN3936dvM6Q79AFKDDrkm-I5eM6I3EL-g==
-      Age:
-      - '16662'
+      - m4XhPChUHtJ6BdwrlddD5Zo95dmoxsDlMAVQCzFyIn_lZBSzweuY3Q==
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[],"total_pages":1,"total_results":0}'
-  recorded_at: Thu, 04 Jul 2024 18:24:18 GMT
+  recorded_at: Thu, 04 Jul 2024 19:18:00 GMT
 recorded_with: VCR 6.2.0

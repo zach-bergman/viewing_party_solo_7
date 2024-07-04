@@ -79,5 +79,20 @@ RSpec.describe MovieService do
         expect(providers[:rent]).to be_an(Array)
       end
     end
+
+    describe "#get_similar_movies" do
+      it "returns an array of similar movies for the movie id given", :vcr do
+        movies = MovieService.new.get_similar_movies(245891)
+
+        expect(movies).to be_an(Array)
+
+        movies.each do |movie|
+          expect(movie).to have_key(:title)
+          expect(movie).to have_key(:vote_average)
+          expect(movie).to have_key(:id)
+          expect(movie).to have_key(:poster_path)
+        end
+      end
+    end
   end
 end

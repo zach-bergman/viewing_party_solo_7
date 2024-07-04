@@ -46,15 +46,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 1c80fe425edf82026702c486fb324fd0.cloudfront.net (CloudFront)
+      - 1.1 d898fedd2c97412525c0a8011787cf32.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Xeb8mp_lnD_HLBYHrP6sZEvrtB1Nk14cFMVucNR0AggpWd_GG8rnhQ==
+      - jOdhLcryYBNocwnNctKVoOWCokiUikSPJXsT0hVEDCjCLSdGalyaBA==
       Age:
-      - '1012'
+      - '4238'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg","genre_ids":[18,80],"id":278,"original_language":"en","original_title":"The
@@ -166,5 +166,5 @@ http_interactions:
         man who constantly abused her—finds her new best friend in Miguel, her young,
         insecure, disoriented and even dealer neighbor","popularity":13.631,"poster_path":"/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg","release_date":"2021-06-17","title":"Impossible
         Things","video":false,"vote_average":8.455,"vote_count":378}],"total_pages":474,"total_results":9474}'
-  recorded_at: Thu, 04 Jul 2024 18:24:20 GMT
+  recorded_at: Thu, 04 Jul 2024 19:18:06 GMT
 recorded_with: VCR 6.2.0
