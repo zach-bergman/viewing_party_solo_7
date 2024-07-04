@@ -46,4 +46,18 @@ class MovieFacade
   def rent_movie_from_providers
     @service.get_movie_providers(@id)[:rent]
   end
+
+  def similar_movies
+    results = @service.get_similar_movies(@id)
+
+    results.map do |movie_data| 
+      data = @service.find_movie_by_id(movie_data[:id])
+
+      Movie.new(format_movie_data(data))
+    end
+  end
+
+  def image_begin_url
+    "https://image.tmdb.org/t/p/w200"
+  end
 end

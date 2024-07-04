@@ -21,4 +21,8 @@ class MovieService
   def get_movie_providers(id)
     get_url("movie/#{id}/watch/providers")[:results][:US]
   end
+
+  def get_similar_movies(id)
+    get_url("movie/#{id}/similar")[:results]
+  end
 end
