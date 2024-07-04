@@ -38,4 +38,12 @@ class MovieFacade
       poster_path: movie_data[:poster_path],
     }
   end
+
+  def buy_movie_from_providers
+    @service.get_movie_providers(@id)[:buy]
+  end
+
+  def rent_movie_from_providers
+    @service.get_movie_providers(@id)[:rent]
+  end
 end

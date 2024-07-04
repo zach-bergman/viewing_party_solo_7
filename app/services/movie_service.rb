@@ -17,4 +17,8 @@ class MovieService
   def find_movie_by_id(id)
     get_url("movie/#{id}?append_to_response=credits,reviews")
   end
+
+  def get_movie_providers(id)
+    get_url("movie/#{id}/watch/providers")[:results][:US]
+  end
 end
