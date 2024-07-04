@@ -65,5 +65,19 @@ RSpec.describe MovieService do
         expect(movie[:runtime]).to eq(101)
       end
     end
+
+    describe "#get_movie_providers" do
+      it "returns the movie providers for the movie id given", :vcr do
+        providers = MovieService.new.get_movie_providers(245891)
+
+        expect(providers).to be_a(Hash)
+
+        expect(providers).to have_key(:buy)
+        expect(providers[:buy]).to be_an(Array)
+
+        expect(providers).to have_key(:rent)
+        expect(providers[:rent]).to be_an(Array)
+      end
+    end
   end
 end

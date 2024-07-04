@@ -81,4 +81,34 @@ RSpec.describe MovieFacade do
       expect(facade.format_movie_data(data)).to have_key(:poster_path)
     end
   end
+
+  describe "#buy_movie_from_providers" do
+    it "returns an array of providers - buy", :vcr do
+      facade = MovieFacade.new(nil, 245891)
+
+      expect(facade.buy_movie_from_providers).to be_an(Array)
+
+      facade.buy_movie_from_providers.each do |provider|
+        expect(provider).to be_a(Hash)
+        expect(provider).to have_key(:provider_id)
+        expect(provider).to have_key(:provider_name)
+        expect(provider).to have_key(:logo_path)
+      end
+    end
+  end
+
+  describe "#rent_movie_from_providers" do
+    it "returns an array of providers - rent", :vcr do
+      facade = MovieFacade.new(nil, 245891)
+
+      expect(facade.rent_movie_from_providers).to be_an(Array)
+
+      facade.rent_movie_from_providers.each do |provider|
+        expect(provider).to be_a(Hash)
+        expect(provider).to have_key(:provider_id)
+        expect(provider).to have_key(:provider_name)
+        expect(provider).to have_key(:logo_path)
+      end
+    end
+  end
 end
