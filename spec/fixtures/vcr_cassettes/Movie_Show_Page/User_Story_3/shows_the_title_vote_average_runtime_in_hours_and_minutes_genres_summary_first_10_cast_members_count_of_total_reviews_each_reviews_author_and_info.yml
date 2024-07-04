@@ -1,0 +1,582 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/245891?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 03 Jul 2024 16:11:25 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=25210
+      Etag:
+      - W/"0ca42984d0d636ecb7550fd4819c8109"
+      Vary:
+      - Accept-Encoding,accept-encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 05fe6f95b77eb54d0691950915c27264.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - tumfOqW7bu0DvSEuFCrItFfrDyTBfDzpXdhr32Mvp5gaViuaplzL6Q==
+      Age:
+      - '13889'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/ipyxbPJrLB1g9AfHq4xH5nLWmew.jpg","belongs_to_collection":{"id":404609,"name":"John
+        Wick Collection","poster_path":"/xUidyvYFsbbuExifLkslpcd8SMc.jpg","backdrop_path":"/fSwYa5q2xRkBoOOjueLpkLf3N1m.jpg"},"budget":20000000,"genres":[{"id":28,"name":"Action"},{"id":53,"name":"Thriller"}],"homepage":"https://www.lionsgate.com/movies/john-wick","id":245891,"imdb_id":"tt2911666","origin_country":["US"],"original_language":"en","original_title":"John
+        Wick","overview":"Ex-hitman John Wick comes out of retirement to track down
+        the gangsters that took everything from him.","popularity":70.57,"poster_path":"/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg","production_companies":[{"id":23008,"logo_path":"/5SarYupipdiejsEqUkwu1SpYfru.png","name":"87Eleven","origin_country":"US"},{"id":36259,"logo_path":null,"name":"DefyNite
+        Films","origin_country":"US"},{"id":36433,"logo_path":null,"name":"MJW Films","origin_country":"US"},{"id":3528,"logo_path":"/cCzCClIzIh81Fa79hpW5nXoUsHK.png","name":"Thunder
+        Road","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
+        States of America"}],"release_date":"2014-10-22","revenue":88761661,"runtime":101,"spoken_languages":[{"english_name":"Hungarian","iso_639_1":"hu","name":"Magyar"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"Don''t
+        set him off.","title":"John Wick","video":false,"vote_average":7.432,"vote_count":18765,"credits":{"cast":[{"adult":false,"gender":2,"id":6384,"known_for_department":"Acting","name":"Keanu
+        Reeves","original_name":"Keanu Reeves","popularity":97.367,"profile_path":"/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg","cast_id":6,"character":"John
+        Wick","credit_id":"52fe4f0cc3a36847f82b9c41","order":0},{"adult":false,"gender":2,"id":6283,"known_for_department":"Acting","name":"Michael
+        Nyqvist","original_name":"Michael Nyqvist","popularity":13.637,"profile_path":"/d9nGt8MloJwosRbGp10gaeHExcZ.jpg","cast_id":20,"character":"Viggo
+        Tarasov","credit_id":"544b95150e0a2630f9000dc0","order":1},{"adult":false,"gender":2,"id":71586,"known_for_department":"Acting","name":"Alfie
+        Allen","original_name":"Alfie Allen","popularity":18.632,"profile_path":"/7gPpG0TBMX20tPhWC8BT47x2lnh.jpg","cast_id":12,"character":"Iosef
+        Tarasov","credit_id":"52fe4f0cc3a36847f82b9c59","order":2},{"adult":false,"gender":2,"id":5293,"known_for_department":"Acting","name":"Willem
+        Dafoe","original_name":"Willem Dafoe","popularity":40.986,"profile_path":"/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg","cast_id":9,"character":"Marcus","credit_id":"52fe4f0cc3a36847f82b9c4d","order":3},{"adult":false,"gender":2,"id":68763,"known_for_department":"Acting","name":"Dean
+        Winters","original_name":"Dean Winters","popularity":11.98,"profile_path":"/zxgOZAYGxa2qmiZkJKGRIhwbGhG.jpg","cast_id":14,"character":"Avi","credit_id":"544ab7dec3a3680fb4004dbb","order":4},{"adult":false,"gender":1,"id":88995,"known_for_department":"Acting","name":"Adrianne
+        Palicki","original_name":"Adrianne Palicki","popularity":22.771,"profile_path":"/qjONLp73Z5tvbuMe9g18Mb9hI0J.jpg","cast_id":7,"character":"Ms.
+        Perkins","credit_id":"52fe4f0cc3a36847f82b9c45","order":5},{"adult":false,"gender":2,"id":968977,"known_for_department":"Acting","name":"Omer
+        Barnea","original_name":"Omer Barnea","popularity":8.505,"profile_path":"/aHAxzvcDnxPoAT592ZIaLhA90tQ.jpg","cast_id":21,"character":"Gregori","credit_id":"544b95460e0a267486006b42","order":6},{"adult":false,"gender":2,"id":187857,"known_for_department":"Acting","name":"Toby
+        Leonard Moore","original_name":"Toby Leonard Moore","popularity":14.497,"profile_path":"/hR3vkEjSymdt23NYfcO2axUFMe1.jpg","cast_id":95,"character":"Victor","credit_id":"5686f76bc3a368227b015d34","order":7},{"adult":false,"gender":2,"id":9452,"known_for_department":"Acting","name":"Daniel
+        Bernhardt","original_name":"Daniel Bernhardt","popularity":13.368,"profile_path":"/b59qhg5VJOCypx9eMXrXHAjauLd.jpg","cast_id":23,"character":"Kirill","credit_id":"544b9572c3a3686ac1000873","order":8},{"adult":false,"gender":1,"id":18354,"known_for_department":"Acting","name":"Bridget
+        Moynahan","original_name":"Bridget Moynahan","popularity":16.337,"profile_path":"/5y5CRPu9aw5Wx3EwyX1A2RpuLQP.jpg","cast_id":10,"character":"Helen","credit_id":"52fe4f0cc3a36847f82b9c51","order":9},{"adult":false,"gender":2,"id":5723,"known_for_department":"Acting","name":"John
+        Leguizamo","original_name":"John Leguizamo","popularity":27.492,"profile_path":"/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg","cast_id":19,"character":"Aurelio","credit_id":"544ab810c3a3680fbb004280","order":10},{"adult":false,"gender":2,"id":6972,"known_for_department":"Acting","name":"Ian
+        McShane","original_name":"Ian McShane","popularity":41.993,"profile_path":"/rteBJYNgD1yGsHg2HGZAIrYHz1t.jpg","cast_id":24,"character":"Winston","credit_id":"544b9592c3a3686ac1000876","order":11},{"adult":false,"gender":1,"id":1222298,"known_for_department":"Acting","name":"Bridget
+        Regan","original_name":"Bridget Regan","popularity":28.99,"profile_path":"/ri1kEBkWa9ShTYbV2iJAFa0V4VU.jpg","cast_id":8,"character":"Addy","credit_id":"52fe4f0cc3a36847f82b9c49","order":12},{"adult":false,"gender":2,"id":129101,"known_for_department":"Acting","name":"Lance
+        Reddick","original_name":"Lance Reddick","popularity":21.639,"profile_path":"/22mVtEXZbpt0J7S0LhIhdkfRrZV.jpg","cast_id":26,"character":"Hotel
+        Manager / Charon","credit_id":"544b95bac3a3680fb1006fd5","order":13},{"adult":false,"gender":2,"id":78890,"known_for_department":"Acting","name":"Keith
+        Jardine","original_name":"Keith Jardine","popularity":8.344,"profile_path":"/emN5dXAoqW9Naab4g3yOwxSfkvh.jpg","cast_id":51,"character":"Kuzma","credit_id":"55e6d4769251410f02002855","order":14},{"adult":false,"gender":2,"id":1105706,"known_for_department":"Acting","name":"Tait
+        Fletcher","original_name":"Tait Fletcher","popularity":10.163,"profile_path":"/zAVsHT2GBLPaQ4RpTopnHvIrCbv.jpg","cast_id":52,"character":"Nicholai","credit_id":"55e6d477c3a3685f9e0027d8","order":15},{"adult":false,"gender":2,"id":1110069,"known_for_department":"Acting","name":"Kazy
+        Tauginas","original_name":"Kazy Tauginas","popularity":4.453,"profile_path":"/xjyyAgBORgnsBzC4yq4v0hGCdlz.jpg","cast_id":53,"character":"Ivan","credit_id":"55e6d4779251410f130029a6","order":16},{"adult":false,"gender":2,"id":1503859,"known_for_department":"Acting","name":"Alexander
+        Frekey","original_name":"Alexander Frekey","popularity":0.509,"profile_path":"/rPa9zy80GK9OYP75kdZrb3lGi9Y.jpg","cast_id":54,"character":"Alexander","credit_id":"55e6d477c3a3685f96002add","order":17},{"adult":false,"gender":2,"id":1218218,"known_for_department":"Acting","name":"Thomas
+        Sadoski","original_name":"Thomas Sadoski","popularity":5.415,"profile_path":"/ciqrqKHUfFGlMPyUE35YSKEvxuL.jpg","cast_id":49,"character":"Jimmy","credit_id":"552506f2c3a3687e03001016","order":18},{"adult":false,"gender":2,"id":9462,"known_for_department":"Acting","name":"Randall
+        Duk Kim","original_name":"Randall Duk Kim","popularity":10.069,"profile_path":"/uPRoCyVJyQ2Py2gBUK8JbxTOuL1.jpg","cast_id":55,"character":"Continental
+        Doctor","credit_id":"55e6d4789251410f0d0025a4","order":19},{"adult":false,"gender":2,"id":1737,"known_for_department":"Acting","name":"David
+        Patrick Kelly","original_name":"David Patrick Kelly","popularity":10.815,"profile_path":"/dPAqT9CuCgvMxEZQqtQPWEQwmIe.jpg","cast_id":28,"character":"Charlie","credit_id":"545198220e0a2642c2002280","order":20},{"adult":false,"gender":2,"id":61011,"known_for_department":"Acting","name":"Clarke
+        Peters","original_name":"Clarke Peters","popularity":14.689,"profile_path":"/ouDHDpocxXgXrosF3vShAEkOjHL.jpg","cast_id":29,"character":"Harry","credit_id":"54519830c3a3680239004fbd","order":21},{"adult":false,"gender":2,"id":135352,"known_for_department":"Acting","name":"Kevin
+        Nash","original_name":"Kevin Nash","popularity":6.906,"profile_path":"/wGgiZACoBF1qKpUhqgEZEpUDUti.jpg","cast_id":30,"character":"Francis","credit_id":"5451983a0e0a263a1000545c","order":22},{"adult":false,"gender":1,"id":1359352,"known_for_department":"Acting","name":"Gameela
+        Wright","original_name":"Gameela Wright","popularity":8.771,"profile_path":"/rNLXMPBaZ95E2wEbCvqewwZHKm1.jpg","cast_id":56,"character":"Delivery
+        Woman","credit_id":"55e6d478c3a3685f96002ae1","order":23},{"adult":false,"gender":2,"id":1503860,"known_for_department":"Acting","name":"Vladislav
+        Koulikov","original_name":"Vladislav Koulikov","popularity":0.122,"profile_path":null,"cast_id":57,"character":"Pavel","credit_id":"55e6d478c3a3685f850029cd","order":24},{"adult":false,"gender":2,"id":1503861,"known_for_department":"Acting","name":"Munro
+        M. Bonnell","original_name":"Munro M. Bonnell","popularity":2.449,"profile_path":"/9u6aQOMQX83SYcFYUOb3Xnox10B.jpg","cast_id":58,"character":"Priest","credit_id":"55e6d4799251410f100028c9","order":25},{"adult":false,"gender":1,"id":1405915,"known_for_department":"Acting","name":"Patricia
+        Squire","original_name":"Patricia Squire","popularity":3.473,"profile_path":"/4zjxlQXNL52zyl9Qd7eRDBmRg3x.jpg","cast_id":59,"character":"Elderly
+        Woman","credit_id":"55e6d479c3a3685f850029d1","order":26},{"adult":false,"gender":2,"id":1503862,"known_for_department":"Acting","name":"Vladimir
+        Troitsky","original_name":"Vladimir Troitsky","popularity":1.608,"profile_path":"/opjWWS8Zt9whtDxdTEDKzSCSjao.jpg","cast_id":60,"character":"Team
+        Leader","credit_id":"55e6d4799251410f0a00274d","order":27},{"adult":false,"gender":2,"id":9466,"known_for_department":"Acting","name":"Matt
+        McColm","original_name":"Matt McColm","popularity":5.974,"profile_path":"/9SlVkQdWGURamicfGScV8BJNs2M.jpg","cast_id":113,"character":"Club
+        Goon (uncredited)","credit_id":"5f66aeeee18e3f003809240b","order":28},{"adult":false,"gender":2,"id":1753271,"known_for_department":"Acting","name":"Scott
+        Tixier","original_name":"Scott Tixier","popularity":0.335,"profile_path":"/mA9KgKypXOLROCbRDckopt1khfu.jpg","cast_id":103,"character":"Violinist
+        (uncredited)","credit_id":"589ac14dc3a3683a980039a6","order":29},{"adult":false,"gender":1,"id":1584908,"known_for_department":"Acting","name":"Carolyn
+        Blair","original_name":"Carolyn Blair","popularity":0.178,"profile_path":null,"cast_id":96,"character":"Red
+        Circle Club Goer (uncredited)","credit_id":"56d5a79dc3a3681e50015bd8","order":30},{"adult":false,"gender":1,"id":1584909,"known_for_department":"Acting","name":"Samantha
+        Crawford","original_name":"Samantha Crawford","popularity":0.069,"profile_path":"/pihbRLXaX2mPUWqVjKq7u98dAZZ.jpg","cast_id":97,"character":"Red
+        Circle Club Goer (uncredited)","credit_id":"56d5a82092514157b500a10b","order":31},{"adult":false,"gender":1,"id":1417533,"known_for_department":"Acting","name":"Nadia
+        Kay","original_name":"Nadia Kay","popularity":3.667,"profile_path":"/awxQdDNeFacB5FOl7n7wQQQrZkF.jpg","cast_id":99,"character":"Hot
+        Girl (uncredited)","credit_id":"5779432592514130140007a4","order":32},{"adult":false,"gender":1,"id":1439560,"known_for_department":"Acting","name":"Natalia
+        Kiriya","original_name":"Natalia Kiriya","popularity":1.438,"profile_path":"/ySSTUliM0ke65dkA72T2XHYE5ul.jpg","cast_id":100,"character":"Red
+        Circle Model (uncredited)","credit_id":"577943b2c3a3684e7d00077d","order":33},{"adult":false,"gender":2,"id":1553053,"known_for_department":"Acting","name":"Tommy
+        Bayiokos","original_name":"Tommy Bayiokos","popularity":2.985,"profile_path":"/81FT5dSauZgrArgtgXhOJyBVAoN.jpg","cast_id":98,"character":"Russian
+        Sniper (uncredited)","credit_id":"56d5a90c92514134020137b1","order":34},{"adult":false,"gender":2,"id":131532,"known_for_department":"Crew","name":"J.J.
+        Perry","original_name":"J.J. Perry","popularity":4.777,"profile_path":"/57assDPZceZ4x7YWrkPE5FqVn1f.jpg","cast_id":116,"character":"Bathroom
+        Security (uncredited)","credit_id":"5fc6309e63536a003f2a39ea","order":35},{"adult":false,"gender":2,"id":1221121,"known_for_department":"Acting","name":"Dennis
+        Keiffer","original_name":"Dennis Keiffer","popularity":9.035,"profile_path":"/jb6FR0OZgCqbPOkKq2KikXr31WW.jpg","cast_id":117,"character":"Club
+        Goon (uncredited)","credit_id":"6015ea144df291003e1fc0eb","order":36},{"adult":false,"gender":2,"id":1454322,"known_for_department":"Acting","name":"Alex
+        Ziwak","original_name":"Alex Ziwak","popularity":3.452,"profile_path":"/bNva151NdGEkeJffkyc3uJiLRDJ.jpg","cast_id":130,"character":"Assassin
+        (uncredited)","credit_id":"61c9f4c037b3a9008fc7a858","order":37},{"adult":false,"gender":0,"id":1898632,"known_for_department":"Acting","name":"Erik
+        Martin","original_name":"Erik Martin","popularity":0.202,"profile_path":"/uff6YeJ5CgrMMUQOybKEisP2G0U.jpg","cast_id":131,"character":"Russian
+        Thug (uncredited)","credit_id":"61c9f89407291c001cf61efc","order":38},{"adult":false,"gender":0,"id":1635435,"known_for_department":"Acting","name":"Elizabeth
+        Saint","original_name":"Elizabeth Saint","popularity":2.488,"profile_path":"/AjUluDiQ2b7GhFQY90DXUUK4NYn.jpg","cast_id":177,"character":"Russian
+        Model (uncredited)","credit_id":"64ceaa7b549dda011c27ca44","order":39},{"adult":false,"gender":0,"id":1371014,"known_for_department":"Acting","name":"Marija
+        Skangale","original_name":"Marija Skangale","popularity":6.832,"profile_path":"/8PaG5QxtlQQeaeRJ7r1tOMv14tm.jpg","cast_id":176,"character":"Red
+        Circle Cage Dancer (uncredited)","credit_id":"64ceaa4d303c8500c613742b","order":40},{"adult":false,"gender":1,"id":1781727,"known_for_department":"Acting","name":"Karen
+        Nazarov","original_name":"Karen Nazarov","popularity":3.27,"profile_path":"/6Q49QKIP13MHDBf87eLikg74G71.jpg","cast_id":178,"character":"Red
+        Circle Club Dancer (uncredited)","credit_id":"64ceaa94614c6d011c2a9bdb","order":41},{"adult":false,"gender":0,"id":3362684,"known_for_department":"Acting","name":"Paugh
+        Shadow","original_name":"Paugh Shadow","popularity":0.62,"profile_path":"/r0XL59W2uJOEaiB9o33FdWGn1kn.jpg","cast_id":242,"character":"Assassin
+        (uncredited)","credit_id":"656421cdfb529900c66bf9d9","order":42}],"crew":[{"adult":false,"gender":2,"id":67759,"known_for_department":"Production","name":"Basil
+        Iwanyk","original_name":"Basil Iwanyk","popularity":6.729,"profile_path":"/7ULVJcHinmbUkjGrjseCgAztcx4.jpg","credit_id":"52fe4f0cc3a36847f82b9c37","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":1281371,"known_for_department":"Production","name":"Mike
+        Witherill","original_name":"Mike Witherill","popularity":2.4,"profile_path":null,"credit_id":"52fe4f0cc3a36847f82b9c3d","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":40684,"known_for_department":"Directing","name":"David
+        Leitch","original_name":"David Leitch","popularity":16.646,"profile_path":"/7FOLULXFvWrovvfsSyljXtK0tr8.jpg","credit_id":"544ff4f8c3a3680236002630","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":12033,"known_for_department":"Camera","name":"Jonathan
+        Sela","original_name":"Jonathan Sela","popularity":3.016,"profile_path":"/vjR46R01jK9XpmfLPmvgRr75b5p.jpg","credit_id":"5490ac579251411f6a000435","department":"Camera","job":"Director
+        of Photography"},{"adult":false,"gender":2,"id":15221,"known_for_department":"Sound","name":"Tyler
+        Bates","original_name":"Tyler Bates","popularity":3.698,"profile_path":"/E26NVF49zEpHJM88iyN5ok8nYz.jpg","credit_id":"5490ac7b9251411f6300035e","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":1,"id":1017235,"known_for_department":"Editing","name":"Elísabet
+        Ronaldsdóttir","original_name":"Elísabet Ronaldsdóttir","popularity":3.095,"profile_path":"/gREU3CGII0WdC6QuFmhvraGPIan.jpg","credit_id":"5490ad2e9251411f5d0003de","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":1046729,"known_for_department":"Production","name":"Jessica
+        Kelly","original_name":"Jessica Kelly","popularity":3.529,"profile_path":null,"credit_id":"5490ad4dc3a36873f60004fa","department":"Production","job":"Casting"},{"adult":false,"gender":1,"id":4023,"known_for_department":"Production","name":"Suzanne
+        Smith Crowley","original_name":"Suzanne Smith Crowley","popularity":3.933,"profile_path":"/eRIXIeMUQs8424iyDIRDKuPSBMy.jpg","credit_id":"5490ad579251411f5d0003e3","department":"Production","job":"Casting"},{"adult":false,"gender":2,"id":7496,"known_for_department":"Art","name":"Dan
+        Leigh","original_name":"Dan Leigh","popularity":9.316,"profile_path":null,"credit_id":"5490ad959251411f5d0003ea","department":"Art","job":"Production
+        Design"},{"adult":false,"gender":2,"id":52682,"known_for_department":"Costume
+        & Make-Up","name":"Luca Mosca","original_name":"Luca Mosca","popularity":4.625,"profile_path":"/adtSrjn37EhoTSHFPfqxDmBTw6z.jpg","credit_id":"5490ada4c3a36873f900040b","department":"Costume
+        & Make-Up","job":"Costume Design"},{"adult":false,"gender":1,"id":52605,"known_for_department":"Acting","name":"Eva
+        Longoria","original_name":"Eva Longoria","popularity":23.853,"profile_path":"/1u26GLWK1DE7gBugyI9P3OMFq4A.jpg","credit_id":"5490ade89251411f5b00042c","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":94456,"known_for_department":"Production","name":"Kevin
+        Scott Frakes","original_name":"Kevin Scott Frakes","popularity":6.548,"profile_path":null,"credit_id":"54b6588592514166470014da","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":882944,"known_for_department":"Writing","name":"Stephen
+        Hamel","original_name":"Stephen Hamel","popularity":3.396,"profile_path":null,"credit_id":"54b65891c3a36838d50016ba","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":1,"id":1413500,"known_for_department":"Production","name":"Tara
+        Finegan","original_name":"Tara Finegan","popularity":2.402,"profile_path":null,"credit_id":"54b6589d92514166470014dd","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":6384,"known_for_department":"Acting","name":"Keanu
+        Reeves","original_name":"Keanu Reeves","popularity":97.367,"profile_path":"/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg","credit_id":"54b658a9c3a368377e00138a","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":1413501,"known_for_department":"Production","name":"Andrew
+        C. Robinson","original_name":"Andrew C. Robinson","popularity":0.68,"profile_path":null,"credit_id":"54b658b4c3a36877980015c0","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":1413502,"known_for_department":"Production","name":"Raj
+        Brinder Singh","original_name":"Raj Brinder Singh","popularity":1.365,"profile_path":null,"credit_id":"54b658c09251412e730016ea","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":94825,"known_for_department":"Production","name":"Jared
+        Underwood","original_name":"Jared Underwood","popularity":3.919,"profile_path":null,"credit_id":"54b658cdc3a36836640017b4","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":80788,"known_for_department":"Production","name":"Mike
+        Upton","original_name":"Mike Upton","popularity":2.891,"profile_path":null,"credit_id":"54b658d992514166470014e4","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":1512724,"known_for_department":"Art","name":"CJ
+        Simpson","original_name":"CJ Simpson","popularity":0.155,"profile_path":null,"credit_id":"55ffceca925141529f005277","department":"Art","job":"Art
+        Direction"},{"adult":false,"gender":1,"id":17221,"known_for_department":"Art","name":"Susan
+        Bode Tyson","original_name":"Susan Bode Tyson","popularity":4.601,"profile_path":null,"credit_id":"55ffcedec3a368132c005beb","department":"Art","job":"Set
+        Decoration"},{"adult":false,"gender":0,"id":1324481,"known_for_department":"Costume
+        & Make-Up","name":"Stephen M. Kelley","original_name":"Stephen M. Kelley","popularity":1.082,"profile_path":null,"credit_id":"55ffcf4c9251412aad001f1a","department":"Costume
+        & Make-Up","job":"Makeup Department Head"},{"adult":false,"gender":0,"id":1468540,"known_for_department":"Art","name":"Kristen
+        Ficara","original_name":"Kristen Ficara","popularity":0.058,"profile_path":null,"credit_id":"55ffcfb7c3a36813340055ac","department":"Art","job":"Art
+        Department Coordinator"},{"adult":false,"gender":0,"id":1512726,"known_for_department":"Art","name":"Raul
+        Abrego","original_name":"Raul Abrego","popularity":0.058,"profile_path":null,"credit_id":"55ffcfd8c3a368133b004b67","department":"Art","job":"Assistant
+        Art Director"},{"adult":false,"gender":0,"id":1512728,"known_for_department":"Art","name":"Carl
+        Baldasso","original_name":"Carl Baldasso","popularity":0.034,"profile_path":null,"credit_id":"55ffcfeec3a36877e70023fd","department":"Art","job":"Assistant
+        Art Director"},{"adult":false,"gender":0,"id":1512729,"known_for_department":"Art","name":"Dennis
+        Moyes","original_name":"Dennis Moyes","popularity":0.649,"profile_path":null,"credit_id":"55ffd00cc3a368132c005c02","department":"Art","job":"Assistant
+        Art Director"},{"adult":false,"gender":0,"id":1428872,"known_for_department":"Sound","name":"James
+        Carroll","original_name":"James Carroll","popularity":0.522,"profile_path":null,"credit_id":"55ffd0a892514129500022bd","department":"Sound","job":"Foley"},{"adult":false,"gender":2,"id":1365542,"known_for_department":"Sound","name":"Paul
+        Pirola","original_name":"Paul Pirola","popularity":1.422,"profile_path":null,"credit_id":"55ffd0c19251414ca9000069","department":"Sound","job":"Foley"},{"adult":false,"gender":0,"id":1334485,"known_for_department":"Sound","name":"Alan
+        Rankin","original_name":"Alan Rankin","popularity":1.048,"profile_path":null,"credit_id":"55ffd0edc3a3681a40002488","department":"Sound","job":"Sound
+        Designer"},{"adult":false,"gender":2,"id":1416155,"known_for_department":"Sound","name":"James
+        Bolt","original_name":"James Bolt","popularity":1.084,"profile_path":null,"credit_id":"55ffd1299251412aad001f35","department":"Sound","job":"Sound
+        Re-Recording Mixer"},{"adult":false,"gender":2,"id":978127,"known_for_department":"Sound","name":"Andy
+        Koyama","original_name":"Andy Koyama","popularity":3.487,"profile_path":null,"credit_id":"55ffd141c3a36877e700242a","department":"Sound","job":"Sound
+        Re-Recording Mixer"},{"adult":false,"gender":0,"id":1435642,"known_for_department":"Sound","name":"Martyn
+        Zub","original_name":"Martyn Zub","popularity":1.553,"profile_path":null,"credit_id":"55ffd15cc3a36813340055cb","department":"Sound","job":"Sound
+        Re-Recording Mixer"},{"adult":false,"gender":0,"id":15332,"known_for_department":"Sound","name":"Mark
+        P. Stoeckinger","original_name":"Mark P. Stoeckinger","popularity":3.06,"profile_path":null,"credit_id":"55ffd171925141529f0052b8","department":"Sound","job":"Supervising
+        Sound Editor"},{"adult":false,"gender":2,"id":1043368,"known_for_department":"Crew","name":"Drew
+        Jiritano","original_name":"Drew Jiritano","popularity":2.331,"profile_path":null,"credit_id":"55ffd18ac3a36817620022bf","department":"Crew","job":"Special
+        Effects Coordinator"},{"adult":false,"gender":0,"id":1512732,"known_for_department":"Crew","name":"Mark
+        Neysmith","original_name":"Mark Neysmith","popularity":1.429,"profile_path":null,"credit_id":"55ffd1d492514152b1005a9f","department":"Crew","job":"CG
+        Supervisor"},{"adult":false,"gender":0,"id":1512733,"known_for_department":"Crew","name":"Nigel
+        Mendoza","original_name":"Nigel Mendoza","popularity":0.128,"profile_path":null,"credit_id":"55ffd1ecc3a36813340055db","department":"Crew","job":"Visual
+        Effects Editor"},{"adult":false,"gender":0,"id":1512734,"known_for_department":"Visual
+        Effects","name":"Jake Braver","original_name":"Jake Braver","popularity":0.675,"profile_path":null,"credit_id":"55ffd22592514152b1005aad","department":"Visual
+        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":0,"id":1403400,"known_for_department":"Visual
+        Effects","name":"Jeff Campbell","original_name":"Jeff Campbell","popularity":0.281,"profile_path":null,"credit_id":"55ffd25bc3a36813340055ed","department":"Visual
+        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":2,"id":1357063,"known_for_department":"Directing","name":"Darrin
+        Prescott","original_name":"Darrin Prescott","popularity":5.538,"profile_path":"/yTN1eNBSos16vWSgajcdxKuOGKw.jpg","credit_id":"55ffd289c3a36817620022e1","department":"Crew","job":"Stunt
+        Coordinator"},{"adult":false,"gender":2,"id":1395367,"known_for_department":"Lighting","name":"Bill
+        Almeida","original_name":"Bill Almeida","popularity":0.76,"profile_path":null,"credit_id":"55ffd2aa9251414376000ea0","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":0,"id":1512738,"known_for_department":"Lighting","name":"Eric
+        Boncher","original_name":"Eric Boncher","popularity":0.502,"profile_path":null,"credit_id":"55ffd2c292514118240022ee","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1404739,"known_for_department":"Camera","name":"Steve
+        Koster","original_name":"Steve Koster","popularity":1.88,"profile_path":null,"credit_id":"55ffd34d9251411824002303","department":"Camera","job":"Helicopter
+        Camera"},{"adult":false,"gender":0,"id":1417882,"known_for_department":"Camera","name":"Matthew
+        T. Rodgers","original_name":"Matthew T. Rodgers","popularity":0.335,"profile_path":null,"credit_id":"55ffd372c3a3681a400024d8","department":"Camera","job":"Helicopter
+        Camera"},{"adult":false,"gender":2,"id":1445895,"known_for_department":"Camera","name":"Gregory
+        W. Smith","original_name":"Gregory W. Smith","popularity":2.68,"profile_path":null,"credit_id":"55ffd38b9251412950002309","department":"Camera","job":"Steadicam
+        Operator"},{"adult":false,"gender":0,"id":1512745,"known_for_department":"Lighting","name":"Clay
+        Liversidge","original_name":"Clay Liversidge","popularity":0.766,"profile_path":null,"credit_id":"55ffd472c3a368132c005c80","department":"Lighting","job":"Rigging
+        Gaffer"},{"adult":false,"gender":0,"id":1513207,"known_for_department":"Costume
+        & Make-Up","name":"Kenn Hamilton","original_name":"Kenn Hamilton","popularity":0.532,"profile_path":null,"credit_id":"56008513925141191c00002b","department":"Costume
+        & Make-Up","job":"Costume Supervisor"},{"adult":false,"gender":2,"id":1387183,"known_for_department":"Sound","name":"John
+        C. Stuver","original_name":"John C. Stuver","popularity":1.429,"profile_path":null,"credit_id":"5ae30001c3a368151d032d59","department":"Sound","job":"Dialogue
+        Editor"},{"adult":false,"gender":2,"id":1393371,"known_for_department":"Art","name":"Vinny
+        Mazzarella","original_name":"Vinny Mazzarella","popularity":1.434,"profile_path":null,"credit_id":"5ae30015c3a36876a70330a2","department":"Art","job":"Property
+        Master"},{"adult":false,"gender":0,"id":1403479,"known_for_department":"Camera","name":"Duane
+        Manwiller","original_name":"Duane Manwiller","popularity":3.531,"profile_path":null,"credit_id":"5ae3002592514128c301c7c5","department":"Camera","job":"Second
+        Unit Director of Photography"},{"adult":false,"gender":2,"id":1779512,"known_for_department":"Acting","name":"Jackson
+        Spidell","original_name":"Jackson Spidell","popularity":5.9,"profile_path":"/7cozKHcmO4MOOViAMqE4FXd0Bmf.jpg","credit_id":"5e8a94469979d20019edc6fa","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1898634,"known_for_department":"Crew","name":"Christopher
+        Parker","original_name":"Christopher Parker","popularity":4.249,"profile_path":"/6dxgmTsiXfpllG9z2Qyd9qpPnJC.jpg","credit_id":"5f5bbe38d8cc4a003ae9cd7f","department":"Crew","job":"Utility
+        Stunts"},{"adult":false,"gender":2,"id":40644,"known_for_department":"Directing","name":"Chad
+        Stahelski","original_name":"Chad Stahelski","popularity":27.14,"profile_path":"/eRCryGwKDH4XqUlrdkERmeBWPo8.jpg","credit_id":"5f70bc15196757003a8bfe45","department":"Directing","job":"Director"},{"adult":false,"gender":0,"id":1548066,"known_for_department":"Production","name":"Peter
+        Lawson","original_name":"Peter Lawson","popularity":0.417,"profile_path":null,"credit_id":"61c3969c9f51af00860ece84","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":3355659,"known_for_department":"Production","name":"Giuseppe
+        Vincenti","original_name":"Giuseppe Vincenti","popularity":0.034,"profile_path":null,"credit_id":"61c396ee904f6d00932aca5b","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":1,"id":1932093,"known_for_department":"Production","name":"Erica
+        Lee","original_name":"Erica Lee","popularity":0.78,"profile_path":null,"credit_id":"61c396fee72fe8004173bd82","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":1533677,"known_for_department":"Production","name":"Darren
+        Blumenthal","original_name":"Darren Blumenthal","popularity":0.043,"profile_path":null,"credit_id":"61c3974bd861af005ee02ea5","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":3355660,"known_for_department":"Production","name":"Sam
+        X. Eyde","original_name":"Sam X. Eyde","popularity":0.107,"profile_path":null,"credit_id":"61c39793efd3c200608c5f02","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":3355661,"known_for_department":"Production","name":"Doug
+        Monticciolo","original_name":"Doug Monticciolo","popularity":0.224,"profile_path":null,"credit_id":"61c397eecae17c00c6857506","department":"Production","job":"Co-Producer"},{"adult":false,"gender":0,"id":3355662,"known_for_department":"Production","name":"Jamie
+        Wing","original_name":"Jamie Wing","popularity":0.002,"profile_path":null,"credit_id":"61c398018813e40054b63c89","department":"Production","job":"Co-Producer"},{"adult":false,"gender":0,"id":3355663,"known_for_department":"Production","name":"Noel
+        Lohr","original_name":"Noel Lohr","popularity":0.017,"profile_path":null,"credit_id":"61c3980cd861af00d4bebbc9","department":"Production","job":"Co-Producer"},{"adult":false,"gender":2,"id":1112896,"known_for_department":"Sound","name":"Joel
+        J. Richard","original_name":"Joel J. Richard","popularity":1.707,"profile_path":"/6pJXRVASXKfVUay228DCEd2IVe1.jpg","credit_id":"61c398684a52f800420e833d","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":2,"id":3355664,"known_for_department":"Crew","name":"Le
+        Castle Vania","original_name":"Le Castle Vania","popularity":0.009,"profile_path":null,"credit_id":"61c3989eb6c264001cf37c7f","department":"Crew","job":"Additional
+        Music"},{"adult":false,"gender":2,"id":1471726,"known_for_department":"Sound","name":"John
+        Houlihan","original_name":"John Houlihan","popularity":2.546,"profile_path":"/jjSe0UrQQ4V4I4viYxSi23jCPS5.jpg","credit_id":"61c399d7b04228001c770d16","department":"Sound","job":"Music
+        Supervisor"},{"adult":false,"gender":1,"id":1717459,"known_for_department":"Production","name":"Holly
+        Rymon","original_name":"Holly Rymon","popularity":3.268,"profile_path":null,"credit_id":"61d343611c09fb006e02c1be","department":"Production","job":"Unit
+        Production Manager"},{"adult":false,"gender":2,"id":80788,"known_for_department":"Production","name":"Mike
+        Upton","original_name":"Mike Upton","popularity":2.891,"profile_path":null,"credit_id":"61d343991c09fb0041e659f9","department":"Production","job":"Unit
+        Production Manager"},{"adult":false,"gender":2,"id":75708,"known_for_department":"Directing","name":"John
+        R. Saunders","original_name":"John R. Saunders","popularity":2.199,"profile_path":null,"credit_id":"61d343c522f5d70069f157d0","department":"Directing","job":"First
+        Assistant Director"},{"adult":false,"gender":0,"id":1828069,"known_for_department":"Directing","name":"Jeremy
+        Marks","original_name":"Jeremy Marks","popularity":2.191,"profile_path":null,"credit_id":"61d343d4d19a33001cace84d","department":"Directing","job":"Second
+        Assistant Director"},{"adult":false,"gender":2,"id":1357063,"known_for_department":"Directing","name":"Darrin
+        Prescott","original_name":"Darrin Prescott","popularity":5.538,"profile_path":"/yTN1eNBSos16vWSgajcdxKuOGKw.jpg","credit_id":"61d344035541fa008b15d88d","department":"Directing","job":"Second
+        Unit Director"},{"adult":false,"gender":0,"id":1531492,"known_for_department":"Crew","name":"Michael
+        Tinger","original_name":"Michael Tinger","popularity":2.046,"profile_path":null,"credit_id":"61d3442e77c01f0067ba07dd","department":"Crew","job":"Post
+        Production Supervisor"},{"adult":false,"gender":2,"id":55081,"known_for_department":"Crew","name":"Jonathan
+        Eusebio","original_name":"Jonathan Eusebio","popularity":6.584,"profile_path":"/wYpBkb8CkkxqF3wA1hQd55Bg8R8.jpg","credit_id":"61d3447742f19f001d4af4d4","department":"Crew","job":"Fight
+        Choreographer"},{"adult":false,"gender":2,"id":1387252,"known_for_department":"Crew","name":"Chris
+        O''Hara","original_name":"Chris O''Hara","popularity":11.541,"profile_path":"/fld3KCrYr9IOTrAiKYPXgybgk1d.jpg","credit_id":"61d344c077c01f0042a40fef","department":"Crew","job":"Stunt
+        Coordinator"},{"adult":false,"gender":1,"id":1347761,"known_for_department":"Directing","name":"Jessica
+        Lichtner","original_name":"Jessica Lichtner","popularity":1.118,"profile_path":null,"credit_id":"61d344fc4975600067a5895f","department":"Directing","job":"Script
+        Supervisor"},{"adult":false,"gender":2,"id":1445895,"known_for_department":"Camera","name":"Gregory
+        W. Smith","original_name":"Gregory W. Smith","popularity":2.68,"profile_path":null,"credit_id":"61d3457331644b008f6d7745","department":"Camera","job":"\"A\"
+        Camera Operator"},{"adult":false,"gender":0,"id":2105942,"known_for_department":"Camera","name":"Craig
+        Pressgrove","original_name":"Craig Pressgrove","popularity":0.41,"profile_path":null,"credit_id":"61d345cf1b722c008bf2f354","department":"Camera","job":"First
+        Assistant \"A\" Camera"},{"adult":false,"gender":0,"id":2105943,"known_for_department":"Camera","name":"Pedro
+        Corcega","original_name":"Pedro Corcega","popularity":0.391,"profile_path":null,"credit_id":"61d345e7bfeb8b0041dc2cdc","department":"Camera","job":"Second
+        Assistant \"A\" Camera"},{"adult":false,"gender":0,"id":1512743,"known_for_department":"Camera","name":"Tim
+        Norman","original_name":"Tim Norman","popularity":2.05,"profile_path":null,"credit_id":"61d3460f944a57006ac9ab71","department":"Camera","job":"\"B\"
+        Camera Operator"},{"adult":false,"gender":0,"id":1434503,"known_for_department":"Camera","name":"Michael
+        J. Burke","original_name":"Michael J. Burke","popularity":0.167,"profile_path":null,"credit_id":"61d346d2944a575573bfed0c","department":"Camera","job":"First
+        Assistant \"B\" Camera"},{"adult":false,"gender":0,"id":2154342,"known_for_department":"Camera","name":"Eve
+        Strickman","original_name":"Eve Strickman","popularity":0.773,"profile_path":null,"credit_id":"61d346f842f19f0064832e3c","department":"Camera","job":"Second
+        Assistant \"B\" Camera"},{"adult":false,"gender":0,"id":2872171,"known_for_department":"Camera","name":"Camilo
+        Mendoza","original_name":"Camilo Mendoza","popularity":0.112,"profile_path":null,"credit_id":"61d3476e7b7b4d001ce884f0","department":"Crew","job":"Loader"},{"adult":false,"gender":0,"id":2872171,"known_for_department":"Camera","name":"Camilo
+        Mendoza","original_name":"Camilo Mendoza","popularity":0.112,"profile_path":null,"credit_id":"61d3477931644b001cfecd2b","department":"Camera","job":"Data
+        Wrangler"},{"adult":false,"gender":0,"id":3368664,"known_for_department":"Camera","name":"Gabe
+        Kolodny","original_name":"Gabe Kolodny","popularity":0.259,"profile_path":null,"credit_id":"61d347c10cd32a0040d0ef39","department":"Camera","job":"Digital
+        Imaging Technician"},{"adult":false,"gender":0,"id":2603675,"known_for_department":"Costume
+        & Make-Up","name":"Matthew Hemesath","original_name":"Matthew Hemesath","popularity":1.009,"profile_path":null,"credit_id":"61d347e731644b00401d5a35","department":"Costume
+        & Make-Up","job":"Assistant Costume Designer"},{"adult":false,"gender":1,"id":3346981,"known_for_department":"Costume
+        & Make-Up","name":"Rose Marie Cappelluti","original_name":"Rose Marie Cappelluti","popularity":0.299,"profile_path":null,"credit_id":"61d3481a4975600067a59554","department":"Costume
+        & Make-Up","job":"Set Costumer"},{"adult":false,"gender":1,"id":1552354,"known_for_department":"Costume
+        & Make-Up","name":"Trenee Clayton","original_name":"Trenee Clayton","popularity":0.674,"profile_path":null,"credit_id":"61d34861e194b00064943399","department":"Costume
+        & Make-Up","job":"Set Costumer"},{"adult":false,"gender":0,"id":2740833,"known_for_department":"Costume
+        & Make-Up","name":"Sara Ryer","original_name":"Sara Ryer","popularity":0.105,"profile_path":null,"credit_id":"61d348ad77c01f001dcb1886","department":"Costume
+        & Make-Up","job":"Costume Coordinator"},{"adult":false,"gender":0,"id":1533089,"known_for_department":"Costume
+        & Make-Up","name":"Amy Tagliamonti","original_name":"Amy Tagliamonti","popularity":0.352,"profile_path":null,"credit_id":"61d34930944a570045b4bc5f","department":"Costume
+        & Make-Up","job":"Key Makeup Artist"},{"adult":false,"gender":0,"id":2040688,"known_for_department":"Costume
+        & Make-Up","name":"Stacy St. Onge","original_name":"Stacy St. Onge","popularity":0.042,"profile_path":null,"credit_id":"61d3496c0cd32a0068cc259f","department":"Costume
+        & Make-Up","job":"Makeup Artist"},{"adult":false,"gender":0,"id":1416796,"known_for_department":"Costume
+        & Make-Up","name":"Kerrie Smith","original_name":"Kerrie Smith","popularity":2.419,"profile_path":null,"credit_id":"61d349880cd32a0068cc2634","department":"Costume
+        & Make-Up","job":"Hair Department Head"},{"adult":false,"gender":1,"id":1512725,"known_for_department":"Costume
+        & Make-Up","name":"Kat Percy","original_name":"Kat Percy","popularity":2.065,"profile_path":null,"credit_id":"61d349a34284ea0065fcc639","department":"Costume
+        & Make-Up","job":"Key Hair Stylist"},{"adult":false,"gender":0,"id":1554050,"known_for_department":"Costume
+        & Make-Up","name":"Bobby Diehl","original_name":"Bobby Diehl","popularity":0.109,"profile_path":null,"credit_id":"61d349b50cd32a001ccad04d","department":"Costume
+        & Make-Up","job":"Hairstylist"},{"adult":false,"gender":0,"id":1747927,"known_for_department":"Camera","name":"Charlie
+        Marroquin","original_name":"Charlie Marroquin","popularity":2.429,"profile_path":null,"credit_id":"61d34ab35541fa008b15f457","department":"Camera","job":"Key
+        Grip"},{"adult":false,"gender":0,"id":2968239,"known_for_department":"Camera","name":"Dave
+        Bowers","original_name":"Dave Bowers","popularity":0.038,"profile_path":null,"credit_id":"61d34ace9defda001cfaa8d8","department":"Camera","job":"Best
+        Boy Grip"},{"adult":false,"gender":2,"id":2506383,"known_for_department":"Camera","name":"Andrew
+        Sweeney","original_name":"Andrew Sweeney","popularity":0.56,"profile_path":null,"credit_id":"61d34b2366a7c30069d5decb","department":"Camera","job":"Dolly
+        Grip"},{"adult":false,"gender":0,"id":2154374,"known_for_department":"Camera","name":"Marcel
+        Ciurea","original_name":"Marcel Ciurea","popularity":0.402,"profile_path":null,"credit_id":"61d34b3366a7c30042a9c8ca","department":"Camera","job":"Dolly
+        Grip"},{"adult":false,"gender":2,"id":91092,"known_for_department":"Sound","name":"Danny
+        Michael","original_name":"Danny Michael","popularity":2.368,"profile_path":null,"credit_id":"61d34be3bfeb8b001dd25ac0","department":"Sound","job":"Production
+        Sound Mixer"},{"adult":false,"gender":1,"id":1360102,"known_for_department":"Sound","name":"Kira
+        Smith","original_name":"Kira Smith","popularity":3.37,"profile_path":null,"credit_id":"61d34c00e194b000413edbcf","department":"Sound","job":"Boom
+        Operator"},{"adult":false,"gender":0,"id":1580077,"known_for_department":"Sound","name":"James
+        LaFarge","original_name":"James LaFarge","popularity":1.284,"profile_path":null,"credit_id":"61d34c1b66a7c30069d5e19d","department":"Sound","job":"Utility
+        Sound"},{"adult":false,"gender":0,"id":15333,"known_for_department":"Crew","name":"R.
+        Bruce Steinheimer","original_name":"R. Bruce Steinheimer","popularity":1.996,"profile_path":null,"credit_id":"61d34c441b722c001902fe47","department":"Crew","job":"Special
+        Effects Coordinator"},{"adult":false,"gender":0,"id":1407210,"known_for_department":"Production","name":"Nicholas
+        Bernstein","original_name":"Nicholas Bernstein","popularity":1.201,"profile_path":null,"credit_id":"61d34c7e4284ea008a3fc0df","department":"Production","job":"Location
+        Manager"},{"adult":false,"gender":2,"id":2015464,"known_for_department":"Production","name":"Justin
+        Rosini","original_name":"Justin Rosini","popularity":0.565,"profile_path":null,"credit_id":"61d34c9f1b722c00412dc6aa","department":"Production","job":"Assistant
+        Location Manager"},{"adult":false,"gender":0,"id":1552333,"known_for_department":"Production","name":"Mark
+        Hagerman","original_name":"Mark Hagerman","popularity":0.389,"profile_path":null,"credit_id":"61d34ccf1c09fb001cfbba7b","department":"Production","job":"Production
+        Coordinator"},{"adult":false,"gender":0,"id":2038634,"known_for_department":"Directing","name":"Ivan
+        J. Fonseca","original_name":"Ivan J. Fonseca","popularity":0.515,"profile_path":null,"credit_id":"61d34d0531644b001cfede99","department":"Directing","job":"Second
+        Unit First Assistant Director"},{"adult":false,"gender":2,"id":1076800,"known_for_department":"Writing","name":"Derek
+        Kolstad","original_name":"Derek Kolstad","popularity":4.986,"profile_path":"/mi6jxGxkIPjEKNSu9BquWoFMTZy.jpg","credit_id":"61d34ddd66a7c3001cf554b5","department":"Writing","job":"Writer"},{"adult":false,"gender":1,"id":3931625,"known_for_department":"Production","name":"Traci
+        Spicer","original_name":"Traci Spicer","popularity":0.171,"profile_path":null,"credit_id":"63f3dcb7caaca200a19c895a","department":"Production","job":"Assistant
+        Location Manager"},{"adult":false,"gender":2,"id":131532,"known_for_department":"Crew","name":"J.J.
+        Perry","original_name":"J.J. Perry","popularity":4.777,"profile_path":"/57assDPZceZ4x7YWrkPE5FqVn1f.jpg","credit_id":"64628a3adbbb4200e22ddb88","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":1768007,"known_for_department":"Crew","name":"Renae
+        Moneymaker","original_name":"Renae Moneymaker","popularity":9.187,"profile_path":"/k96lYjDhLJbhIDLjmxcOxCcHumW.jpg","credit_id":"64cea800614c6d00ff3114cb","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1026950,"known_for_department":"Crew","name":"Bobby
+        Beckles","original_name":"Bobby Beckles","popularity":2.325,"profile_path":"/bEpYscJS8dBJjPPwYRaC20H5jPf.jpg","credit_id":"64ceaae1549dda00ffa3c2d9","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1765442,"known_for_department":"Acting","name":"Tom
+        Andrews","original_name":"Tom Andrews","popularity":2.846,"profile_path":"/rn8NehB3D3ZfKYS4fqQcDbG1u5V.jpg","credit_id":"64ceaaec4d679100ff67bb31","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1142261,"known_for_department":"Crew","name":"Airon
+        Armstrong","original_name":"Airon Armstrong","popularity":7.423,"profile_path":"/cVOMBcU6qFsT7tpo4QjKrCRJ7oW.jpg","credit_id":"64ceaaf3fa27f4013916397c","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":2802532,"known_for_department":"Crew","name":"Brian
+        Burik","original_name":"Brian Burik","popularity":0.939,"profile_path":null,"credit_id":"64ceab0385090f01445b336c","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1329527,"known_for_department":"Crew","name":"Jared
+        Burke","original_name":"Jared Burke","popularity":5.435,"profile_path":"/g8vthdw69j4rmU0aEpJC2qMoa2I.jpg","credit_id":"64ceab0bd9f4a603b6c88e4b","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":106743,"known_for_department":"Acting","name":"Eric
+        Brown","original_name":"Eric Brown","popularity":19.034,"profile_path":"/i8tXZoUl5KIiL4My87ipWrgxwTm.jpg","credit_id":"64ceab126d4c9700ec57887f","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1053239,"known_for_department":"Acting","name":"Dave
+        Camarillo","original_name":"Dave Camarillo","popularity":1.588,"profile_path":null,"credit_id":"64ceab2285090f0125bc6558","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1455498,"known_for_department":"Crew","name":"Bryce
+        Burke","original_name":"Bryce Burke","popularity":0.501,"profile_path":"/iz3brrqHWPDUhsu9esFhp2gZC9s.jpg","credit_id":"64ceab28303c8500e338897d","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":1544394,"known_for_department":"Crew","name":"Aja
+        Frary","original_name":"Aja Frary","popularity":4.616,"profile_path":"/CnFD5UlbVt0w5TN3HpkT2FROpa.jpg","credit_id":"64ceab36549dda00c53ee776","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":162577,"known_for_department":"Crew","name":"Peter
+        Epstein","original_name":"Peter Epstein","popularity":6.079,"profile_path":"/qXKeOljIVFhHTqMcqWc3YG5UC8e.jpg","credit_id":"64ceab3c85090f0106913bf6","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1635204,"known_for_department":"Crew","name":"Jeremy
+        Fry","original_name":"Jeremy Fry","popularity":3.981,"profile_path":"/zo7JP2kUcEE6QFj6BaDKLE2p6Wh.jpg","credit_id":"64ceab4885090f0125bc6562","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1190771,"known_for_department":"Crew","name":"George
+        B. Colucci Jr.","original_name":"George B. Colucci Jr.","popularity":1.814,"profile_path":null,"credit_id":"64ceab5cfa27f4011c84c42b","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":1186622,"known_for_department":"Crew","name":"Kachina
+        Dechert","original_name":"Kachina Dechert","popularity":6.295,"profile_path":"/vmkYp8EJpMZUYgtDXMiMo8ixlVM.jpg","credit_id":"64ceab62303c85011dd3af82","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":91042,"known_for_department":"Crew","name":"Al
+        Cerullo","original_name":"Al Cerullo","popularity":4.211,"profile_path":null,"credit_id":"64ceab6f4d679100ff67bb42","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1089920,"known_for_department":"Acting","name":"Tim
+        Connolly","original_name":"Tim Connolly","popularity":5.391,"profile_path":"/h9QAyc5esNHzn2lWUvLozD1LAnx.jpg","credit_id":"64ceab86303c8500c6137465","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1463671,"known_for_department":"Crew","name":"Randy
+        Haynie","original_name":"Randy Haynie","popularity":0.969,"profile_path":null,"credit_id":"64ceab98303c850100b0bc11","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1722459,"known_for_department":"Crew","name":"Stefanie
+        Flores","original_name":"Stefanie Flores","popularity":1.721,"profile_path":"/qBDHrAoc3tPBHC8WniElc7E4FZY.jpg","credit_id":"64ceab9e85090f00e796c243","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":3276482,"known_for_department":"Crew","name":"Jimmy
+        Hays","original_name":"Jimmy Hays","popularity":0.052,"profile_path":null,"credit_id":"64ceaba9d9f4a603b4a01628","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":2281878,"known_for_department":"Crew","name":"Daniel
+        Hernandez","original_name":"Daniel Hernandez","popularity":0.548,"profile_path":null,"credit_id":"64ceabb9fa27f401391639a4","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1554938,"known_for_department":"Crew","name":"Owen
+        Holland","original_name":"Owen Holland","popularity":0.708,"profile_path":null,"credit_id":"64ceabc66d4c97014f4222c6","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1657908,"known_for_department":"Crew","name":"Stephen
+        Izzi","original_name":"Stephen Izzi","popularity":1.008,"profile_path":null,"credit_id":"64ceabcc6d4c97010d508a1e","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1272974,"known_for_department":"Acting","name":"Myles
+        Humphus","original_name":"Myles Humphus","popularity":3.944,"profile_path":null,"credit_id":"64ceabd2549dda00acf01665","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":1439560,"known_for_department":"Acting","name":"Natalia
+        Kiriya","original_name":"Natalia Kiriya","popularity":1.438,"profile_path":"/ySSTUliM0ke65dkA72T2XHYE5ul.jpg","credit_id":"64ceabdfd9f4a603b4a01630","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":2187218,"known_for_department":"Acting","name":"Pete
+        Klein","original_name":"Pete Klein","popularity":0.384,"profile_path":"/ypD639i7ykgEF5CHTZBbeFSTGiS.jpg","credit_id":"64ceabe8303c8500c613747d","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1221121,"known_for_department":"Acting","name":"Dennis
+        Keiffer","original_name":"Dennis Keiffer","popularity":9.035,"profile_path":"/jb6FR0OZgCqbPOkKq2KikXr31WW.jpg","credit_id":"64ceabed303c8500c6137482","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1365974,"known_for_department":"Acting","name":"Mack
+        Kuhr","original_name":"Mack Kuhr","popularity":1.743,"profile_path":"/3PGiAM6KfXg5UoC67wU89eTACYd.jpg","credit_id":"64ceabfe303c8500e338899f","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":2286537,"known_for_department":"Crew","name":"Luke
+        Lesko","original_name":"Luke Lesko","popularity":0.88,"profile_path":null,"credit_id":"64ceac054d679100ff67bb61","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1272901,"known_for_department":"Acting","name":"Efka
+        Kvaraciejus","original_name":"Efka Kvaraciejus","popularity":3.979,"profile_path":"/xC12DoEHB9h3jJQ5YrJ1WSoLEWs.jpg","credit_id":"64ceac0d85090f01445b33a1","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1690509,"known_for_department":"Crew","name":"Carlos
+        Lopez","original_name":"Carlos Lopez","popularity":0.582,"profile_path":"/mUGeaPNUcKiFZggKs82q3Iwe7xq.jpg","credit_id":"64ceac1f549dda00e2dcf700","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":9466,"known_for_department":"Acting","name":"Matt
+        McColm","original_name":"Matt McColm","popularity":5.974,"profile_path":"/9SlVkQdWGURamicfGScV8BJNs2M.jpg","credit_id":"64ceac29303c85013a14d4aa","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":89344,"known_for_department":"Acting","name":"Tim
+        Lajcik","original_name":"Tim Lajcik","popularity":4.152,"profile_path":"/yfCZ4hX47nN5RP7iVSFSvGrpU30.jpg","credit_id":"64ceac2e4d67910139ee1a7e","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1455503,"known_for_department":"Crew","name":"Ian
+        Mclaughlin","original_name":"Ian Mclaughlin","popularity":1.513,"profile_path":null,"credit_id":"64ceac3e549dda00ffa3c31c","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":204650,"known_for_department":"Acting","name":"Roman
+        Mitichyan","original_name":"Roman Mitichyan","popularity":8.515,"profile_path":"/vBxdQXMby6RtQVqgu6HEoD9zt4e.jpg","credit_id":"64ceac43303c85011dd3afc1","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1357101,"known_for_department":"Crew","name":"Luis
+        Moco","original_name":"Luis Moco","popularity":0.671,"profile_path":null,"credit_id":"64ceac4ed9f4a603b5498191","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1538232,"known_for_department":"Crew","name":"Robert
+        Nagle","original_name":"Robert Nagle","popularity":1.893,"profile_path":null,"credit_id":"64ceac5785090f00c87ce46e","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1633468,"known_for_department":"Crew","name":"Josiah
+        Nolan","original_name":"Josiah Nolan","popularity":3.427,"profile_path":null,"credit_id":"64ceac666d4c9700afadb398","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1456723,"known_for_department":"Acting","name":"Dean
+        Neistat","original_name":"Dean Neistat","popularity":5.272,"profile_path":"/kxpdh3MKXci1KQtMoEnyVCrW3Zd.jpg","credit_id":"64ceac6cd9f4a603bafa5690","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":9568,"known_for_department":"Acting","name":"Jim
+        Palmer","original_name":"Jim Palmer","popularity":5.645,"profile_path":"/oFaoyxX8EPY6VxBJ3pVyMezseuZ.jpg","credit_id":"64ceac7c303c850100b0bc34","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1898634,"known_for_department":"Crew","name":"Christopher
+        Parker","original_name":"Christopher Parker","popularity":4.249,"profile_path":"/6dxgmTsiXfpllG9z2Qyd9qpPnJC.jpg","credit_id":"64ceac8585090f01445b33bd","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":122260,"known_for_department":"Crew","name":"Mick
+        O''Rourke","original_name":"Mick O''Rourke","popularity":4.264,"profile_path":"/ocIfNeYVLBZt10tc3OIpZEodvUH.jpg","credit_id":"64ceac8b4d679100e2403b3e","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1463686,"known_for_department":"Crew","name":"Rich
+        Rutherford","original_name":"Rich Rutherford","popularity":1.52,"profile_path":null,"credit_id":"64ceac98fa27f400c50af46f","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":2505793,"known_for_department":"Crew","name":"Ross
+        Morgan Ruben","original_name":"Ross Morgan Ruben","popularity":0.714,"profile_path":null,"credit_id":"64ceac9d85090f00ae834db8","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1779514,"known_for_department":"Acting","name":"Cale
+        Schultz","original_name":"Cale Schultz","popularity":1.56,"profile_path":"/fjbYJtD0Ci2k7ImRgcKpNBbiruM.jpg","credit_id":"64ceaca8614c6d00c5dc0d9f","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1547238,"known_for_department":"Lighting","name":"Josh
+        Seifert","original_name":"Josh Seifert","popularity":0.107,"profile_path":null,"credit_id":"64ceacb2303c850100b0bc3d","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1331794,"known_for_department":"Crew","name":"Paul
+        E. Short","original_name":"Paul E. Short","popularity":6.363,"profile_path":"/cMLSljekTU30ZiPlEfCjDBYmsRE.jpg","credit_id":"64ceacb94d679100c52c1cd0","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":2376072,"known_for_department":"Crew","name":"Akos
+        Schenek","original_name":"Akos Schenek","popularity":0.891,"profile_path":null,"credit_id":"64ceacbf85090f00e796c284","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1634081,"known_for_department":"Crew","name":"Robbie
+        P Smith","original_name":"Robbie P Smith","popularity":0.344,"profile_path":"/saFARJi4nKnw7rPdgsub8kWrCpB.jpg","credit_id":"64ceacd5549dda00e2dcf72f","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":34541,"known_for_department":"Crew","name":"David
+        Shumbris","original_name":"David Shumbris","popularity":7.496,"profile_path":"/p1lV23feswvTBsW5LZ2bliUWKPu.jpg","credit_id":"64ceacda549dda0139328f42","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1434599,"known_for_department":"Crew","name":"Brian
+        Smyj","original_name":"Brian Smyj","popularity":8.11,"profile_path":"/zpVyJRhBQQZ3bc2COTOtv5iUmv6.jpg","credit_id":"64ceace8303c85011dd3afe5","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":1554926,"known_for_department":"Crew","name":"Shawnna
+        Thibodeau","original_name":"Shawnna Thibodeau","popularity":3.626,"profile_path":"/GQog3hoCbJugk6wqKFB91Ysuo4.jpg","credit_id":"64ceacf9549dda011c27cacc","department":"Crew","job":"Stunt
+        Double"},{"adult":false,"gender":2,"id":1427715,"known_for_department":"Crew","name":"Jon
+        Valera","original_name":"Jon Valera","popularity":3.398,"profile_path":"/kvcBOZCEMrHLwfsb7kUBDPl0AMk.jpg","credit_id":"64cead0dd9f4a603b8757b1d","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1045964,"known_for_department":"Crew","name":"Aaron
+        Vexler","original_name":"Aaron Vexler","popularity":5.82,"profile_path":null,"credit_id":"64cead12303c8500ade3f871","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1379965,"known_for_department":"Crew","name":"Anthony
+        Vincent","original_name":"Anthony Vincent","popularity":3.024,"profile_path":null,"credit_id":"64cead1e85090f00ae834dd3","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1930666,"known_for_department":"Acting","name":"Adam
+        Wood","original_name":"Adam Wood","popularity":1.256,"profile_path":null,"credit_id":"64cead29303c85013a14d4e4","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":122549,"known_for_department":"Acting","name":"Philippe
+        Vonlanthen","original_name":"Philippe Vonlanthen","popularity":3.258,"profile_path":null,"credit_id":"64cead2efa27f4011c84c496","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1757648,"known_for_department":"Crew","name":"Justin
+        Yu","original_name":"Justin Yu","popularity":1.527,"profile_path":"/d7fRWvvQxi3qUbA1i6cBGhS2BSY.jpg","credit_id":"64cead3a549dda011c27cad9","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1745908,"known_for_department":"Acting","name":"Patrick
+        M. Walsh","original_name":"Patrick M. Walsh","popularity":2.141,"profile_path":"/6CfMZuNKFnwtYz5mQOgf9wDokbU.jpg","credit_id":"64cead3f614c6d00acb194bf","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1083165,"known_for_department":"Acting","name":"Don
+        Thai Theerathada","original_name":"Don Thai Theerathada","popularity":7.392,"profile_path":"/rnAJaLocegKgxEh6vlRtwvY8UB6.jpg","credit_id":"64cead516d4c9700cb7dca32","department":"Crew","job":"Utility
+        Stunts"},{"adult":false,"gender":1,"id":1827848,"known_for_department":"Crew","name":"Stefanie
+        Barry","original_name":"Stefanie Barry","popularity":0.653,"profile_path":"/9nrnYePQY95OVAkqS5qP508MB0D.jpg","credit_id":"64cead57303c850100b0bc60","department":"Crew","job":"Stunts"},{"adult":false,"gender":0,"id":1940529,"known_for_department":"Crew","name":"Jesse
+        Jacobs","original_name":"Jesse Jacobs","popularity":0.269,"profile_path":null,"credit_id":"64cead674d679100acf05999","department":"Crew","job":"Utility
+        Stunts"},{"adult":false,"gender":0,"id":1818139,"known_for_department":"Crew","name":"Nuo
+        Sun","original_name":"Nuo Sun","popularity":0.738,"profile_path":null,"credit_id":"64cead72d9f4a603b4a0167c","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1457950,"known_for_department":"Art","name":"Todd
+        Harris","original_name":"Todd Harris","popularity":1.053,"profile_path":null,"credit_id":"65fb0a2bcf62cd0163559b86","department":"Art","job":"Storyboard
+        Artist"},{"adult":false,"gender":2,"id":40684,"known_for_department":"Directing","name":"David
+        Leitch","original_name":"David Leitch","popularity":16.646,"profile_path":"/7FOLULXFvWrovvfsSyljXtK0tr8.jpg","credit_id":"65fdf1e104733f0164e8d41f","department":"Directing","job":"Co-Director"}]},"reviews":{"page":1,"results":[{"author":"Per
+        Gunnar Jonsson","author_details":{"name":"Per Gunnar Jonsson","username":"Dark
+        Jedi","avatar_path":null,"rating":9.0},"content":"This is very much my kind
+        of movie. Straightforward, lots of good action, our hero never waivers from
+        his path and no social or emotional nonsense. Those who have watched the movie
+        might wonder why I claim that there is not emotional nonsense since the entire
+        plot is driven by John Wick’s very emotional response to his wife’s death
+        and the subsequent killing of the dog that he received as a last present from
+        her. What I mean with “no emotional nonsense” is that John Wick is never second
+        guessing himself, the movie never really tries to portray him as an “ordinary”
+        guy having second thoughts about killing the bad guys and he doesn’t go into
+        some silly “oh should I really pull the trigger” trance and drops the gun
+        in the worst possible moments as is done in a lot of movies. Sure, there are
+        emotions in this movie. Rage and thirst for revenge in particular with the
+        addition of a healthy dose of fear from the bad guys…eventually that is.\r\n\r\nThe
+        plot of the movie is, as I wrote, quite straightforward and classical. Retired
+        hit man gets wronged by idiot son of big bad guy. Hit man gets pissed off
+        and goes on a quest for revenge. People die (a lot of them). Hit man and big
+        bad guy have a show down at the end. In terms of story that is about it. However,
+        such a story can be told and presented in a good and entertaining way and
+        in a less good and entertaining way. As far as I am concerned the way the
+        story is told in this movie is very, very entertaining.\r\n\r\nKeanu Reeves
+        is quite good as the hit man. So are the big bad guy and most of the other
+        actors of any importance. During the course of the movie we get more than
+        a few glimpses into John Wick’s former life and it is a quite cool background
+        that have been elaborated. The secret world that John Wick was once part of
+        and how it works and operates would be worthy a good old-fashioned James Bond
+        movie.\r\n\r\nThen of course there is the action. It is an action movie so
+        you do expect quite some expenditure on the action and this movie do not disappoint.
+        There are lots of action and it is good action. Sure, the ease by which John
+        Wick picks off his opponents waiving his gun(s) in all direction without hardly
+        looking is sometimes a bit over the top but it is still done with a fluidness
+        and grace that just makes it … so cool. The gun fights are generally mixed
+        up with some equally good martial arts close combat stuff and it is really
+        well woven together.\r\n\r\nOne thing that I really like with this movie is
+        that John Wick is the cool, cold, determined, not to be pissed off, killing
+        machine from start to finish. There are really no slow parts or “obligatory”
+        scenes of doubt and self-recrimination. It is “the bad guys will pay” all
+        the way. This of course gives the opportunity to include some other elements
+        that I quite like in a story like this. For instance the parts where the spoiled
+        total idiot son of the big bad guy slowly gets his arrogance replaced by some
+        good, honest to God, fear. Fear of death and fear of the guy he so carelessly
+        pissed off.\r\n\r\nNeedless to say, I enjoyed this movie a lot when I sat
+        down to watch it with my oldest son yesterday.","created_at":"2015-06-25T06:34:04.317Z","id":"558ba0dcc3a3687e68002721","updated_at":"2024-05-16T15:21:14.917Z","url":"https://www.themoviedb.org/review/558ba0dcc3a3687e68002721"},{"author":"Andres
+        Gomez","author_details":{"name":"Andres Gomez","username":"tanty","avatar_path":null,"rating":6.0},"content":"I
+        don''t get why this movie has such good reviews. It simple and quite uninteresting.
+        Lots of actions and well known faces (many from TV series), but nothing else.
+        The same old brainless plot to justify tons of bullets.","created_at":"2015-08-10T14:35:48.329Z","id":"55c8b6c4c3a3686a820008c9","updated_at":"2021-06-23T15:57:36.177Z","url":"https://www.themoviedb.org/review/55c8b6c4c3a3686a820008c9"},{"author":"John
+        Chard","author_details":{"name":"","username":"John Chard","avatar_path":"/utEXl2EDiXBK6f41wCLsvprvMg4.jpg","rating":7.0},"content":"Woof!\r\n\r\nKeanu
+        Reeves is the John Wick of the title, a grieving one man army who gets tipped
+        over the edge when gangsters kill his dog. Carnage ensues.\r\n\r\nThe paying
+        public do like a good revenge flick, there have been plenty this last couple
+        of decades, and they do go down well. Once the set-up has been staged - Wick
+        grieves at the loss of his loved one - gets some small joy via a pet - only
+        to have that snatched away from him, then the film becomes a joyously unstoppable
+        actioner.\r\n\r\nWick, in good hands with a moody and beefy Reeves (face fuzz
+        strange, though) strong in presence, cuts a swathe through the gangland eastern
+        blockers. And that''s pretty much it! Characterisations are thin on the ground,
+        it''s a bit nutty and of course preposterous, but boy is it fun. There you
+        go, a box office winning actioner without pretensions. Enjoy. 7/10","created_at":"2016-04-05T20:33:13.951Z","id":"570421099251415bbb000866","updated_at":"2024-05-16T15:22:08.163Z","url":"https://www.themoviedb.org/review/570421099251415bbb000866"},{"author":"CuriousAstronaut","author_details":{"name":"","username":"CuriousAstronaut","avatar_path":"/sl85eAtk5MYfZ235MSDvdDmcb73.jpg","rating":null},"content":"~NO
+        SPOILERS~\r\n\r\nJohn Wick is an excellent revenge action movie that raises
+        the bar with its excellent lighting, cinematography, and martial arts displays
+        from Keanu.\r\n\r\nMr Wick spends the rest of the film getting even with a
+        mob boss for the actions of his son who killed his dog and stole his car.   As
+        far as the plot goes, its pretty simple but there is a lot of depth to the
+        world.\r\n\r\nReeves displays a decent amount of acting range here, but his
+        real talent is bringing bad guys down one headshot at a time. Its glorious
+        to see him smack a guy over the head, hold him down while reloading, and then
+        take him out.\r\n\r\nThe best thing about this film is the lack of shaky cam--
+        you can see all the action happening clearly. This is made possible by the
+        dedication of the actors in their martial arts training.\r\n\r\nSupport films
+        like this, they are a rare breed these days!","created_at":"2017-02-25T06:04:18.793Z","id":"58b11e62c3a368075a00616a","updated_at":"2021-06-23T15:57:55.050Z","url":"https://www.themoviedb.org/review/58b11e62c3a368075a00616a"},{"author":"Shreyance
+        Parakh","author_details":{"name":"Shreyance Parakh","username":"shiri4frnz","avatar_path":null,"rating":8.0},"content":"**Pure
+        unadulterated action**\r\n\r\nJohn Wick - it''s that kind of a character whose
+        name is enough to inflict terror in the minds of people. And whoever isn''t
+        terrified doesn''t mean that they''re better, it just means that they don''t
+        know JOHN WICK.\r\n\r\nIt definitely isn''t the first character of it''s kind,
+        but very few characters of this kind convince you that they are what they
+        are supposed to be. Let''s just say that John Wick kicks a** and he is pretty
+        awesome at that.\r\n\r\nI can''t think of anyone else to be John Wick other
+        than Keanu Reeves, the guy''s living the character on screen. The hand to
+        hand combat, usage of knives and guns, the action, it all seems poetic at
+        times. The thing I loved the most is that there wasn''t too much noise, no
+        Boom Boom, just the Bang Bang, exactly what you''d expect from a hit-man.\r\n\r\nThe
+        cinematography, dialogues, background score, direction, action, everything
+        was just what a movie like this needs. It ticked all the right boxes for me
+        and I think every action movie fan would lap this one up.\r\n\r\nIt is a great
+        action revenge movie that never runs out of steam throughout it''s course.
+        So, everyone who loves to see bullets flying all over the screen, or to quote
+        it better, say hitting just the right spots, go treat yourself to this movie.
+        You''d be glad.\r\n\r\nAn 8 out of 10","created_at":"2017-05-04T13:09:00.246Z","id":"590b27ecc3a36843a1016ec9","updated_at":"2021-06-23T15:57:56.931Z","url":"https://www.themoviedb.org/review/590b27ecc3a36843a1016ec9"},{"author":"Sheldon
+        Nylander","author_details":{"name":"Sheldon Nylander","username":"dalboz","avatar_path":"/d9fi8H0uBIhn9B9WY8Avo5L1vzm.jpg","rating":7.0},"content":"It''s
+        cheesy, formulaic, and hammily acted. It''s also stylish, high energy, and
+        generally just a fun popcorn movie.\r\n\r\n\"John Wick\" is a retired hitman
+        who gets brought back into the life by a personal attack (no spoilers here,
+        but if you''re squeamish about animal cruelty, be warned). Okay, we''ve heard
+        this story dozens of times.\r\n\r\nWhat''s different is the world in which
+        this takes place. There''s a secret criminal underground that seems to have
+        their hands in everything, and there''s a specific code and honor among thieves.
+        Actually, come to think of it, we never really meet anyone who isn''t involved
+        or in the know somehow, so it''s implied that this society is very widespread
+        and possibly runs everything. This film actually seems to have more in common
+        with the \"Wanted\" comic book than the \"Wanted\" movie did.\r\n\r\nPart
+        of the style and identification with the near superhuman Keanu Reeves as Wick
+        is that he isn''t a perfect action hero. He gets hurt. A lot. Unlike Neo,
+        he''s not invincible. He''s simply very well trained and determined, which
+        makes the combat sequences more interesting because, even though you know
+        the outcome, there''s always this little part in the back of your mind that
+        wonders if he''ll come out in one piece, making them gritty and...semi-realistic.
+        Let''s be honest, a lot of the action moves are very theatrical and wouldn''t
+        have much practical value in the real world.\r\n\r\nGiven the implications
+        for how big this criminal underworld probably is, it seems to have been set
+        up to be a franchise from the start. From background characters like Ian McShane''s
+        Winston (who keeps referring to Wick as \"Jonathan\" even though the name
+        is John; different spelling means it isn''t a shortened version of his name)
+        to Lance Reddick''s hotel manager (who I would swear there is more going on
+        with this character and hopefully gets explored later), there''s a lot of
+        ground to explore. It''s not a smart or challenging film, but it is fun and
+        not a bad way to spend a couple hours if you like action movies.","created_at":"2019-09-21T23:08:31.893Z","id":"5d86ad6f172d7f000d47943a","updated_at":"2021-06-23T15:58:27.165Z","url":"https://www.themoviedb.org/review/5d86ad6f172d7f000d47943a"},{"author":"The
+        Movie Mob","author_details":{"name":"The Movie Mob","username":"mooney240","avatar_path":"/blEC280vq31MVaDcsWBXuGOsYnB.jpg","rating":10.0},"content":"**The
+        mastery of stunt choreography and world-building make John Wick the new standard
+        of action films.**\r\n\r\nJohn Wick is a master class on taking every movie
+        trope and delivering an incredibly fresh and innovative franchise that delights
+        avid action fans and casual observers alike. Chad Stahelski and team break
+        free from the now overused shaky cam to hide mediocre acting and push their
+        stars and stunt team to give us some of the best action sequences in film
+        since The Matrix. But to take this movie even further into brilliance, Stahelski
+        prefers to show and not tell the audience about the world in which John Wick
+        lives. As a result, everything is mysterious, leaving viewers intrigued, questioning,
+        and wholly immersed in this assassin-filled world. The unusual gold coin currency,
+        the legend and fear of John Wick, the enigmatic Continental hotel that forbids
+        any assassin \"work\" on the premises, and much more sweeten a typical action
+        revenge story into a cinematic treasure.","created_at":"2022-08-20T00:29:44.713Z","id":"63002af8dfe31d007b8205a1","updated_at":"2022-09-03T15:20:16.102Z","url":"https://www.themoviedb.org/review/63002af8dfe31d007b8205a1"},{"author":"John
+        Critic","author_details":{"name":"John Critic","username":"kdumers","avatar_path":"/1H3ot9uQYijHXK5esGZ6ExlaRqk.jpg","rating":null},"content":"Keanu
+        Reeve’s very best since the Matrix!!!","created_at":"2023-01-03T15:51:28.648Z","id":"63b44f00c56d2d0096d57e25","updated_at":"2023-01-03T15:51:28.704Z","url":"https://www.themoviedb.org/review/63b44f00c56d2d0096d57e25"},{"author":"GenerationofSwine","author_details":{"name":"","username":"GenerationofSwine","avatar_path":"/xYhvrFNntgAowjRsf6mRg9JgITr.jpg","rating":10.0},"content":"My
+        wife made me watch the John Wick series when #3 came out... and I started
+        with #3. She was pretty sure that I needed to watch the first two to understand
+        what it was about... I was pretty sure that I didn''t.\r\n\r\nTurns out I
+        was right. You don''t need to watch 1 and 2 to understand everything that
+        is going on in 3. You don''t have to watch 1 to understand 2.\r\n\r\nYou can
+        really jump in anywhere you want, and be up to speed withing a few seconds.
+        The plot is really that paper thin.\r\n\r\nYou''ve seen movies with plots
+        like this before. The tough guy that is the best at what he does goes out
+        for revenge. It could be the plot from Taken... from any movie really.\r\n\r\nThe
+        plot doesn''t matter.\r\n\r\nWhat matters is stylized nonstop action. The
+        action is hard, fast, and it looks really, REALLY cool.\r\n\r\nThe story is
+        absolutely nothing to write home about, but it''s not important to the movie
+        anyway. That''s not where the fun is. Everything is paper thin, everyone knows
+        it is paper thin....\r\n\r\n... because we all realize that this is a start-to-finish
+        action extravaganza and things like plots and stories in movies like this
+        only really get in the way. Too deep and the movie starts to stink.\r\n\r\nSo,
+        what you have is really fun, really exciting, really cool looking action...
+        and it''s entertaining. It''s OK to admit that it''s low on plot, because....
+        it is what it is, and what it is is super fun and super entertaining.","created_at":"2023-01-11T01:31:12.122Z","id":"63be11605be00e00e7a2839f","updated_at":"2023-01-11T01:31:12.225Z","url":"https://www.themoviedb.org/review/63be11605be00e00e7a2839f"},{"author":"Nathan","author_details":{"name":"Nathan","username":"TitanGusang","avatar_path":"/yHGV91jVzmqpFOtRSHF0avBZmPm.jpg","rating":8.0},"content":"John
+        Wick is the definition of a blockbuster action film, with big set pieces and
+        visceral stunt work that will leave audiences gasping. While the story and
+        performances are lacking, the creators make attempts at establishing a greater
+        world around the characters. There are some really creative services and lore
+        that go into the assassin underworld that is simply brilliant. The acting
+        all around is quite lackluster. I love Keanu Reeves as a man, but he cannot
+        deliver dialogue well. I know he is supposed to be very emotionless, but there
+        is just a robotic nature to his line delivery that is quite awkward. His performance
+        does not take a ton away from the movie but could have elevated it if he were
+        a bit better. The main conflict of the story is a bit cheesy and did not totally
+        work for me, but at the end of the day, it is just a vehicle for the action
+        and does enough to propel the story forward. The main focus of these films
+        is the brutality of the choreography. John Wick stacks up a large body count
+        with ease executing opposing assassins with a plethora of weapons and tactics.
+        There are some creative kills in the movie, but most are just headshots delivered
+        by a pistol. I would have loved to see a little bit more variety, but it was
+        so in-your-face and absurd that I still had a great time with it.\r\n\r\nScore:
+        79%\r\nVerdict: Great","created_at":"2023-02-01T18:19:17.566Z","id":"63daad2585702e05753c7ba3","updated_at":"2023-02-01T18:19:17.636Z","url":"https://www.themoviedb.org/review/63daad2585702e05753c7ba3"},{"author":"r96sk","author_details":{"name":"","username":"r96sk","avatar_path":"/mwR7rFHoDcobAx1i61I3skzMW3U.jpg","rating":8.0},"content":"Pure
+        entertainment, this.\r\n\r\nHappy to have finally got around to watching this
+        franchise! I expected sheer enjoyment and that''s what I got. <em>''John Wick''</em>
+        is good fun! It is more hammy than I thought it would be, not that that''s
+        a criticism. Some characters duck out surprisingly abruptly too (justice for
+        Clarke Peters!), even when the one who should get taken out immediately somehow
+        manages to stick around for a while.\r\n\r\nKeanu Reeves is always a pleasure
+        to watch act. His character is a badass, that''s for sure. If I''m being truthful,
+        none of the others stood out to me too much - not in a negative way, just
+        moreso they are all on the same level as each other behind Reeves. Willem
+        Dafoe is the best of the rest, though.\r\n\r\nI look forward to checking out
+        the sequels, which I''m expecting positive things from - especially with,
+        presumably, bigger budgets.","created_at":"2023-02-17T17:59:49.161Z","id":"63efc09535818f0085ea0fa3","updated_at":"2023-02-17T18:00:41.345Z","url":"https://www.themoviedb.org/review/63efc09535818f0085ea0fa3"},{"author":"Rob","author_details":{"name":"Rob","username":"Arcanum101","avatar_path":"/w7CFzleuBl2EMBEl08fSA14aUOy.jpg","rating":10.0},"content":"Simply
+        a cool character doing a lot of very bad things for all the right reasons.
+        Immensely slick and incredibly fluid action in this movie. But the subtleties
+        and nuances of world details are what make this story so addictive. Even after
+        more than a hundred watches I still have to skip that puppy scene.","created_at":"2023-05-09T18:49:18.906Z","id":"645a95ae6aa8e000ff5be484","updated_at":"2023-05-10T15:51:14.526Z","url":"https://www.themoviedb.org/review/645a95ae6aa8e000ff5be484"},{"author":"Andre
+        Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":8.0},"content":"Reeves
+        is such a great actor. Another action packed filled movie. He nuts on everyone
+        all because they killed his dog.","created_at":"2023-07-06T13:28:26.073Z","id":"64a6c17a07faa2011e0331c3","updated_at":"2023-07-06T13:28:26.152Z","url":"https://www.themoviedb.org/review/64a6c17a07faa2011e0331c3"}],"total_pages":1,"total_results":13}}'
+  recorded_at: Wed, 03 Jul 2024 20:02:55 GMT
+recorded_with: VCR 6.2.0
