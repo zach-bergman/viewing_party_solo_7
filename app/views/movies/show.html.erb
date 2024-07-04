@@ -1,0 +1,36 @@
+<h1><%= @facade.movie.title %></h1>
+
+<div class="buttons">
+  <%= button_to "Create Viewing Party for #{@facade.movie.title}", new_user_movie_viewing_party_path(user_id: @user.id, movie_id: @facade.movie.id), method: :get %>
+  <%= button_to "Discover Page", user_discover_index_path(@user.id), method: :get %>
+</div>
+
+<div class="movie_info">
+  <ul>
+    <li>Vote Average: <%= @facade.movie.vote_average.round(2) %></li>
+    <li>Runtime: <%= @facade.movie.format_runtime %></li>
+    <li>Genre: <%= @facade.movie.genre_names %></li>
+    <li>Summary: <%= @facade.movie.summary %></li>
+  </ul>
+</div>
+
+<div class="cast_info">
+  <h2>Cast</h2>
+  <ul>
+    <% @facade.movie.ten_cast_members.each do |member| %>
+      <li> 
+        <p>Name: <%= member[:name] %></p>
+        <p>Character: <%= member[:character] %></p>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="reviews">
+  <h2>Reviews</h2>
+  <h3>Total Reviews: <%= @facade.movie.review_count %></h3>
+  <% @facade.movie.reviews.each do |review| %>
+    <p>Author: <%= review[:author] %></p>
+    <p>Review: <%= review[:content] %></p>
+  <% end %>
+</div>

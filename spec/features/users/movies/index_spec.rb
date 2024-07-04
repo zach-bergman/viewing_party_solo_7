@@ -13,17 +13,17 @@ RSpec.describe "User Movies Index Page", type: :feature do
 
       expect(current_path).to eq(user_movies_path(user.id))
 
-      # within "#movie_list" do
-        within "#movie_109445_info" do
+      within "div.movie_list" do
+        within "div.movie_109445_info" do
           expect(page).to have_link("Frozen", href: user_movie_path(user.id, 109445))
           expect(page).to have_content("Vote Average: 7.25")
         end
 
-        within "#movie_967847_info" do
+        within "div.movie_967847_info" do
           expect(page).to have_link("Ghostbusters: Frozen Empire", href: user_movie_path(user.id, 967847))
           expect(page).to have_content("Vote Average: 6.7")
         end
-      # end
+      end
 
       click_button("Discover Page")
 

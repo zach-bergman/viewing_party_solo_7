@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Movie Service" do
+RSpec.describe MovieService do
   describe "initialize" do
     it "exists" do
       service = MovieService.new
@@ -47,6 +47,22 @@ RSpec.describe "Movie Service" do
         expect(movie[:title]).to include("John Wick")
         expect(movie).to have_key(:title)
         expect(movie).to have_key(:vote_average)
+      end
+    end
+
+    describe "#find_movie_by_id" do
+      it "returns the movie data of the movie id given", :vcr do
+        movie = MovieService.new.find_movie_by_id(245891)
+
+        expect(movie).to be_a(Hash)
+
+        expect(movie).to have_key(:title)
+        expect(movie[:title]).to be_a(String)
+        expect(movie[:title]).to eq("John Wick")
+
+        expect(movie).to have_key(:runtime)
+        expect(movie[:runtime]).to be_an(Integer)
+        expect(movie[:runtime]).to eq(101)
       end
     end
   end

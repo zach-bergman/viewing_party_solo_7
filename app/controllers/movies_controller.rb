@@ -8,4 +8,9 @@ class MoviesController < ApplicationController
         MovieFacade.new
       end
   end
+
+  def show
+    @facade = MovieFacade.new(nil, params[:id])
+    @user = User.find(params[:user_id])
+  end
 end

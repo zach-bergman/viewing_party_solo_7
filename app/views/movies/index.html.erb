@@ -1,12 +1,13 @@
 <h1>Movies</h1>
-
-<ul>
-  <% @facade.movies.each do |movie| %>
-    <div id="movie_<%= movie.id %>_info">
-      <li><%= link_to "#{movie.title}", user_movie_path(@user.id, movie.id) %></li>
-      <li> Vote Average: <%= movie.vote_average.round(2) %></li>
-    </div>
-  <% end %>
-</ul>
+<div class="movie_list">
+  <ul>
+    <% @facade.movies.each do |movie| %>
+      <div class="movie_<%= movie.id %>_info">
+        <li><%= link_to "#{movie.title}", user_movie_path(@user.id, movie.id) %></li>
+        <li> Vote Average: <%= movie.vote_average.round(2) %></li>
+      </div>
+    <% end %>
+  </ul>
+</div>
 
 <%= button_to "Discover Page", user_discover_index_path(@user.id), method: :get %>
