@@ -25,28 +25,28 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 13:27:53 GMT
+      - Thu, 04 Jul 2024 22:23:52 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=24847
+      - public, max-age=25119
       Etag:
-      - W/"5549061f02a025a24ee0a57a8da60dc8"
+      - W/"497a6cf998041180db3eb063776c6064"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
+      - 1.1 befcfd7ee847a3c890471f27612dbcde.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - X2sDAYp3GRdyMLkCO5VZf39gu0c7T3DhcI0KIGJuk2vrinS-iJiWLQ==
+      - I59KbjJDhcXPpro6aSAtB9pE6U2eKUHWEypXMlqwjZVCMu0Bu_cbAQ==
       Age:
-      - '21011'
+      - '3990'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/ipyxbPJrLB1g9AfHq4xH5nLWmew.jpg","belongs_to_collection":{"id":404609,"name":"John
@@ -123,94 +123,94 @@ http_interactions:
         Nazarov","original_name":"Karen Nazarov","popularity":4.578,"profile_path":"/6Q49QKIP13MHDBf87eLikg74G71.jpg","cast_id":178,"character":"Red
         Circle Club Dancer (uncredited)","credit_id":"64ceaa94614c6d011c2a9bdb","order":41},{"adult":false,"gender":0,"id":3362684,"known_for_department":"Acting","name":"Paugh
         Shadow","original_name":"Paugh Shadow","popularity":0.586,"profile_path":"/r0XL59W2uJOEaiB9o33FdWGn1kn.jpg","cast_id":242,"character":"Assassin
-        (uncredited)","credit_id":"656421cdfb529900c66bf9d9","order":42}],"crew":[{"adult":false,"gender":2,"id":67759,"known_for_department":"Production","name":"Basil
-        Iwanyk","original_name":"Basil Iwanyk","popularity":7.219,"profile_path":"/7ULVJcHinmbUkjGrjseCgAztcx4.jpg","credit_id":"52fe4f0cc3a36847f82b9c37","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":1281371,"known_for_department":"Production","name":"Mike
-        Witherill","original_name":"Mike Witherill","popularity":2.32,"profile_path":null,"credit_id":"52fe4f0cc3a36847f82b9c3d","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":40684,"known_for_department":"Directing","name":"David
-        Leitch","original_name":"David Leitch","popularity":22.594,"profile_path":"/7FOLULXFvWrovvfsSyljXtK0tr8.jpg","credit_id":"544ff4f8c3a3680236002630","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":12033,"known_for_department":"Camera","name":"Jonathan
+        (uncredited)","credit_id":"656421cdfb529900c66bf9d9","order":42}],"crew":[{"adult":false,"gender":2,"id":1281371,"known_for_department":"Production","name":"Mike
+        Witherill","original_name":"Mike Witherill","popularity":2.32,"profile_path":null,"credit_id":"52fe4f0cc3a36847f82b9c3d","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":67759,"known_for_department":"Production","name":"Basil
+        Iwanyk","original_name":"Basil Iwanyk","popularity":7.219,"profile_path":"/7ULVJcHinmbUkjGrjseCgAztcx4.jpg","credit_id":"52fe4f0cc3a36847f82b9c37","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":40684,"known_for_department":"Directing","name":"David
+        Leitch","original_name":"David Leitch","popularity":22.594,"profile_path":"/7FOLULXFvWrovvfsSyljXtK0tr8.jpg","credit_id":"544ff4f8c3a3680236002630","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":52682,"known_for_department":"Costume
+        & Make-Up","name":"Luca Mosca","original_name":"Luca Mosca","popularity":4.588,"profile_path":"/adtSrjn37EhoTSHFPfqxDmBTw6z.jpg","credit_id":"5490ada4c3a36873f900040b","department":"Costume
+        & Make-Up","job":"Costume Design"},{"adult":false,"gender":1,"id":52605,"known_for_department":"Acting","name":"Eva
+        Longoria","original_name":"Eva Longoria","popularity":25.556,"profile_path":"/1u26GLWK1DE7gBugyI9P3OMFq4A.jpg","credit_id":"5490ade89251411f5b00042c","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":1017235,"known_for_department":"Editing","name":"Elísabet
+        Ronaldsdóttir","original_name":"Elísabet Ronaldsdóttir","popularity":4.129,"profile_path":"/gREU3CGII0WdC6QuFmhvraGPIan.jpg","credit_id":"5490ad2e9251411f5d0003de","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":1046729,"known_for_department":"Production","name":"Jessica
+        Kelly","original_name":"Jessica Kelly","popularity":4.941,"profile_path":null,"credit_id":"5490ad4dc3a36873f60004fa","department":"Production","job":"Casting"},{"adult":false,"gender":2,"id":12033,"known_for_department":"Camera","name":"Jonathan
         Sela","original_name":"Jonathan Sela","popularity":4.222,"profile_path":"/vjR46R01jK9XpmfLPmvgRr75b5p.jpg","credit_id":"5490ac579251411f6a000435","department":"Camera","job":"Director
         of Photography"},{"adult":false,"gender":2,"id":15221,"known_for_department":"Sound","name":"Tyler
         Bates","original_name":"Tyler Bates","popularity":5.177,"profile_path":"/E26NVF49zEpHJM88iyN5ok8nYz.jpg","credit_id":"5490ac7b9251411f6300035e","department":"Sound","job":"Original
-        Music Composer"},{"adult":false,"gender":1,"id":1017235,"known_for_department":"Editing","name":"Elísabet
-        Ronaldsdóttir","original_name":"Elísabet Ronaldsdóttir","popularity":4.129,"profile_path":"/gREU3CGII0WdC6QuFmhvraGPIan.jpg","credit_id":"5490ad2e9251411f5d0003de","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":1046729,"known_for_department":"Production","name":"Jessica
-        Kelly","original_name":"Jessica Kelly","popularity":4.941,"profile_path":null,"credit_id":"5490ad4dc3a36873f60004fa","department":"Production","job":"Casting"},{"adult":false,"gender":1,"id":4023,"known_for_department":"Production","name":"Suzanne
+        Music Composer"},{"adult":false,"gender":1,"id":4023,"known_for_department":"Production","name":"Suzanne
         Smith Crowley","original_name":"Suzanne Smith Crowley","popularity":5.18,"profile_path":"/eRIXIeMUQs8424iyDIRDKuPSBMy.jpg","credit_id":"5490ad579251411f5d0003e3","department":"Production","job":"Casting"},{"adult":false,"gender":2,"id":7496,"known_for_department":"Art","name":"Dan
         Leigh","original_name":"Dan Leigh","popularity":7.195,"profile_path":null,"credit_id":"5490ad959251411f5d0003ea","department":"Art","job":"Production
-        Design"},{"adult":false,"gender":2,"id":52682,"known_for_department":"Costume
-        & Make-Up","name":"Luca Mosca","original_name":"Luca Mosca","popularity":4.588,"profile_path":"/adtSrjn37EhoTSHFPfqxDmBTw6z.jpg","credit_id":"5490ada4c3a36873f900040b","department":"Costume
-        & Make-Up","job":"Costume Design"},{"adult":false,"gender":1,"id":52605,"known_for_department":"Acting","name":"Eva
-        Longoria","original_name":"Eva Longoria","popularity":25.556,"profile_path":"/1u26GLWK1DE7gBugyI9P3OMFq4A.jpg","credit_id":"5490ade89251411f5b00042c","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":94456,"known_for_department":"Production","name":"Kevin
-        Scott Frakes","original_name":"Kevin Scott Frakes","popularity":3.929,"profile_path":null,"credit_id":"54b6588592514166470014da","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":2,"id":882944,"known_for_department":"Writing","name":"Stephen
+        Design"},{"adult":false,"gender":2,"id":882944,"known_for_department":"Writing","name":"Stephen
         Hamel","original_name":"Stephen Hamel","popularity":4.619,"profile_path":null,"credit_id":"54b65891c3a36838d50016ba","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":1,"id":1413500,"known_for_department":"Production","name":"Tara
-        Finegan","original_name":"Tara Finegan","popularity":2.721,"profile_path":null,"credit_id":"54b6589d92514166470014dd","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":2,"id":6384,"known_for_department":"Acting","name":"Keanu
-        Reeves","original_name":"Keanu Reeves","popularity":120.81,"profile_path":"/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg","credit_id":"54b658a9c3a368377e00138a","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":2,"id":1413501,"known_for_department":"Production","name":"Andrew
-        C. Robinson","original_name":"Andrew C. Robinson","popularity":0.604,"profile_path":null,"credit_id":"54b658b4c3a36877980015c0","department":"Production","job":"Executive
         Producer"},{"adult":false,"gender":0,"id":1413502,"known_for_department":"Production","name":"Raj
         Brinder Singh","original_name":"Raj Brinder Singh","popularity":1.61,"profile_path":null,"credit_id":"54b658c09251412e730016ea","department":"Production","job":"Executive
         Producer"},{"adult":false,"gender":2,"id":94825,"known_for_department":"Production","name":"Jared
         Underwood","original_name":"Jared Underwood","popularity":3.976,"profile_path":null,"credit_id":"54b658cdc3a36836640017b4","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":94456,"known_for_department":"Production","name":"Kevin
+        Scott Frakes","original_name":"Kevin Scott Frakes","popularity":3.929,"profile_path":null,"credit_id":"54b6588592514166470014da","department":"Production","job":"Executive
         Producer"},{"adult":false,"gender":2,"id":80788,"known_for_department":"Production","name":"Mike
         Upton","original_name":"Mike Upton","popularity":4.047,"profile_path":null,"credit_id":"54b658d992514166470014e4","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":0,"id":1512724,"known_for_department":"Art","name":"CJ
-        Simpson","original_name":"CJ Simpson","popularity":0.093,"profile_path":null,"credit_id":"55ffceca925141529f005277","department":"Art","job":"Art
-        Direction"},{"adult":false,"gender":1,"id":17221,"known_for_department":"Art","name":"Susan
-        Bode Tyson","original_name":"Susan Bode Tyson","popularity":6.18,"profile_path":null,"credit_id":"55ffcedec3a368132c005beb","department":"Art","job":"Set
-        Decoration"},{"adult":false,"gender":0,"id":1324481,"known_for_department":"Costume
+        Producer"},{"adult":false,"gender":2,"id":1413501,"known_for_department":"Production","name":"Andrew
+        C. Robinson","original_name":"Andrew C. Robinson","popularity":0.604,"profile_path":null,"credit_id":"54b658b4c3a36877980015c0","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":1,"id":1413500,"known_for_department":"Production","name":"Tara
+        Finegan","original_name":"Tara Finegan","popularity":2.721,"profile_path":null,"credit_id":"54b6589d92514166470014dd","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":6384,"known_for_department":"Acting","name":"Keanu
+        Reeves","original_name":"Keanu Reeves","popularity":120.81,"profile_path":"/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg","credit_id":"54b658a9c3a368377e00138a","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":1324481,"known_for_department":"Costume
         & Make-Up","name":"Stephen M. Kelley","original_name":"Stephen M. Kelley","popularity":1.515,"profile_path":null,"credit_id":"55ffcf4c9251412aad001f1a","department":"Costume
-        & Make-Up","job":"Makeup Department Head"},{"adult":false,"gender":0,"id":1468540,"known_for_department":"Art","name":"Kristen
-        Ficara","original_name":"Kristen Ficara","popularity":0.035,"profile_path":null,"credit_id":"55ffcfb7c3a36813340055ac","department":"Art","job":"Art
-        Department Coordinator"},{"adult":false,"gender":0,"id":1512726,"known_for_department":"Art","name":"Raul
-        Abrego","original_name":"Raul Abrego","popularity":0.081,"profile_path":null,"credit_id":"55ffcfd8c3a368133b004b67","department":"Art","job":"Assistant
-        Art Director"},{"adult":false,"gender":0,"id":1512728,"known_for_department":"Art","name":"Carl
+        & Make-Up","job":"Makeup Department Head"},{"adult":false,"gender":0,"id":1512734,"known_for_department":"Visual
+        Effects","name":"Jake Braver","original_name":"Jake Braver","popularity":0.945,"profile_path":null,"credit_id":"55ffd22592514152b1005aad","department":"Visual
+        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":0,"id":1512738,"known_for_department":"Lighting","name":"Eric
+        Boncher","original_name":"Eric Boncher","popularity":0.703,"profile_path":null,"credit_id":"55ffd2c292514118240022ee","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":1,"id":17221,"known_for_department":"Art","name":"Susan
+        Bode Tyson","original_name":"Susan Bode Tyson","popularity":6.18,"profile_path":null,"credit_id":"55ffcedec3a368132c005beb","department":"Art","job":"Set
+        Decoration"},{"adult":false,"gender":0,"id":1512745,"known_for_department":"Lighting","name":"Clay
+        Liversidge","original_name":"Clay Liversidge","popularity":0.63,"profile_path":null,"credit_id":"55ffd472c3a368132c005c80","department":"Lighting","job":"Rigging
+        Gaffer"},{"adult":false,"gender":0,"id":1512728,"known_for_department":"Art","name":"Carl
         Baldasso","original_name":"Carl Baldasso","popularity":0.048,"profile_path":null,"credit_id":"55ffcfeec3a36877e70023fd","department":"Art","job":"Assistant
         Art Director"},{"adult":false,"gender":0,"id":1512729,"known_for_department":"Art","name":"Dennis
         Moyes","original_name":"Dennis Moyes","popularity":0.909,"profile_path":null,"credit_id":"55ffd00cc3a368132c005c02","department":"Art","job":"Assistant
-        Art Director"},{"adult":false,"gender":0,"id":1428872,"known_for_department":"Sound","name":"James
-        Carroll","original_name":"James Carroll","popularity":0.557,"profile_path":null,"credit_id":"55ffd0a892514129500022bd","department":"Sound","job":"Foley"},{"adult":false,"gender":2,"id":1365542,"known_for_department":"Sound","name":"Paul
-        Pirola","original_name":"Paul Pirola","popularity":1.991,"profile_path":null,"credit_id":"55ffd0c19251414ca9000069","department":"Sound","job":"Foley"},{"adult":false,"gender":0,"id":1334485,"known_for_department":"Sound","name":"Alan
+        Art Director"},{"adult":false,"gender":0,"id":1334485,"known_for_department":"Sound","name":"Alan
         Rankin","original_name":"Alan Rankin","popularity":1.467,"profile_path":null,"credit_id":"55ffd0edc3a3681a40002488","department":"Sound","job":"Sound
-        Designer"},{"adult":false,"gender":2,"id":1416155,"known_for_department":"Sound","name":"James
-        Bolt","original_name":"James Bolt","popularity":1.125,"profile_path":null,"credit_id":"55ffd1299251412aad001f35","department":"Sound","job":"Sound
-        Re-Recording Mixer"},{"adult":false,"gender":2,"id":978127,"known_for_department":"Sound","name":"Andy
+        Designer"},{"adult":false,"gender":0,"id":1428872,"known_for_department":"Sound","name":"James
+        Carroll","original_name":"James Carroll","popularity":0.557,"profile_path":null,"credit_id":"55ffd0a892514129500022bd","department":"Sound","job":"Foley"},{"adult":false,"gender":0,"id":1512726,"known_for_department":"Art","name":"Raul
+        Abrego","original_name":"Raul Abrego","popularity":0.081,"profile_path":null,"credit_id":"55ffcfd8c3a368133b004b67","department":"Art","job":"Assistant
+        Art Director"},{"adult":false,"gender":2,"id":1404739,"known_for_department":"Camera","name":"Steve
+        Koster","original_name":"Steve Koster","popularity":1.364,"profile_path":null,"credit_id":"55ffd34d9251411824002303","department":"Camera","job":"Helicopter
+        Camera"},{"adult":false,"gender":0,"id":1512733,"known_for_department":"Crew","name":"Nigel
+        Mendoza","original_name":"Nigel Mendoza","popularity":0.179,"profile_path":null,"credit_id":"55ffd1ecc3a36813340055db","department":"Crew","job":"Visual
+        Effects Editor"},{"adult":false,"gender":2,"id":978127,"known_for_department":"Sound","name":"Andy
         Koyama","original_name":"Andy Koyama","popularity":4.882,"profile_path":null,"credit_id":"55ffd141c3a36877e700242a","department":"Sound","job":"Sound
         Re-Recording Mixer"},{"adult":false,"gender":0,"id":1435642,"known_for_department":"Sound","name":"Martyn
         Zub","original_name":"Martyn Zub","popularity":1.266,"profile_path":null,"credit_id":"55ffd15cc3a36813340055cb","department":"Sound","job":"Sound
-        Re-Recording Mixer"},{"adult":false,"gender":0,"id":15332,"known_for_department":"Sound","name":"Mark
-        P. Stoeckinger","original_name":"Mark P. Stoeckinger","popularity":1.836,"profile_path":null,"credit_id":"55ffd171925141529f0052b8","department":"Sound","job":"Supervising
-        Sound Editor"},{"adult":false,"gender":2,"id":1043368,"known_for_department":"Crew","name":"Drew
+        Re-Recording Mixer"},{"adult":false,"gender":2,"id":1043368,"known_for_department":"Crew","name":"Drew
         Jiritano","original_name":"Drew Jiritano","popularity":3.099,"profile_path":null,"credit_id":"55ffd18ac3a36817620022bf","department":"Crew","job":"Special
-        Effects Coordinator"},{"adult":false,"gender":0,"id":1512732,"known_for_department":"Crew","name":"Mark
+        Effects Coordinator"},{"adult":false,"gender":2,"id":1395367,"known_for_department":"Lighting","name":"Bill
+        Almeida","original_name":"Bill Almeida","popularity":1.064,"profile_path":null,"credit_id":"55ffd2aa9251414376000ea0","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":0,"id":15332,"known_for_department":"Sound","name":"Mark
+        P. Stoeckinger","original_name":"Mark P. Stoeckinger","popularity":1.836,"profile_path":null,"credit_id":"55ffd171925141529f0052b8","department":"Sound","job":"Supervising
+        Sound Editor"},{"adult":false,"gender":0,"id":1512732,"known_for_department":"Crew","name":"Mark
         Neysmith","original_name":"Mark Neysmith","popularity":1.629,"profile_path":null,"credit_id":"55ffd1d492514152b1005a9f","department":"Crew","job":"CG
-        Supervisor"},{"adult":false,"gender":0,"id":1512733,"known_for_department":"Crew","name":"Nigel
-        Mendoza","original_name":"Nigel Mendoza","popularity":0.179,"profile_path":null,"credit_id":"55ffd1ecc3a36813340055db","department":"Crew","job":"Visual
-        Effects Editor"},{"adult":false,"gender":0,"id":1512734,"known_for_department":"Visual
-        Effects","name":"Jake Braver","original_name":"Jake Braver","popularity":0.945,"profile_path":null,"credit_id":"55ffd22592514152b1005aad","department":"Visual
-        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":0,"id":1403400,"known_for_department":"Visual
+        Supervisor"},{"adult":false,"gender":0,"id":1403400,"known_for_department":"Visual
         Effects","name":"Jeff Campbell","original_name":"Jeff Campbell","popularity":0.169,"profile_path":null,"credit_id":"55ffd25bc3a36813340055ed","department":"Visual
-        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":2,"id":1357063,"known_for_department":"Directing","name":"Darrin
-        Prescott","original_name":"Darrin Prescott","popularity":7.753,"profile_path":"/yTN1eNBSos16vWSgajcdxKuOGKw.jpg","credit_id":"55ffd289c3a36817620022e1","department":"Crew","job":"Stunt
-        Coordinator"},{"adult":false,"gender":2,"id":1395367,"known_for_department":"Lighting","name":"Bill
-        Almeida","original_name":"Bill Almeida","popularity":1.064,"profile_path":null,"credit_id":"55ffd2aa9251414376000ea0","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":0,"id":1512738,"known_for_department":"Lighting","name":"Eric
-        Boncher","original_name":"Eric Boncher","popularity":0.703,"profile_path":null,"credit_id":"55ffd2c292514118240022ee","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1404739,"known_for_department":"Camera","name":"Steve
-        Koster","original_name":"Steve Koster","popularity":1.364,"profile_path":null,"credit_id":"55ffd34d9251411824002303","department":"Camera","job":"Helicopter
-        Camera"},{"adult":false,"gender":0,"id":1417882,"known_for_department":"Camera","name":"Matthew
+        Effects","job":"Visual Effects Supervisor"},{"adult":false,"gender":0,"id":1512724,"known_for_department":"Art","name":"CJ
+        Simpson","original_name":"CJ Simpson","popularity":0.093,"profile_path":null,"credit_id":"55ffceca925141529f005277","department":"Art","job":"Art
+        Direction"},{"adult":false,"gender":0,"id":1468540,"known_for_department":"Art","name":"Kristen
+        Ficara","original_name":"Kristen Ficara","popularity":0.035,"profile_path":null,"credit_id":"55ffcfb7c3a36813340055ac","department":"Art","job":"Art
+        Department Coordinator"},{"adult":false,"gender":0,"id":1417882,"known_for_department":"Camera","name":"Matthew
         T. Rodgers","original_name":"Matthew T. Rodgers","popularity":0.469,"profile_path":null,"credit_id":"55ffd372c3a3681a400024d8","department":"Camera","job":"Helicopter
         Camera"},{"adult":false,"gender":2,"id":1445895,"known_for_department":"Camera","name":"Gregory
         W. Smith","original_name":"Gregory W. Smith","popularity":2.404,"profile_path":null,"credit_id":"55ffd38b9251412950002309","department":"Camera","job":"Steadicam
-        Operator"},{"adult":false,"gender":0,"id":1512745,"known_for_department":"Lighting","name":"Clay
-        Liversidge","original_name":"Clay Liversidge","popularity":0.63,"profile_path":null,"credit_id":"55ffd472c3a368132c005c80","department":"Lighting","job":"Rigging
-        Gaffer"},{"adult":false,"gender":0,"id":1513207,"known_for_department":"Costume
+        Operator"},{"adult":false,"gender":2,"id":1416155,"known_for_department":"Sound","name":"James
+        Bolt","original_name":"James Bolt","popularity":1.125,"profile_path":null,"credit_id":"55ffd1299251412aad001f35","department":"Sound","job":"Sound
+        Re-Recording Mixer"},{"adult":false,"gender":2,"id":1365542,"known_for_department":"Sound","name":"Paul
+        Pirola","original_name":"Paul Pirola","popularity":1.991,"profile_path":null,"credit_id":"55ffd0c19251414ca9000069","department":"Sound","job":"Foley"},{"adult":false,"gender":2,"id":1357063,"known_for_department":"Directing","name":"Darrin
+        Prescott","original_name":"Darrin Prescott","popularity":7.753,"profile_path":"/yTN1eNBSos16vWSgajcdxKuOGKw.jpg","credit_id":"55ffd289c3a36817620022e1","department":"Crew","job":"Stunt
+        Coordinator"},{"adult":false,"gender":0,"id":1513207,"known_for_department":"Costume
         & Make-Up","name":"Kenn Hamilton","original_name":"Kenn Hamilton","popularity":0.56,"profile_path":null,"credit_id":"56008513925141191c00002b","department":"Costume
-        & Make-Up","job":"Costume Supervisor"},{"adult":false,"gender":2,"id":1387183,"known_for_department":"Sound","name":"John
+        & Make-Up","job":"Costume Supervisor"},{"adult":false,"gender":0,"id":1403479,"known_for_department":"Camera","name":"Duane
+        Manwiller","original_name":"Duane Manwiller","popularity":4.259,"profile_path":null,"credit_id":"5ae3002592514128c301c7c5","department":"Camera","job":"Second
+        Unit Director of Photography"},{"adult":false,"gender":2,"id":1387183,"known_for_department":"Sound","name":"John
         C. Stuver","original_name":"John C. Stuver","popularity":0.857,"profile_path":null,"credit_id":"5ae30001c3a368151d032d59","department":"Sound","job":"Dialogue
         Editor"},{"adult":false,"gender":2,"id":1393371,"known_for_department":"Art","name":"Vinny
         Mazzarella","original_name":"Vinny Mazzarella","popularity":1.23,"profile_path":null,"credit_id":"5ae30015c3a36876a70330a2","department":"Art","job":"Property
-        Master"},{"adult":false,"gender":0,"id":1403479,"known_for_department":"Camera","name":"Duane
-        Manwiller","original_name":"Duane Manwiller","popularity":4.259,"profile_path":null,"credit_id":"5ae3002592514128c301c7c5","department":"Camera","job":"Second
-        Unit Director of Photography"},{"adult":false,"gender":2,"id":1779512,"known_for_department":"Acting","name":"Jackson
+        Master"},{"adult":false,"gender":2,"id":1779512,"known_for_department":"Acting","name":"Jackson
         Spidell","original_name":"Jackson Spidell","popularity":8.26,"profile_path":"/7cozKHcmO4MOOViAMqE4FXd0Bmf.jpg","credit_id":"5e8a94469979d20019edc6fa","department":"Crew","job":"Stunt
         Double"},{"adult":false,"gender":2,"id":1898634,"known_for_department":"Crew","name":"Christopher
         Parker","original_name":"Christopher Parker","popularity":5.949,"profile_path":"/6dxgmTsiXfpllG9z2Qyd9qpPnJC.jpg","credit_id":"5f5bbe38d8cc4a003ae9cd7f","department":"Crew","job":"Utility
@@ -578,7 +578,7 @@ http_interactions:
         Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":8.0},"content":"Reeves
         is such a great actor. Another action packed filled movie. He nuts on everyone
         all because they killed his dog.","created_at":"2023-07-06T13:28:26.073Z","id":"64a6c17a07faa2011e0331c3","updated_at":"2023-07-06T13:28:26.152Z","url":"https://www.themoviedb.org/review/64a6c17a07faa2011e0331c3"}],"total_pages":1,"total_results":13}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:22 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/245891/similar?api_key=<TMDB_API_KEY>
@@ -625,15 +625,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 bd96da9a6020f2a5d5499cedf78d68f2.cloudfront.net (CloudFront)
+      - 1.1 f111faa3f37b2169cefb225b0f246234.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - vRRbq5KCWiJIQg0ziXqapP-LzGunM4qenUeuXXHJcZZQLzTk7mRRwA==
+      - vJ3QiARgRAu5sXM7DaV5tjCuY7I7I0R5NrvgiGHbrRdFuxVB4mVd-g==
       Age:
-      - '4'
+      - '15142'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/7jQf9wRUwXdi7Mgo2wPnnYw76GQ.jpg","genre_ids":[18,28,35,53],"id":11556,"original_language":"es","original_title":"Nicotina","overview":"A
@@ -723,7 +723,7 @@ http_interactions:
         negative publicity surrounding the doll, and tracks young Andy Barclay to
         a foster home where the chase begins again.","popularity":33.088,"poster_path":"/tFcol3qTcL5ImNRbcGLSsLPTTv1.jpg","release_date":"1990-11-09","title":"Child''s
         Play 2","video":false,"vote_average":6.287,"vote_count":1757}],"total_pages":4346,"total_results":86903}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:22 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11556?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -762,15 +762,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 025e84e972a461c1dd140ac5fbbbd0aa.cloudfront.net (CloudFront)
+      - 1.1 16d72e0791ff01fc4470d27fc024527a.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - vo6DjsB7Yn0qBnu-upc7Sh8_-3CpSg1TpoCKEdITrMhR3gEMxeeHeQ==
+      - H6wDYqgfOq8mUgm47BfaGbR6v8PJq1YmBllSvL3WD6-RTw4OKH8eTA==
       Age:
-      - '3'
+      - '15142'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/7jQf9wRUwXdi7Mgo2wPnnYw76GQ.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":28,"name":"Action"},{"id":35,"name":"Comedy"},{"id":53,"name":"Thriller"}],"homepage":"","id":11556,"imdb_id":"tt0337930","origin_country":["AR","MX","ES"],"original_language":"es","original_title":"Nicotina","overview":"A
@@ -806,7 +806,7 @@ http_interactions:
         Iaccarino","original_name":"Marcelo Iaccarino","popularity":1.98,"profile_path":"/4NPx6tX0OL2epTnHO0tCkfivru3.jpg","credit_id":"52fe44599251416c75031991","department":"Camera","job":"Director
         of Photography"},{"adult":false,"gender":2,"id":69875,"known_for_department":"Editing","name":"Alberto
         de Toro","original_name":"Alberto de Toro","popularity":1.512,"profile_path":null,"credit_id":"52fe44599251416c75031997","department":"Editing","job":"Editor"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:22 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11560?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -832,13 +832,13 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:01 GMT
+      - Thu, 04 Jul 2024 22:39:33 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=1518
+      - public, max-age=14285
       Etag:
-      - W/"73c6ea2102cd0acbb32e15d36ad16e80"
+      - W/"6b8d096bd8aa6eaadfaceabfb6ffe00a"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
@@ -851,9 +851,9 @@ http_interactions:
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - NppZwdEfijGxoUyeJsjY5ED9J7IRSGljVZDpbWpnM4vT8fR3Tr1NtQ==
+      - bl8XSSR2x2OOBHfhJgJfejNEnUEmys96mXG7qfsDnvyg-27gOxjHgg==
       Age:
-      - '3'
+      - '3050'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/25uFrOg2psCxLtzY4nDCMz9CIvC.jpg","belongs_to_collection":null,"budget":42000000,"genres":[{"id":18,"name":"Drama"},{"id":9648,"name":"Mystery"},{"id":53,"name":"Thriller"},{"id":80,"name":"Crime"}],"homepage":"","id":11560,"imdb_id":"tt0257756","origin_country":["US"],"original_language":"en","original_title":"High
@@ -937,26 +937,26 @@ http_interactions:
         in San Salvador","credit_id":"597aa8ef925141363b004979","order":35},{"adult":false,"gender":0,"id":2478667,"known_for_department":"Acting","name":"Emilio
         Ribera","original_name":"Emilio Ribera","popularity":0.16,"profile_path":null,"cast_id":61,"character":"Homme
         salvadorien","credit_id":"5dee2546dc86470019c52731","order":36},{"adult":false,"gender":0,"id":2489242,"known_for_department":"Acting","name":"Julia
-        Mendoza","original_name":"Julia Mendoza","popularity":1.408,"profile_path":"/uj3tlXJ65rv6QjfV7O6l49sIjCz.jpg","cast_id":62,"character":"Givens","credit_id":"5e012b6165686e001597da45","order":37}],"crew":[{"adult":false,"gender":2,"id":21712,"known_for_department":"Directing","name":"Carl
-        Franklin","original_name":"Carl Franklin","popularity":6.169,"profile_path":"/8xX5z2BXZZHynzaMruOB8VkQ077.jpg","credit_id":"52fe445a9251416c75031b59","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":69882,"known_for_department":"Writing","name":"Yuri
-        Zeltser","original_name":"Yuri Zeltser","popularity":2.634,"profile_path":"/gX6yepcW2Ut91anpgR2brZiFb3u.jpg","credit_id":"52fe445a9251416c75031b5f","department":"Writing","job":"Screenplay"},{"adult":false,"gender":1,"id":21717,"known_for_department":"Editing","name":"Carole
-        Kravetz Aykanian","original_name":"Carole Kravetz Aykanian","popularity":2.225,"profile_path":"/lnFanqsoETJeZFbg62bChpaVxmZ.jpg","credit_id":"52fe445a9251416c75031b6b","department":"Editing","job":"Editor"},{"adult":false,"gender":2,"id":10815,"known_for_department":"Camera","name":"Theo
+        Mendoza","original_name":"Julia Mendoza","popularity":1.408,"profile_path":"/uj3tlXJ65rv6QjfV7O6l49sIjCz.jpg","cast_id":62,"character":"Givens","credit_id":"5e012b6165686e001597da45","order":37}],"crew":[{"adult":false,"gender":1,"id":21714,"known_for_department":"Production","name":"Jesse
+        Beaton","original_name":"Jesse Beaton","popularity":6.634,"profile_path":"/j9drz3sbayEt7TR4ZisxzNLfyOk.jpg","credit_id":"52fe445a9251416c75031b77","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":10815,"known_for_department":"Camera","name":"Theo
         van de Sande","original_name":"Theo van de Sande","popularity":2.132,"profile_path":null,"credit_id":"52fe445a9251416c75031b71","department":"Camera","job":"Director
-        of Photography"},{"adult":false,"gender":1,"id":21714,"known_for_department":"Production","name":"Jesse
-        Beaton","original_name":"Jesse Beaton","popularity":6.634,"profile_path":"/j9drz3sbayEt7TR4ZisxzNLfyOk.jpg","credit_id":"52fe445a9251416c75031b77","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":376,"known_for_department":"Production","name":"Arnon
-        Milchan","original_name":"Arnon Milchan","popularity":13.831,"profile_path":"/b2hBExX4NnczNAnLuTBF4kmNhZm.jpg","credit_id":"597aa90cc3a368374c004c53","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":21015,"known_for_department":"Production","name":"Janet
+        of Photography"},{"adult":false,"gender":2,"id":69882,"known_for_department":"Writing","name":"Yuri
+        Zeltser","original_name":"Yuri Zeltser","popularity":2.634,"profile_path":"/gX6yepcW2Ut91anpgR2brZiFb3u.jpg","credit_id":"52fe445a9251416c75031b5f","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":21712,"known_for_department":"Directing","name":"Carl
+        Franklin","original_name":"Carl Franklin","popularity":6.169,"profile_path":"/8xX5z2BXZZHynzaMruOB8VkQ077.jpg","credit_id":"52fe445a9251416c75031b59","department":"Directing","job":"Director"},{"adult":false,"gender":1,"id":21717,"known_for_department":"Editing","name":"Carole
+        Kravetz Aykanian","original_name":"Carole Kravetz Aykanian","popularity":2.225,"profile_path":"/lnFanqsoETJeZFbg62bChpaVxmZ.jpg","credit_id":"52fe445a9251416c75031b6b","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":1262,"known_for_department":"Production","name":"Mali
+        Finn","original_name":"Mali Finn","popularity":4.435,"profile_path":null,"credit_id":"597aa978c3a3683724004b19","department":"Production","job":"Casting"},{"adult":false,"gender":2,"id":122294,"known_for_department":"Crew","name":"Troy
+        Brown","original_name":"Troy Brown","popularity":2.588,"profile_path":"/uIO7XoxnbyEv5owbhnSVwwt3WHt.jpg","credit_id":"597aae03c3a3683708004c1d","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":146352,"known_for_department":"Crew","name":"Bob
+        Brown","original_name":"Bob Brown","popularity":4.726,"profile_path":"/h1H1grrrkaOtehu2Sjh2YV5qgQP.jpg","credit_id":"597aac5a9251413643004b9e","department":"Crew","job":"Stunt
+        Coordinator"},{"adult":false,"gender":2,"id":376,"known_for_department":"Production","name":"Arnon
+        Milchan","original_name":"Arnon Milchan","popularity":13.831,"profile_path":"/b2hBExX4NnczNAnLuTBF4kmNhZm.jpg","credit_id":"597aa90cc3a368374c004c53","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":9559,"known_for_department":"Acting","name":"Jophery
+        C. Brown","original_name":"Jophery C. Brown","popularity":4.922,"profile_path":"/Uf6SfhpfFvSUCNGQylUFdHn2pV.jpg","credit_id":"597aadcac3a36836c00052cc","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":1417685,"known_for_department":"Crew","name":"Gregory
+        J. Barnett","original_name":"Gregory J. Barnett","popularity":2.856,"profile_path":"/97Gns4ZXSHaVcpMwJSUjH3etjCx.jpg","credit_id":"597aacf5925141364a004c1c","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":21015,"known_for_department":"Production","name":"Janet
         Yang","original_name":"Janet Yang","popularity":4.445,"profile_path":null,"credit_id":"597aa923c3a368374c004c7b","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":21589,"known_for_department":"Art","name":"Paul
         Peters","original_name":"Paul Peters","popularity":1.784,"profile_path":null,"credit_id":"597aa95f9251413643004808","department":"Art","job":"Production
-        Design"},{"adult":false,"gender":1,"id":1262,"known_for_department":"Production","name":"Mali
-        Finn","original_name":"Mali Finn","popularity":4.435,"profile_path":null,"credit_id":"597aa978c3a3683724004b19","department":"Production","job":"Casting"},{"adult":false,"gender":2,"id":146352,"known_for_department":"Crew","name":"Bob
-        Brown","original_name":"Bob Brown","popularity":4.726,"profile_path":"/h1H1grrrkaOtehu2Sjh2YV5qgQP.jpg","credit_id":"597aac5a9251413643004b9e","department":"Crew","job":"Stunt
-        Coordinator"},{"adult":false,"gender":2,"id":1417685,"known_for_department":"Crew","name":"Gregory
-        J. Barnett","original_name":"Gregory J. Barnett","popularity":2.856,"profile_path":"/97Gns4ZXSHaVcpMwJSUjH3etjCx.jpg","credit_id":"597aacf5925141364a004c1c","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":9559,"known_for_department":"Acting","name":"Jophery
-        C. Brown","original_name":"Jophery C. Brown","popularity":4.922,"profile_path":"/Uf6SfhpfFvSUCNGQylUFdHn2pV.jpg","credit_id":"597aadcac3a36836c00052cc","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":122294,"known_for_department":"Crew","name":"Troy
-        Brown","original_name":"Troy Brown","popularity":2.588,"profile_path":"/uIO7XoxnbyEv5owbhnSVwwt3WHt.jpg","credit_id":"597aae03c3a3683708004c1d","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":79665,"known_for_department":"Production","name":"Naomi
-        Despres","original_name":"Naomi Despres","popularity":6.878,"profile_path":null,"credit_id":"5a4febc89251413cf00001e8","department":"Production","job":"Co-Producer"},{"adult":false,"gender":1,"id":15573,"known_for_department":"Costume
+        Design"},{"adult":false,"gender":1,"id":15573,"known_for_department":"Costume
         & Make-Up","name":"Sharen Davis","original_name":"Sharen Davis","popularity":2.592,"profile_path":null,"credit_id":"5a4febf00e0a2628bc000233","department":"Costume
-        & Make-Up","job":"Costume Design"},{"adult":false,"gender":1,"id":79666,"known_for_department":"Production","name":"Lisa
+        & Make-Up","job":"Costume Design"},{"adult":false,"gender":1,"id":79665,"known_for_department":"Production","name":"Naomi
+        Despres","original_name":"Naomi Despres","popularity":6.878,"profile_path":null,"credit_id":"5a4febc89251413cf00001e8","department":"Production","job":"Co-Producer"},{"adult":false,"gender":1,"id":79666,"known_for_department":"Production","name":"Lisa
         Henson","original_name":"Lisa Henson","popularity":8.345,"profile_path":"/A5usGJ4g7ppjWBB5VqOdJM6hC6z.jpg","credit_id":"5a4fec539251413cf0000266","department":"Production","job":"Executive
         Producer"},{"adult":false,"gender":2,"id":83143,"known_for_department":"Production","name":"Kevin
         Reidy","original_name":"Kevin Reidy","popularity":2.923,"profile_path":null,"credit_id":"5a4fec630e0a2628b3000282","department":"Production","job":"Executive
@@ -1077,7 +1077,7 @@ http_interactions:
         Howell","original_name":"Norman Howell","popularity":3.651,"profile_path":"/pgKSdCN2kA17u7P5HZClWUmXJTb.jpg","credit_id":"660df9d2d400f30131056684","department":"Crew","job":"Stunts"},{"adult":false,"gender":2,"id":5912,"known_for_department":"Sound","name":"Graeme
         Revell","original_name":"Graeme Revell","popularity":7.433,"profile_path":"/uOxJw3NnTEFXnHYzBwG82DOmOVZ.jpg","credit_id":"66535f0bdf73cdd1fe0aec58","department":"Sound","job":"Original
         Music Composer"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11564?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -1103,28 +1103,28 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:01 GMT
+      - Thu, 04 Jul 2024 22:39:33 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=7709
+      - public, max-age=21361
       Etag:
-      - W/"fe19602020b75845cb11812c88bc806c"
+      - W/"b42546a505a076f6e622ed9e27a513ff"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a70648d67d4a5a7f7eed7b14595ab4fe.cloudfront.net (CloudFront)
+      - 1.1 d9fe97589e952f97209f7a422c89d876.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - wM1njLn5Uc8lwXnmI8c13V7kCHFePJSTE8cxh6XEtnOQcz08kIs2Ug==
+      - b02LkODbulHBMd6ZJRFLF96akDii4UjxwqqkXBLzoLqS2WPN4tr9Sw==
       Age:
-      - '3'
+      - '3050'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/ke6cDBFg4IPb8MWjPOBlIhtosQ0.jpg","belongs_to_collection":{"id":164397,"name":"Class
@@ -1174,29 +1174,29 @@ http_interactions:
         Kolman","original_name":"Michelle Kolman","popularity":0.001,"profile_path":null,"cast_id":46,"character":"Student","credit_id":"5ade80a1c3a3686ad80011cc","order":24},{"adult":false,"gender":0,"id":1484961,"known_for_department":"Acting","name":"Darlene
         Burlie","original_name":"Darlene Burlie","popularity":0.014,"profile_path":null,"cast_id":47,"character":"Student","credit_id":"5ade80b00e0a2615e6001272","order":25},{"adult":false,"gender":2,"id":960618,"known_for_department":"Production","name":"Don
         Buchsbaum","original_name":"Don Buchsbaum","popularity":0.545,"profile_path":null,"cast_id":48,"character":"Security
-        Guard","credit_id":"5ade83a792514113330016dd","order":26}],"crew":[{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
-        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d69","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
-        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d6f","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":69890,"known_for_department":"Writing","name":"John
-        C.W. Saxton","original_name":"John C.W. Saxton","popularity":0.951,"profile_path":null,"credit_id":"52fe445b9251416c75031d75","department":"Writing","job":"Screenplay"},{"adult":false,"gender":0,"id":69892,"known_for_department":"Acting","name":"Arthur
-        Kent","original_name":"Arthur Kent","popularity":6.408,"profile_path":"/22ZNUyYJhUSf6F02oOuHR2fJdEr.jpg","credit_id":"52fe445b9251416c75031d7b","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
-        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d81","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":1,"id":69889,"known_for_department":"Acting","name":"Merrie
+        Guard","credit_id":"5ade83a792514113330016dd","order":26}],"crew":[{"adult":false,"gender":2,"id":69890,"known_for_department":"Writing","name":"John
+        C.W. Saxton","original_name":"John C.W. Saxton","popularity":0.951,"profile_path":null,"credit_id":"52fe445b9251416c75031d75","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
+        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d6f","department":"Writing","job":"Screenplay"},{"adult":false,"gender":0,"id":29768,"known_for_department":"Editing","name":"Howard
+        Kunin","original_name":"Howard Kunin","popularity":4.685,"profile_path":null,"credit_id":"52fe445b9251416c75031d93","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":69889,"known_for_department":"Acting","name":"Merrie
         Lynn Ross","original_name":"Merrie Lynn Ross","popularity":2.036,"profile_path":"/6FZrK5xlIusFmUBcLJDhUReinEV.jpg","credit_id":"52fe445b9251416c75031d87","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":2,"id":9217,"known_for_department":"Sound","name":"Lalo
+        Producer"},{"adult":false,"gender":2,"id":64796,"known_for_department":"Directing","name":"Tom
+        Holland","original_name":"Tom Holland","popularity":6.915,"profile_path":"/22eqkAJx8Uyaww4dB7BiriboLAp.jpg","credit_id":"52fe445b9251416c75031dd1","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
+        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d69","department":"Directing","job":"Director"},{"adult":false,"gender":0,"id":69892,"known_for_department":"Acting","name":"Arthur
+        Kent","original_name":"Arthur Kent","popularity":6.408,"profile_path":"/22ZNUyYJhUSf6F02oOuHR2fJdEr.jpg","credit_id":"52fe445b9251416c75031d7b","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":9217,"known_for_department":"Sound","name":"Lalo
         Schifrin","original_name":"Lalo Schifrin","popularity":5.699,"profile_path":"/zYz8R5xJGdO4Rq2FrcagMoG1UxD.jpg","credit_id":"52fe445b9251416c75031d8d","department":"Sound","job":"Original
-        Music Composer"},{"adult":false,"gender":0,"id":29768,"known_for_department":"Editing","name":"Howard
-        Kunin","original_name":"Howard Kunin","popularity":4.685,"profile_path":null,"credit_id":"52fe445b9251416c75031d93","department":"Editing","job":"Editor"},{"adult":false,"gender":2,"id":52081,"known_for_department":"Camera","name":"Albert
+        Music Composer"},{"adult":false,"gender":2,"id":67753,"known_for_department":"Directing","name":"Mark
+        L. Lester","original_name":"Mark L. Lester","popularity":5.145,"profile_path":"/ioa8RxmIBPUqmeoHLetFSLrLK4Q.jpg","credit_id":"52fe445b9251416c75031d81","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":52081,"known_for_department":"Camera","name":"Albert
         J. Dunk","original_name":"Albert J. Dunk","popularity":2.783,"profile_path":null,"credit_id":"52fe445b9251416c75031d99","department":"Camera","job":"Director
         of Photography"},{"adult":false,"gender":2,"id":64796,"known_for_department":"Directing","name":"Tom
-        Holland","original_name":"Tom Holland","popularity":6.915,"profile_path":"/22eqkAJx8Uyaww4dB7BiriboLAp.jpg","credit_id":"52fe445b9251416c75031dcb","department":"Writing","job":"Story"},{"adult":false,"gender":2,"id":64796,"known_for_department":"Directing","name":"Tom
-        Holland","original_name":"Tom Holland","popularity":6.915,"profile_path":"/22eqkAJx8Uyaww4dB7BiriboLAp.jpg","credit_id":"52fe445b9251416c75031dd1","department":"Writing","job":"Screenplay"},{"adult":false,"gender":0,"id":7535,"known_for_department":"Art","name":"Hilton
+        Holland","original_name":"Tom Holland","popularity":6.915,"profile_path":"/22eqkAJx8Uyaww4dB7BiriboLAp.jpg","credit_id":"52fe445b9251416c75031dcb","department":"Writing","job":"Story"},{"adult":false,"gender":0,"id":7535,"known_for_department":"Art","name":"Hilton
         Rosemarin","original_name":"Hilton Rosemarin","popularity":9.677,"profile_path":null,"credit_id":"56f594e1925141560100047e","department":"Art","job":"Set
-        Decoration"},{"adult":false,"gender":1,"id":7800,"known_for_department":"Production","name":"Deirdre
-        Bowen","original_name":"Deirdre Bowen","popularity":5.374,"profile_path":null,"credit_id":"554c1f799251413fcf000495","department":"Production","job":"Casting"},{"adult":false,"gender":0,"id":1013559,"known_for_department":"Production","name":"Clare
-        Walker","original_name":"Clare Walker","popularity":4.145,"profile_path":null,"credit_id":"554c1f8992514140e90004d5","department":"Production","job":"Casting"},{"adult":false,"gender":0,"id":1378431,"known_for_department":"Art","name":"Geoffrey
-        Holmes","original_name":"Geoffrey Holmes","popularity":0.001,"profile_path":null,"credit_id":"554c1f96c3a3685e5b003206","department":"Art","job":"Art
-        Direction"},{"adult":false,"gender":0,"id":1464862,"known_for_department":"Art","name":"Edwin
+        Decoration"},{"adult":false,"gender":0,"id":1013559,"known_for_department":"Production","name":"Clare
+        Walker","original_name":"Clare Walker","popularity":4.145,"profile_path":null,"credit_id":"554c1f8992514140e90004d5","department":"Production","job":"Casting"},{"adult":false,"gender":1,"id":7800,"known_for_department":"Production","name":"Deirdre
+        Bowen","original_name":"Deirdre Bowen","popularity":5.374,"profile_path":null,"credit_id":"554c1f799251413fcf000495","department":"Production","job":"Casting"},{"adult":false,"gender":0,"id":1464862,"known_for_department":"Art","name":"Edwin
         Watkins","original_name":"Edwin Watkins","popularity":0.301,"profile_path":null,"credit_id":"554c1fa8c3a3685e4c003718","department":"Art","job":"Art
+        Direction"},{"adult":false,"gender":0,"id":1378431,"known_for_department":"Art","name":"Geoffrey
+        Holmes","original_name":"Geoffrey Holmes","popularity":0.001,"profile_path":null,"credit_id":"554c1f96c3a3685e5b003206","department":"Art","job":"Art
         Direction"},{"adult":false,"gender":0,"id":1348622,"known_for_department":"Costume
         & Make-Up","name":"Lynne MacKay","original_name":"Lynne MacKay","popularity":1.716,"profile_path":null,"credit_id":"56f594f092514156070004b3","department":"Costume
         & Make-Up","job":"Costume Design"},{"adult":false,"gender":0,"id":69891,"known_for_department":"Writing","name":"Barry
@@ -1287,7 +1287,7 @@ http_interactions:
         plot sucks, it stars the funny dude from Rip Tide, and its over the top and
         silly... in other words, it''s escapist entertainment. And ENTERTAINMENT is
         what movies should be all about","created_at":"2023-01-11T01:25:54.606Z","id":"63be1022f85958007d3744a3","updated_at":"2023-01-11T01:25:54.699Z","url":"https://www.themoviedb.org/review/63be1022f85958007d3744a3"}],"total_pages":1,"total_results":2}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11588?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -1312,29 +1312,29 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 04 Jul 2024 19:18:01 GMT
       Server:
       - openresty
+      Date:
+      - Thu, 04 Jul 2024 23:30:19 GMT
       Cache-Control:
-      - public, max-age=15105
+      - public, max-age=27761
       Etag:
       - W/"d6110d3568d3a0efe08563023db42bf5"
       Vary:
-      - Accept-Encoding,accept-encoding
       - Origin
+      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
+      - 1.1 77cfd797d789c3b8bc1b8f2f8a42a9c6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - J5XupvU3AjSmUUbvDuetNq7gHRuElQ5jdeP3Ixday53Gchd5c-iHYg==
+      - tLKIyJ7fv5pDOiVnvn9sFJ2hHIKveUAmrIoDpKuOUyoTwVkDsy3GGw==
       Age:
-      - '3'
+      - '4'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/reKKVrgeaKozpODdLCbhEQAhN0x.jpg","belongs_to_collection":null,"budget":8800000,"genres":[{"id":53,"name":"Thriller"},{"id":9648,"name":"Mystery"},{"id":878,"name":"Science
@@ -1418,7 +1418,7 @@ http_interactions:
         & Make-Up","job":"Makeup & Hair"},{"adult":false,"gender":0,"id":2847013,"known_for_department":"Costume
         & Make-Up","name":"Carole Williams","original_name":"Carole Williams","popularity":0.001,"profile_path":null,"credit_id":"628e46489a643500509ec3bb","department":"Costume
         & Make-Up","job":"Makeup Designer"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11601?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -1457,15 +1457,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 d9fe97589e952f97209f7a422c89d876.cloudfront.net (CloudFront)
+      - 1.1 8a50fe9452625079391cf0ce7a3e0c56.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 5Dinna1kKarHfpO71IitNoXI0BTyHbNgVEJW4ja9HAEKrceXT-864A==
+      - bWtLnD8OBeynGrDTAle0tTVpLn40JR0iEBcDt2hyZSaa081X3Wmufg==
       Age:
-      - '3'
+      - '15142'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/dwxhN4acPEA0xIFduHJ7RfS6SvV.jpg","belongs_to_collection":{"id":143757,"name":"Stir
@@ -2014,7 +2014,7 @@ http_interactions:
         enough screen time to really add impetus to the unfolding mystery. But small
         complaints only, for Stir of Echoes (great title) remains a truly involving
         and entertaining supernatural mystery. 8.5/10","created_at":"2019-10-16T23:11:30.698Z","id":"5da7a3a2944a57001323c9f0","updated_at":"2024-05-16T15:22:25.476Z","url":"https://www.themoviedb.org/review/5da7a3a2944a57001323c9f0"}],"total_pages":1,"total_results":1}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11603?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -2053,15 +2053,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 bd96da9a6020f2a5d5499cedf78d68f2.cloudfront.net (CloudFront)
+      - 1.1 f0a2a95cb4d25b2414a9c1a7a754943e.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - rf2SGjHYVZmTuGuUkwIBuL_ToyVcjY8aQBie_boaTbsclNK-munKpQ==
+      - "-C0I9zaxhIAic1pCRJYvrYqCLAnTkFf0GLavTYhSgn6ExuA0tJPmRA=="
       Age:
-      - '3'
+      - '15141'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/1e45m6B7KWX5HjdBjm2K6XStTUF.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":53,"name":"Thriller"},{"id":10770,"name":"TV
@@ -2201,7 +2201,7 @@ http_interactions:
         Coordinator"},{"adult":false,"gender":2,"id":7748,"known_for_department":"Writing","name":"Cornell
         Woolrich","original_name":"Cornell Woolrich","popularity":4.584,"profile_path":"/7yCwjCYnjV2qbIoD4OKn8TbZZ3H.jpg","credit_id":"654c51de67b6130102e1f2a4","department":"Writing","job":"Short
         Story"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:04 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11612?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -2240,15 +2240,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 d4fb3448d1a8d3229dcf0a89f4bbe7e8.cloudfront.net (CloudFront)
+      - 1.1 d898fedd2c97412525c0a8011787cf32.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - a-M26zXQSl62AtXcb11ii_76lH80VyMtQ2XIILX_Wa4peOWBX9pZtA==
+      - RcurZOlC780pjcrihcblXfx7_qi3-gv5i9kb6YJN29VFf1lwPVeVAg==
       Age:
-      - '3'
+      - '15141'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/v5k7ek69SKPH2r7BNzZhn5GyB9i.jpg","belongs_to_collection":{"id":296358,"name":"Even
@@ -2328,7 +2328,7 @@ http_interactions:
         Director"},{"adult":false,"gender":2,"id":1127104,"known_for_department":"Acting","name":"Emilio
         Messina","original_name":"Emilio Messina","popularity":4.754,"profile_path":"/kQAEIFNCYVw78q10FxFvgmsFELn.jpg","credit_id":"5e0ceb8ac2f44b00132dd860","department":"Crew","job":"Stunt
         Coordinator"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11613?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -2367,15 +2367,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 d898fedd2c97412525c0a8011787cf32.cloudfront.net (CloudFront)
+      - 1.1 f111faa3f37b2169cefb225b0f246234.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - biMBF-9v1PDwFK9i9qHOK16loLKhAbGLOZyEFn4ai7zCjdkOlYAZlg==
+      - QhAwUsxaBpBgavrR7LQ6EzOxfkJAr_7FZqSzmmimym162Gx3yo4OZQ==
       Age:
-      - '3'
+      - '15141'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/1h1oKWZM4ZCDneEXLJ8fd3wsPPa.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":28,"name":"Action"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":11613,"imdb_id":"tt0083715","origin_country":["IT","US"],"original_language":"it","original_title":"Cane
@@ -2461,7 +2461,7 @@ http_interactions:
         Director"},{"adult":false,"gender":0,"id":2498686,"known_for_department":"Directing","name":"Saul
         Carswell","original_name":"Saul Carswell","popularity":0.001,"profile_path":null,"credit_id":"5e0fabea663b8700157fd86d","department":"Directing","job":"Script
         Supervisor"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11614?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -2487,28 +2487,28 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:02 GMT
+      - Thu, 04 Jul 2024 22:39:34 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=9952
+      - public, max-age=23529
       Etag:
-      - W/"129363432f03d1ddccb96d14fe1ea070"
+      - W/"c40dcef7850c2cc314bcebb610a5a3c1"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 1152d84b916a23e4b38cef1a20064b3e.cloudfront.net (CloudFront)
+      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - mOE-EsC6xU1Yh073iPUP_MioedPtbYCKcinlLaZyv3YEirJ9YF3maA==
+      - gb_x3d4wx3lTJM2brofjR6ezuiyAJTm7Kx18grh_Oy6uXmDfuZZlQA==
       Age:
-      - '3'
+      - '3049'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/zXrCizgblz8SGoYgLGw4laib9GL.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":28,"name":"Action"},{"id":35,"name":"Comedy"},{"id":18,"name":"Drama"}],"homepage":"","id":11614,"imdb_id":"tt0083675","origin_country":["IT"],"original_language":"it","original_title":"Bomber","overview":"Bomber
@@ -2581,26 +2581,26 @@ http_interactions:
         De Santis","original_name":"Rolando De Santis","popularity":0.298,"profile_path":null,"cast_id":62,"character":"Man
         in Restaurant (uncredited)","credit_id":"6313c5291d1bf4007d63abcb","order":37},{"adult":false,"gender":2,"id":1869407,"known_for_department":"Acting","name":"Settimio
         Scacco","original_name":"Settimio Scacco","popularity":0.596,"profile_path":"/8ij6ISUPz0DoX6JHLTISSfCApJm.jpg","cast_id":63,"character":"Man
-        in Restaurant (uncredited)","credit_id":"6313c535a402c1007abf6b72","order":38}],"crew":[{"adult":false,"gender":2,"id":33806,"known_for_department":"Directing","name":"Michele
-        Lupo","original_name":"Michele Lupo","popularity":3.681,"profile_path":null,"credit_id":"52fe44679251416c75033921","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":51421,"known_for_department":"Writing","name":"Marcello
-        Fondato","original_name":"Marcello Fondato","popularity":3.038,"profile_path":"/2qByTqvp3QW5JBoeNJd9sxkWn7p.jpg","credit_id":"52fe44679251416c75033927","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":25319,"known_for_department":"Writing","name":"Francesco
-        Scardamaglia","original_name":"Francesco Scardamaglia","popularity":4.043,"profile_path":null,"credit_id":"52fe44679251416c7503392d","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":18836,"known_for_department":"Sound","name":"Guido
-        De Angelis","original_name":"Guido De Angelis","popularity":2.288,"profile_path":"/pUb3QpsOSydPgktwjVoASYRUs8b.jpg","credit_id":"52fe44679251416c75033933","department":"Sound","job":"Original
-        Music Composer"},{"adult":false,"gender":2,"id":18837,"known_for_department":"Sound","name":"Maurizio
-        De Angelis","original_name":"Maurizio De Angelis","popularity":2.988,"profile_path":"/8HMySntR4AUWHlDVOFI9VAzWOpF.jpg","credit_id":"52fe44679251416c75033939","department":"Sound","job":"Original
-        Music Composer"},{"adult":false,"gender":2,"id":70030,"known_for_department":"Camera","name":"Giorgio
+        in Restaurant (uncredited)","credit_id":"6313c535a402c1007abf6b72","order":38}],"crew":[{"adult":false,"gender":2,"id":51421,"known_for_department":"Writing","name":"Marcello
+        Fondato","original_name":"Marcello Fondato","popularity":3.038,"profile_path":"/2qByTqvp3QW5JBoeNJd9sxkWn7p.jpg","credit_id":"52fe44679251416c75033927","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":5821,"known_for_department":"Editing","name":"Eugenio
+        Alabiso","original_name":"Eugenio Alabiso","popularity":3.493,"profile_path":null,"credit_id":"52fe44679251416c75033945","department":"Editing","job":"Editor"},{"adult":false,"gender":2,"id":25319,"known_for_department":"Writing","name":"Francesco
+        Scardamaglia","original_name":"Francesco Scardamaglia","popularity":4.043,"profile_path":null,"credit_id":"52fe44679251416c7503392d","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":70030,"known_for_department":"Camera","name":"Giorgio
         Di Battista","original_name":"Giorgio Di Battista","popularity":4.721,"profile_path":null,"credit_id":"52fe44679251416c7503393f","department":"Camera","job":"Director
-        of Photography"},{"adult":false,"gender":2,"id":5821,"known_for_department":"Editing","name":"Eugenio
-        Alabiso","original_name":"Eugenio Alabiso","popularity":3.493,"profile_path":null,"credit_id":"52fe44679251416c75033945","department":"Editing","job":"Editor"},{"adult":false,"gender":0,"id":1317643,"known_for_department":"Art","name":"Osvaldo
+        of Photography"},{"adult":false,"gender":2,"id":18837,"known_for_department":"Sound","name":"Maurizio
+        De Angelis","original_name":"Maurizio De Angelis","popularity":2.988,"profile_path":"/8HMySntR4AUWHlDVOFI9VAzWOpF.jpg","credit_id":"52fe44679251416c75033939","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":2,"id":33806,"known_for_department":"Directing","name":"Michele
+        Lupo","original_name":"Michele Lupo","popularity":3.681,"profile_path":null,"credit_id":"52fe44679251416c75033921","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":18836,"known_for_department":"Sound","name":"Guido
+        De Angelis","original_name":"Guido De Angelis","popularity":2.288,"profile_path":"/pUb3QpsOSydPgktwjVoASYRUs8b.jpg","credit_id":"52fe44679251416c75033933","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":0,"id":1317643,"known_for_department":"Art","name":"Osvaldo
         Desideri","original_name":"Osvaldo Desideri","popularity":3.814,"profile_path":null,"credit_id":"55073447c3a36836bf0003c0","department":"Art","job":"Set
-        Decoration"},{"adult":false,"gender":0,"id":1441040,"known_for_department":"Costume
-        & Make-Up","name":"Luciano Sagoni","original_name":"Luciano Sagoni","popularity":2.373,"profile_path":null,"credit_id":"5507345ec3a36836ad0003f5","department":"Costume
-        & Make-Up","job":"Costume Design"},{"adult":false,"gender":0,"id":138639,"known_for_department":"Costume
+        Decoration"},{"adult":false,"gender":0,"id":138639,"known_for_department":"Costume
         & Make-Up","name":"Giancarlo De Leonardis","original_name":"Giancarlo De Leonardis","popularity":1.886,"profile_path":null,"credit_id":"5507347a92514147e80003d2","department":"Costume
-        & Make-Up","job":"Hairstylist"},{"adult":false,"gender":2,"id":51421,"known_for_department":"Writing","name":"Marcello
+        & Make-Up","job":"Hairstylist"},{"adult":false,"gender":0,"id":1441040,"known_for_department":"Costume
+        & Make-Up","name":"Luciano Sagoni","original_name":"Luciano Sagoni","popularity":2.373,"profile_path":null,"credit_id":"5507345ec3a36836ad0003f5","department":"Costume
+        & Make-Up","job":"Costume Design"},{"adult":false,"gender":2,"id":25320,"known_for_department":"Production","name":"Elio
+        Scardamaglia","original_name":"Elio Scardamaglia","popularity":6.255,"profile_path":null,"credit_id":"5e10b97cd64ac2001660ee14","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":51421,"known_for_department":"Writing","name":"Marcello
         Fondato","original_name":"Marcello Fondato","popularity":3.038,"profile_path":"/2qByTqvp3QW5JBoeNJd9sxkWn7p.jpg","credit_id":"5e10b94a663b8700178240ab","department":"Writing","job":"Story"},{"adult":false,"gender":2,"id":25319,"known_for_department":"Writing","name":"Francesco
-        Scardamaglia","original_name":"Francesco Scardamaglia","popularity":4.043,"profile_path":null,"credit_id":"5e10b9588e87020016c079e3","department":"Writing","job":"Story"},{"adult":false,"gender":2,"id":25320,"known_for_department":"Production","name":"Elio
-        Scardamaglia","original_name":"Elio Scardamaglia","popularity":6.255,"profile_path":null,"credit_id":"5e10b97cd64ac2001660ee14","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":38917,"known_for_department":"Costume
+        Scardamaglia","original_name":"Francesco Scardamaglia","popularity":4.043,"profile_path":null,"credit_id":"5e10b9588e87020016c079e3","department":"Writing","job":"Story"},{"adult":false,"gender":2,"id":38917,"known_for_department":"Costume
         & Make-Up","name":"Walter Patriarca","original_name":"Walter Patriarca","popularity":4.669,"profile_path":"/kIPI06rvhzk0IeSoPhggc2RKFNs.jpg","credit_id":"642932fb01b1ca00777adbaf","department":"Art","job":"Production
         Design"},{"adult":false,"gender":0,"id":30826,"known_for_department":"Production","name":"Lucio
         Bompani","original_name":"Lucio Bompani","popularity":6.223,"profile_path":null,"credit_id":"6429333ac04429021305f077","department":"Production","job":"Line
@@ -2656,7 +2656,7 @@ http_interactions:
         Editor"},{"adult":false,"gender":0,"id":582413,"known_for_department":"Sound","name":"Gianni
         D''Amico","original_name":"Gianni D''Amico","popularity":2.631,"profile_path":null,"credit_id":"642935a90f365500b309e040","department":"Sound","job":"Sound
         Mixer"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11615?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -2695,15 +2695,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 786e78cb5cbe5eadde8b1e6951bf8a60.cloudfront.net (CloudFront)
+      - 1.1 d898fedd2c97412525c0a8011787cf32.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - e9EwIv4LFIu8N6vJ1S__L4WMKstzTGes6r6UwAT5NF7cOcJMUHWwhw==
+      - 50BDBB9FyQ8NYznebzCiUg7X5pGmzcZ-Q5cMIO037CPd-ntAd1G-ig==
       Age:
-      - '3'
+      - '15141'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/88wEXW9NIURi496KrIgD50dw87l.jpg","belongs_to_collection":null,"budget":50000000,"genres":[{"id":18,"name":"Drama"},{"id":53,"name":"Thriller"},{"id":80,"name":"Crime"}],"homepage":"http://alanparker.com/film/the-life-of-david-gayle/","id":11615,"imdb_id":"tt0289992","origin_country":["US","GB"],"original_language":"en","original_title":"The
@@ -3023,7 +3023,7 @@ http_interactions:
         Music Composer"},{"adult":false,"gender":1,"id":2103575,"known_for_department":"Crew","name":"Diane
         Towery","original_name":"Diane Towery","popularity":0.562,"profile_path":null,"credit_id":"624b8cf4e741460068c94896","department":"Crew","job":"Stunts"},{"adult":false,"gender":1,"id":3493496,"known_for_department":"Crew","name":"Carla
         Thorman","original_name":"Carla Thorman","popularity":0.336,"profile_path":null,"credit_id":"624b8d0b564ec70050a52e29","department":"Crew","job":"Stunts"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/241766?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3048,29 +3048,29 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 04 Jul 2024 19:18:02 GMT
       Server:
       - openresty
+      Date:
+      - Thu, 04 Jul 2024 22:39:34 GMT
       Cache-Control:
-      - public, max-age=6066
+      - public, max-age=20064
       Etag:
       - W/"ef1e168641cff671d88b6fea8d3a2c4c"
       Vary:
-      - Accept-Encoding,accept-encoding
       - Origin
+      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 f0a2a95cb4d25b2414a9c1a7a754943e.cloudfront.net (CloudFront)
+      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - QcBKAixBFFyfdgJkn9q-SjvKZ1LJ5ONDKkiq8njwEtXCY0DfyHog2Q==
+      - JnishfNPDJBo_lMzZdQO5ntv7ny3mgVYS7_4SkX9T_RLsX2tarUcuw==
       Age:
-      - '3'
+      - '3049'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":3440000,"genres":[{"id":80,"name":"Crime"},{"id":9648,"name":"Mystery"},{"id":53,"name":"Thriller"}],"homepage":"","id":241766,"imdb_id":"tt1800337","origin_country":["GB","US"],"original_language":"en","original_title":"Lords
@@ -3099,7 +3099,7 @@ http_interactions:
         & Make-Up","job":"Costume Design"},{"adult":false,"gender":0,"id":1283831,"known_for_department":"Writing","name":"Antonio
         Simoncini","original_name":"Antonio Simoncini","popularity":0.039,"profile_path":null,"credit_id":"52fe4ebdc3a36847f82a531d","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":189431,"known_for_department":"Acting","name":"Glen
         Murphy","original_name":"Glen Murphy","popularity":4.28,"profile_path":"/ycNj2SJHpsMtq89tS9Pi5Nj31cI.jpg","credit_id":"52fe4ebdc3a36847f82a5329","department":"Production","job":"Producer"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/241848?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3125,28 +3125,28 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:02 GMT
+      - Thu, 04 Jul 2024 23:04:53 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=13264
+      - public, max-age=26471
       Etag:
-      - W/"88572ba165f4dfd033a035856f6e01a5"
+      - W/"5c9803afe662abeb44329ce367f72316"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
+      - 1.1 f9a5caa2a18f480171fad57618db559e.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - D23xrCfVevIj-rt5czzCAk9JBEM6UHfHVeM5yBoqO_ktVw1Bv7cMqA==
+      - Pf332jHre2SqM58EXZEm3Gs7JOMLk6wULkQCXH7xrEFgNH3vIY2Daw==
       Age:
-      - '3'
+      - '1530'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/v4kcnmWdu8AmNncx4WmBn05JotZ.jpg","belongs_to_collection":null,"budget":5000000,"genres":[{"id":9648,"name":"Mystery"},{"id":53,"name":"Thriller"},{"id":28,"name":"Action"}],"homepage":"","id":241848,"imdb_id":"tt2980592","origin_country":["US","GB"],"original_language":"en","original_title":"The
@@ -3156,7 +3156,7 @@ http_interactions:
         presence.","popularity":48.586,"poster_path":"/6zyl8uGWYjcCb8CJVMk7BZK0SfU.jpg","production_companies":[{"id":2395,"logo_path":"/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png","name":"HanWay
         Films","origin_country":"GB"},{"id":15159,"logo_path":null,"name":"Snoot Entertainment","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2014-09-05","revenue":2700051,"runtime":100,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"Be
-        careful who you let in","title":"The Guest","video":false,"vote_average":6.659,"vote_count":1888,"credits":{"cast":[{"adult":false,"gender":2,"id":221018,"known_for_department":"Acting","name":"Dan
+        careful who you let in","title":"The Guest","video":false,"vote_average":6.7,"vote_count":1888,"credits":{"cast":[{"adult":false,"gender":2,"id":221018,"known_for_department":"Acting","name":"Dan
         Stevens","original_name":"Dan Stevens","popularity":34.885,"profile_path":"/fFsgginZKH527o38ZfdDxuzx7Ew.jpg","cast_id":3,"character":"\"David\"","credit_id":"53e332f70e0a262b8f003687","order":0},{"adult":false,"gender":1,"id":1094091,"known_for_department":"Acting","name":"Maika
         Monroe","original_name":"Maika Monroe","popularity":22.486,"profile_path":"/x4yiKkMnCdf8g4eOrDoqla9FYEA.jpg","cast_id":4,"character":"Anna","credit_id":"53e333080e0a262b80003951","order":1},{"adult":false,"gender":2,"id":558927,"known_for_department":"Acting","name":"Brendan
         Meyer","original_name":"Brendan Meyer","popularity":9.591,"profile_path":"/cSIsHQjie1xElTL86pCAvHL4ddB.jpg","cast_id":9,"character":"Luke","credit_id":"53f5622d0e0a267f7a003c6d","order":2},{"adult":false,"gender":1,"id":68109,"known_for_department":"Acting","name":"Sheila
@@ -3304,7 +3304,7 @@ http_interactions:
         From the trailer, it looked like it would be a rip-off of Nicolas Winding
         Refn''s ''Drive'' but Stevens adds a very unique coldness to his powerful
         persona.\r\n\r\n★★★½","created_at":"2017-03-09T15:03:48.417Z","id":"58c16ed4c3a3687da8005c5f","updated_at":"2021-06-23T15:57:55.433Z","url":"https://www.themoviedb.org/review/58c16ed4c3a3687da8005c5f"}],"total_pages":1,"total_results":2}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/10984?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3343,15 +3343,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 1152d84b916a23e4b38cef1a20064b3e.cloudfront.net (CloudFront)
+      - 1.1 0ecc9d4faf14441bafb84971a4117abc.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Ac8-M8ESedaeT2y_Cno5Irr9BzNs8k2-i22BXM5800_XT8pO3es1mw==
+      - Z_b9gtSVdBLL8PYuFfv9Lq6jEXcwqdqjFP7t1ZQoGN1U1vq3EWljQQ==
       Age:
-      - '2'
+      - '15140'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/ntsJFh4DMY3u2YUqanr5pYiJvFN.jpg","belongs_to_collection":null,"budget":10000000,"genres":[{"id":27,"name":"Horror"},{"id":53,"name":"Thriller"}],"homepage":"","id":10984,"imdb_id":"tt0242998","origin_country":["US"],"original_language":"en","original_title":"Valentine","overview":"Four
@@ -3496,7 +3496,7 @@ http_interactions:
         like Rob Zombie, Disturbed, Linkin Park, Deftones and so forth.\t \r\n\r\nThe
         film runs 1 hour, 36 minutes, and was shot in Vancouver, British Columbia,
         and Riverview Hospital in nearby Coquitlam. \r\n\r\nGRADE: B/B-","created_at":"2022-03-23T19:03:57.306Z","id":"623b6f1da34911005dc430d2","updated_at":"2022-03-23T19:03:57.306Z","url":"https://www.themoviedb.org/review/623b6f1da34911005dc430d2"}],"total_pages":1,"total_results":1}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/10987?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3535,15 +3535,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
+      - 1.1 a70648d67d4a5a7f7eed7b14595ab4fe.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - blOXx28ePOPBRP2ChLzaSdG8vvbtnYCn8ciSUonP61qKPiDlf28t4Q==
+      - d2a2MjWWzBxGLd61yRQ0NE1wznQX-MQQstcm_f6ozz5z-g7tYc1aEw==
       Age:
-      - '2'
+      - '15140'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/cFFCNDLLJqPIsQDMH9dlniYDiIT.jpg","belongs_to_collection":{"id":91361,"name":"Halloween
@@ -3669,7 +3669,7 @@ http_interactions:
         was the equivalent of Conan the Barbarian picking up an expensive guitar and
         trying to play for a classy prog band like Opeth.\r\n\r\nThe movie runs 1
         hour, 27 minutes and was shot in Salt Lake City, Utah.\r\n\r\nGRADE: C-","created_at":"2018-11-07T15:08:51.974Z","id":"5be30003c3a36810c6016c00","updated_at":"2021-06-23T15:58:14.259Z","url":"https://www.themoviedb.org/review/5be30003c3a36810c6016c00"}],"total_pages":1,"total_results":2}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11016?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3708,15 +3708,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
+      - 1.1 a70648d67d4a5a7f7eed7b14595ab4fe.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - xSBpUfXWCNILcjfQTowdjOhanzDZ35elgsr-Q0BnKcVZ8x3rgK7_Fg==
+      - bG1KJZz8yKinKvbP5QXEHAoqzwyjgbHgOG4rNrOq816Hd-4Z6-xD8w==
       Age:
-      - '2'
+      - '15140'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/m2SXRnAd0d5N6qH2cbgluRgMX4z.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":80,"name":"Crime"},{"id":53,"name":"Thriller"}],"homepage":"","id":11016,"imdb_id":"tt0040506","origin_country":["US"],"original_language":"en","original_title":"Key
@@ -3869,7 +3869,7 @@ http_interactions:
         There''s on-screen chemistry a plenty and a denouement that rounds things
         off with a deadly confrontation! Film-noir at it''s best, this and if you
         can see it on a big screen then do.","created_at":"2023-10-20T07:38:37.081Z","id":"65322e7db2681f00c44e9842","updated_at":"2023-10-20T07:38:37.203Z","url":"https://www.themoviedb.org/review/65322e7db2681f00c44e9842"}],"total_pages":1,"total_results":4}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11027?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -3894,29 +3894,29 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 04 Jul 2024 19:18:03 GMT
       Server:
       - openresty
+      Date:
+      - Thu, 04 Jul 2024 23:04:53 GMT
       Cache-Control:
-      - public, max-age=13383
+      - public, max-age=26755
       Etag:
       - W/"619c3b29c772f4e5b4a18fb8a62f22db"
       Vary:
-      - Accept-Encoding,accept-encoding
       - Origin
+      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 9b688924e5b0f0b5e4c639d19cb145f0.cloudfront.net (CloudFront)
+      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 2TFKSDznxRQmO5pV85tY3qS9PyDY1SB7HE7jOOfA3eARBVHaozpuUA==
+      - g6Fwqp2PKoUmNK9vbRz1gKrnXR28SVBYsp1MdkEkMqpdNeiJaYU3Lg==
       Age:
-      - '2'
+      - '1530'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/nd6CVurZnDebDXYOuWI5eNjnFLb.jpg","belongs_to_collection":null,"budget":12000000,"genres":[{"id":80,"name":"Crime"},{"id":10749,"name":"Romance"},{"id":18,"name":"Drama"},{"id":53,"name":"Thriller"}],"homepage":"","id":11027,"imdb_id":"tt0082934","origin_country":["US"],"original_language":"en","original_title":"The
@@ -4079,7 +4079,7 @@ http_interactions:
         & Make-Up","job":"Costumer"},{"adult":false,"gender":0,"id":1117462,"known_for_department":"Editing","name":"Tim
         Tobin","original_name":"Tim Tobin","popularity":0.001,"profile_path":null,"credit_id":"6154af0167dcc90062dea280","department":"Editing","job":"Assistant
         Editor"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11028?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -4118,15 +4118,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 3dc4c80cd959e984309833cac8f5a630.cloudfront.net (CloudFront)
+      - 1.1 0ecc9d4faf14441bafb84971a4117abc.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 4oAeGKEBnqqYZ3kFAvpWb_JQpB7FfumqueFqhSQPmJgp1EjepUeIkQ==
+      - wQ-JnpbobrVgKXBXH5_4J6LFkGcnvFhm235gFIdthnSEWTQNZzFuxQ==
       Age:
-      - '2'
+      - '15140'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/mgkzNXXo94ISnkqlU4Ee4K221Tq.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":28,"name":"Action"},{"id":80,"name":"Crime"},{"id":9648,"name":"Mystery"}],"homepage":"","id":11028,"imdb_id":"tt0092654","origin_country":["US"],"original_language":"en","original_title":"The
@@ -4198,7 +4198,7 @@ http_interactions:
         enough mystery-thriller-romance features good performances from Dennis Quaid
         and Ellen Barkin. It is on the predictable side but still entertaining enough.
         **3.5/5**","created_at":"2023-05-16T01:07:28.618Z","id":"6462d750ef8b3200e3ae5fe0","updated_at":"2023-05-16T01:07:28.706Z","url":"https://www.themoviedb.org/review/6462d750ef8b3200e3ae5fe0"}],"total_pages":1,"total_results":1}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11033?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -4223,29 +4223,29 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 04 Jul 2024 19:18:04 GMT
       Server:
       - openresty
+      Date:
+      - Thu, 04 Jul 2024 23:04:54 GMT
       Cache-Control:
-      - public, max-age=13026
+      - public, max-age=27793
       Etag:
       - W/"b726171d38b8019d010eb5eae85713f7"
       Vary:
-      - Accept-Encoding,accept-encoding
       - Origin
+      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 3dc4c80cd959e984309833cac8f5a630.cloudfront.net (CloudFront)
+      - 1.1 cf7db6af8b8a86ebeb9fc938221e81da.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 4GcJCaIbxKLUmu7F-dJ2PPjo7EWHEDqiXSHiCCWROwzZCboXljRSRw==
+      - NFImxbCvAAMXnWu6vPoYmJz3zjRw7O5GtY0BZ5WyyabeqfrB7Ari9w==
       Age:
-      - '1'
+      - '1529'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/wmHfg56pvzmLCXz5Gs9D7d5rjvG.jpg","belongs_to_collection":null,"budget":6500000,"genres":[{"id":9648,"name":"Mystery"},{"id":53,"name":"Thriller"},{"id":27,"name":"Horror"}],"homepage":"","id":11033,"imdb_id":"tt0080661","origin_country":["US"],"original_language":"en","original_title":"Dressed
@@ -4507,7 +4507,7 @@ http_interactions:
         that wouldn’t be done today for reasons of “political correctness” (rolling
         my eyes).\r\n\r\nThe movie runs 1 hour, 44 minutes, and was shot in Manhattan
         with the art museum sequence done in Philadelphia.\r\n\r\nGRADE: B","created_at":"2023-10-24T20:31:13.049Z","id":"653829917fcab300eab3f8fd","updated_at":"2023-10-24T20:31:13.207Z","url":"https://www.themoviedb.org/review/653829917fcab300eab3f8fd"}],"total_pages":1,"total_results":4}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11053?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -4546,15 +4546,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 6b1026dc8b63f06fce4b4aec8b9a03d6.cloudfront.net (CloudFront)
+      - 1.1 d9fe97589e952f97209f7a422c89d876.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - YKRLrdl_A1CYOG9xbfvjLOtrtqiJ1NKnjyuA4KGSvq3Uz278JXb3Ww==
+      - mtYzuedHY0mhoonlTEFK762R_B86n59An5gShkjemrlh-qZ1hNXO5w==
       Age:
-      - '1'
+      - '15139'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/2GK6KVgIAKrqjqg9VPAm5qdOly.jpg","belongs_to_collection":{"id":10964,"name":"Flatfoot
@@ -4659,7 +4659,7 @@ http_interactions:
         Director"},{"adult":false,"gender":0,"id":2324276,"known_for_department":"Editing","name":"Marisa
         Mengoli","original_name":"Marisa Mengoli","popularity":0.008,"profile_path":null,"credit_id":"638f3c2004733f007dc1af26","department":"Editing","job":"Assistant
         Editor"}]},"reviews":{"page":1,"results":[],"total_pages":0,"total_results":0}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/11186?api_key=<TMDB_API_KEY>&append_to_response=credits,reviews
@@ -4685,28 +4685,28 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:04 GMT
+      - Thu, 04 Jul 2024 23:20:43 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=14036
+      - public, max-age=26240
       Etag:
-      - W/"589eebc3255856dddb17089beacf63c2"
+      - W/"fa3bb9da992ab747b5068e21408f737f"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
+      - 1.1 05fe6f95b77eb54d0691950915c27264.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - g1xqCvD_iRcHiXLNedbYvBoKJisgaf0r6orZF90GOiLqezg_YP0O7A==
+      - AiNBkvUN6zv7YcCH7Ln0LniNUOXLKNK5SOyhwHh2IysHyLR2zBKoGw==
       Age:
-      - '1'
+      - '580'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/fNkt4S5iXgBD4ea5bP9MZRHO8su.jpg","belongs_to_collection":{"id":10455,"name":"Child''s
@@ -4742,16 +4742,16 @@ http_interactions:
         Krieger","original_name":"Ed Krieger","popularity":0.512,"profile_path":"/ks8bGOZD6QJY0N2NgqqkVB5OC8u.jpg","cast_id":99,"character":"Technician#2","credit_id":"62ed4a44813cb60092397d8a","order":13},{"adult":false,"gender":2,"id":112153,"known_for_department":"Acting","name":"Vince
         Melocchi","original_name":"Vince Melocchi","popularity":2.226,"profile_path":"/6LjUctOXAPEif7f1GecW1MWFIZZ.jpg","cast_id":97,"character":"Technician#3","credit_id":"62ed49ebbe4b36007d8d3002","order":14},{"adult":false,"gender":2,"id":1794752,"known_for_department":"Acting","name":"Charles
         Meshack","original_name":"Charles Meshack","popularity":0.637,"profile_path":null,"cast_id":106,"character":"Van
-        Driver","credit_id":"65befea19f37b001305afd4c","order":15}],"crew":[{"adult":false,"gender":2,"id":65678,"known_for_department":"Directing","name":"John
-        Lafia","original_name":"John Lafia","popularity":5.688,"profile_path":null,"credit_id":"52fe440b9251416c75026f87","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":65677,"known_for_department":"Creator","name":"Don
-        Mancini","original_name":"Don Mancini","popularity":7.74,"profile_path":"/bp7vtf9n9uOPOK1WzdITpwFZqbQ.jpg","credit_id":"52fe440b9251416c75026f8d","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":14654,"known_for_department":"Production","name":"Robert
-        Latham Brown","original_name":"Robert Latham Brown","popularity":2.128,"profile_path":"/aO50W8UlXEkMG1tAqAQb1mK1u5r.jpg","credit_id":"52fe440b9251416c75026f93","department":"Production","job":"Executive
-        Producer"},{"adult":false,"gender":2,"id":13596,"known_for_department":"Production","name":"David
-        Kirschner","original_name":"David Kirschner","popularity":15.226,"profile_path":"/hQklUkAfdZ3xysFFoFCpNIdloKa.jpg","credit_id":"52fe440b9251416c75026f99","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":5912,"known_for_department":"Sound","name":"Graeme
+        Driver","credit_id":"65befea19f37b001305afd4c","order":15}],"crew":[{"adult":false,"gender":2,"id":5912,"known_for_department":"Sound","name":"Graeme
         Revell","original_name":"Graeme Revell","popularity":7.433,"profile_path":"/uOxJw3NnTEFXnHYzBwG82DOmOVZ.jpg","credit_id":"52fe440b9251416c75026f9f","department":"Sound","job":"Original
         Music Composer"},{"adult":false,"gender":2,"id":1919,"known_for_department":"Camera","name":"Stefan
         Czapsky","original_name":"Stefan Czapsky","popularity":11.579,"profile_path":"/gThptqMLOBUkea1x8BhenwIXGlJ.jpg","credit_id":"52fe440b9251416c75026fa5","department":"Camera","job":"Director
-        of Photography"},{"adult":false,"gender":2,"id":4981,"known_for_department":"Editing","name":"Edward
+        of Photography"},{"adult":false,"gender":2,"id":65677,"known_for_department":"Creator","name":"Don
+        Mancini","original_name":"Don Mancini","popularity":7.74,"profile_path":"/bp7vtf9n9uOPOK1WzdITpwFZqbQ.jpg","credit_id":"52fe440b9251416c75026f8d","department":"Writing","job":"Screenplay"},{"adult":false,"gender":2,"id":65678,"known_for_department":"Directing","name":"John
+        Lafia","original_name":"John Lafia","popularity":5.688,"profile_path":null,"credit_id":"52fe440b9251416c75026f87","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":14654,"known_for_department":"Production","name":"Robert
+        Latham Brown","original_name":"Robert Latham Brown","popularity":2.128,"profile_path":"/aO50W8UlXEkMG1tAqAQb1mK1u5r.jpg","credit_id":"52fe440b9251416c75026f93","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":13596,"known_for_department":"Production","name":"David
+        Kirschner","original_name":"David Kirschner","popularity":15.226,"profile_path":"/hQklUkAfdZ3xysFFoFCpNIdloKa.jpg","credit_id":"52fe440b9251416c75026f99","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":4981,"known_for_department":"Editing","name":"Edward
         Warschilka","original_name":"Edward Warschilka","popularity":3.592,"profile_path":null,"credit_id":"52fe440b9251416c75026fab","department":"Editing","job":"Editor"},{"adult":false,"gender":0,"id":2411540,"known_for_department":"Production","name":"Tom
         Udell","original_name":"Tom Udell","popularity":1.033,"profile_path":null,"credit_id":"60c6693f7dfda6007fc9f7f7","department":"Production","job":"Unit
         Production Manager"},{"adult":false,"gender":0,"id":2866317,"known_for_department":"Directing","name":"Dennis
@@ -4910,5 +4910,5 @@ http_interactions:
         Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":8.0},"content":"Just
         slightly better than the first only because there''s more killings in this
         and Chucky is a lot funnier. Some of the acting was a little off.","created_at":"2023-06-04T18:30:13.138Z","id":"647cd835e323f3010615bbba","updated_at":"2023-06-04T18:30:13.214Z","url":"https://www.themoviedb.org/review/647cd835e323f3010615bbba"}],"total_pages":1,"total_results":2}}'
-  recorded_at: Thu, 04 Jul 2024 19:18:05 GMT
+  recorded_at: Thu, 04 Jul 2024 23:30:23 GMT
 recorded_with: VCR 6.2.0
