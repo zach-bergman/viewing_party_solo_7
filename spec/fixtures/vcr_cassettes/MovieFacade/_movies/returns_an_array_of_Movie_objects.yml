@@ -24,37 +24,37 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
+      Date:
+      - Fri, 05 Jul 2024 13:46:25 GMT
       Server:
       - openresty
+      Cache-Control:
+      - public, max-age=19782
       X-Memc:
       - HIT
       X-Memc-Key:
       - 7f1425ce752faf04c9a666582e323023
       X-Memc-Age:
-      - '7914'
+      - '4316'
       X-Memc-Expires:
-      - '13936'
-      Date:
-      - Thu, 04 Jul 2024 22:39:32 GMT
-      Cache-Control:
-      - public, max-age=24741
+      - '19782'
       Etag:
-      - W/"13c3a46de9c9bd725311a0e4e5fc17d2"
+      - W/"85b56673986fbc884da396e8179e4370"
       Vary:
+      - Accept-Encoding,accept-encoding
       - Origin
-      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)
+      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - feR_h_-NfgMnHOw9ZyBVddxDtYTHaqR-jxgeCPue79pPBN2L-YhJeg==
+      - 5ISM23XG3_kKx3tGFqUTj6z5D40eVRytiXWI8T4WSQ8Ewrn2D5Xcpg==
       Age:
-      - '3047'
+      - '3294'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg","genre_ids":[16,10751,12,14],"id":109445,"original_language":"en","original_title":"Frozen","overview":"Young
@@ -63,17 +63,17 @@ http_interactions:
         eternal winter that has fallen over the kingdom. She''s accompanied by ice
         delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure
         where she will find out what friendship, courage, family, and true love really
-        means.","popularity":120.74,"poster_path":"/itAKcobTYGpYT8Phwjd8c9hleTo.jpg","release_date":"2013-11-20","title":"Frozen","video":false,"vote_average":7.248,"vote_count":16185},{"adult":false,"backdrop_path":"/vD1yKObsRS2cvpmtuaCaMhr4zxe.jpg","genre_ids":[53],"id":44363,"original_language":"en","original_title":"Frozen","overview":"When
+        means.","popularity":116.615,"poster_path":"/itAKcobTYGpYT8Phwjd8c9hleTo.jpg","release_date":"2013-11-20","title":"Frozen","video":false,"vote_average":7.248,"vote_count":16186},{"adult":false,"backdrop_path":"/vD1yKObsRS2cvpmtuaCaMhr4zxe.jpg","genre_ids":[53],"id":44363,"original_language":"en","original_title":"Frozen","overview":"When
         three skiers find themselves stranded on a chair lift at a New England ski
         resort that has closed for the next week, they are forced to make life or
         death choices that prove to be more perilous than staying put and freezing
-        to death.","popularity":22.485,"poster_path":"/2J3URUnDrIpNvh0uVqINQvr4HhW.jpg","release_date":"2010-02-05","title":"Frozen","video":false,"vote_average":5.984,"vote_count":1759},{"adult":false,"backdrop_path":"/sGjhRHNiQSkgVec18D3oX45hPmz.jpg","genre_ids":[53],"id":26041,"original_language":"en","original_title":"Frozen","overview":"It''s
+        to death.","popularity":18.375,"poster_path":"/2J3URUnDrIpNvh0uVqINQvr4HhW.jpg","release_date":"2010-02-05","title":"Frozen","video":false,"vote_average":5.985,"vote_count":1760},{"adult":false,"backdrop_path":"/sGjhRHNiQSkgVec18D3oX45hPmz.jpg","genre_ids":[53],"id":26041,"original_language":"en","original_title":"Frozen","overview":"It''s
         two years since the mysterious disappearance of Kath Swarbrick''s older sister
         Annie, but Kath remains haunted by a need to know what happened. When police
         investigations wind down, Kath continues the search herself. She gets nowhere
         until she steals some CCTV footage of her sister on her final day. Visiting
         the spot where Annie was filmed, Kath becomes convinced she has found a portal
-        to another reality and from this portal Kath is trying to say something.","popularity":5.772,"poster_path":"/a6RlPQUerliQLkAieku5B8Loamk.jpg","release_date":"2005-03-12","title":"Frozen","video":false,"vote_average":5.7,"vote_count":18},{"adult":false,"backdrop_path":null,"genre_ids":[18,27],"id":170986,"original_language":"hi","original_title":"Frozen","overview":"This
+        to another reality and from this portal Kath is trying to say something.","popularity":4.907,"poster_path":"/a6RlPQUerliQLkAieku5B8Loamk.jpg","release_date":"2005-03-12","title":"Frozen","video":false,"vote_average":5.7,"vote_count":18},{"adult":false,"backdrop_path":null,"genre_ids":[18,27],"id":170986,"original_language":"hi","original_title":"Frozen","overview":"This
         is a touching and somber journey of Lasya, who lives with her father Karma
         and younger brother Chomo in a remote village in the Himalayas. Pristine snow
         capped mountains surround their tiny hamlet and barren harsh land stretches
@@ -81,24 +81,24 @@ http_interactions:
         across their doorstep. The last bit of comfort the family draws from their
         familiar surroundings changes into a harsh ceaseless irreversible conflict.
         The film depicts the life of this family whose dream like existence is interrupted
-        by inevitable odds, one after the other.","popularity":3.896,"poster_path":"/2GL9yZtrgbYKCeKBc3TF9gGfZpX.jpg","release_date":"2007-07-21","title":"Frozen","video":false,"vote_average":7.2,"vote_count":4},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":950554,"original_language":"en","original_title":"Frozen","overview":"A
-        film by Adonia Bouchehri.","popularity":0.281,"poster_path":null,"release_date":"","title":"Frozen","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/wODqakS0jinTUECNS6n4VomQbew.jpg","genre_ids":[14,12,35],"id":967847,"original_language":"en","original_title":"Ghostbusters:
+        by inevitable odds, one after the other.","popularity":5.206,"poster_path":"/2GL9yZtrgbYKCeKBc3TF9gGfZpX.jpg","release_date":"2007-07-21","title":"Frozen","video":false,"vote_average":7.2,"vote_count":4},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":950554,"original_language":"en","original_title":"Frozen","overview":"A
+        film by Adonia Bouchehri.","popularity":0.393,"poster_path":null,"release_date":"","title":"Frozen","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/wODqakS0jinTUECNS6n4VomQbew.jpg","genre_ids":[14,12,35],"id":967847,"original_language":"en","original_title":"Ghostbusters:
         Frozen Empire","overview":"When the discovery of an ancient artifact unleashes
         an evil force, Ghostbusters new and old must join forces to protect their
-        home and save the world from a second Ice Age.","popularity":224.752,"poster_path":"/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg","release_date":"2024-03-20","title":"Ghostbusters:
-        Frozen Empire","video":false,"vote_average":6.7,"vote_count":1062},{"adult":false,"backdrop_path":"/9PxXSAnbVfvFacsGTJu1aXEWVg7.jpg","genre_ids":[16,12,35,10751],"id":573171,"original_language":"es","original_title":"Huevitos
+        home and save the world from a second Ice Age.","popularity":231.397,"poster_path":"/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg","release_date":"2024-03-20","title":"Ghostbusters:
+        Frozen Empire","video":false,"vote_average":6.69,"vote_count":1064},{"adult":false,"backdrop_path":"/9PxXSAnbVfvFacsGTJu1aXEWVg7.jpg","genre_ids":[16,12,35,10751],"id":573171,"original_language":"es","original_title":"Huevitos
         Congelados","overview":"In the final Huevos adventure, Toto and his family
         will have to travel to the South Pole to fulfill their promise to return a
         polar bear and some Spanish penguins to their home. In order to do so, they
         will have to overcome some obstacles that will teach them how important teamwork
-        is.","popularity":53.342,"poster_path":"/8xCO3IarklLD4tK1rPn0e4gSMoV.jpg","release_date":"2022-12-14","title":"Little
+        is.","popularity":54.284,"poster_path":"/8xCO3IarklLD4tK1rPn0e4gSMoV.jpg","release_date":"2022-12-14","title":"Little
         Eggs: A Frozen Rescue","video":false,"vote_average":7.65,"vote_count":336},{"adult":false,"backdrop_path":"/9bvn5SWwAK6qB79UevNi0jqhfke.jpg","genre_ids":[18],"id":17903,"original_language":"ko","original_title":"쌍화점","overview":"A
         historical drama set in the Koryo dynasty and focused on the relationship
-        between a king and his bodyguard.","popularity":21.569,"poster_path":"/jvGmbNUh0eq9ShQmMSof0DXXHWY.jpg","release_date":"2008-12-30","title":"A
+        between a king and his bodyguard.","popularity":30.197,"poster_path":"/jvGmbNUh0eq9ShQmMSof0DXXHWY.jpg","release_date":"2008-12-30","title":"A
         Frozen Flower","video":false,"vote_average":6.89,"vote_count":136},{"adult":false,"backdrop_path":"/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg","genre_ids":[10751,16,12,35,14],"id":330457,"original_language":"en","original_title":"Frozen
         II","overview":"Elsa, Anna, Kristoff and Olaf head far into the forest to
-        learn the truth about an ancient mystery of their kingdom.","popularity":87.35,"poster_path":"/mINJaa34MtknCYl5AjtNJzWj8cD.jpg","release_date":"2019-11-20","title":"Frozen
-        II","video":false,"vote_average":7.262,"vote_count":9506},{"adult":false,"backdrop_path":"/9K1zhrS8jZ3NFZwzc5RgtwxskLT.jpg","genre_ids":[16,18,53,14],"id":566451,"original_language":"ja","original_title":"Re:ゼロから始める異世界生活
+        learn the truth about an ancient mystery of their kingdom.","popularity":74.113,"poster_path":"/mINJaa34MtknCYl5AjtNJzWj8cD.jpg","release_date":"2019-11-20","title":"Frozen
+        II","video":false,"vote_average":7.263,"vote_count":9507},{"adult":false,"backdrop_path":"/9K1zhrS8jZ3NFZwzc5RgtwxskLT.jpg","genre_ids":[16,18,53,14],"id":566451,"original_language":"ja","original_title":"Re:ゼロから始める異世界生活
         氷結の絆","overview":"Covered in ice and snow, Elior Forest is the home to dangerous
         magical beasts and 50 elves frozen in ice. One day, the great spirit Puck
         helps a young girl break out of her ice prison. Her name is Emilia, a half-elf
@@ -109,32 +109,32 @@ http_interactions:
         committing, she spends her days trying to find a way to help her frozen kin.
         But when the great spirit Melakuera, the Arbitrator of the world, finds Emilia,
         her right to stay alive is brought into question. Will the bonds of ice she
-        formed with Puck prove to be the warm thread that defies fate?","popularity":40.446,"poster_path":"/maF1pZONLuFu8bRaEvuxVgF14Ml.jpg","release_date":"2019-11-08","title":"Re:ZERO
+        formed with Puck prove to be the warm thread that defies fate?","popularity":35.577,"poster_path":"/maF1pZONLuFu8bRaEvuxVgF14Ml.jpg","release_date":"2019-11-08","title":"Re:ZERO
         -Starting Life in Another World- The Frozen Bond","video":false,"vote_average":7.5,"vote_count":179},{"adult":false,"backdrop_path":"/7nFkj8E1s7MRl7eqZLnszitoy0c.jpg","genre_ids":[16,10751],"id":431562,"original_language":"en","original_title":"LEGO
         Frozen Northern Lights","overview":"Elsa, Anna and friends search for the
-        Northern Lights.","popularity":23.335,"poster_path":"/jlk5MeGlNSiy773SWot9dGAQ2as.jpg","release_date":"2017-01-05","title":"LEGO
+        Northern Lights.","popularity":26.106,"poster_path":"/jlk5MeGlNSiy773SWot9dGAQ2as.jpg","release_date":"2017-01-05","title":"LEGO
         Frozen Northern Lights","video":false,"vote_average":6.584,"vote_count":95},{"adult":false,"backdrop_path":"/ic16B2KUfEFicIB3eiBUAYqrwz7.jpg","genre_ids":[16,10751,12,35],"id":326359,"original_language":"en","original_title":"Frozen
         Fever","overview":"On Anna''s birthday, Elsa and Kristoff are determined to
         give her the best celebration ever, but Elsa''s icy powers may put more than
-        just the party at risk.","popularity":29.337,"poster_path":"/mPrDJ7puYzPLG5kPM96iNszF2sM.jpg","release_date":"2015-03-09","title":"Frozen
+        just the party at risk.","popularity":25.905,"poster_path":"/mPrDJ7puYzPLG5kPM96iNszF2sM.jpg","release_date":"2015-03-09","title":"Frozen
         Fever","video":false,"vote_average":6.843,"vote_count":1790},{"adult":false,"backdrop_path":"/6tzHlmxmWs2ZXXdghMtFcBMB4cg.jpg","genre_ids":[16,10751,12,35,14],"id":460793,"original_language":"en","original_title":"Olaf''s
         Frozen Adventure","overview":"Olaf is on a mission to harness the best holiday
-        traditions for Anna, Elsa, and Kristoff.","popularity":26.496,"poster_path":"/As8WTtxXs9e3cBit3ztTf7zoRmm.jpg","release_date":"2017-10-27","title":"Olaf''s
+        traditions for Anna, Elsa, and Kristoff.","popularity":22.481,"poster_path":"/As8WTtxXs9e3cBit3ztTf7zoRmm.jpg","release_date":"2017-10-27","title":"Olaf''s
         Frozen Adventure","video":false,"vote_average":6.466,"vote_count":1401},{"adult":false,"backdrop_path":"/xLW4UQ4zYf7fHrei9pqx4fJsfKy.jpg","genre_ids":[53,80],"id":199373,"original_language":"en","original_title":"The
         Frozen Ground","overview":"An Alaska State Trooper partners with a young woman
         who escaped the clutches of serial killer Robert Hansen to bring the murderer
-        to justice. Based on actual events.","popularity":16.797,"poster_path":"/hHDj1h3lJvYd9Cervoswz9crhWg.jpg","release_date":"2013-07-11","title":"The
+        to justice. Based on actual events.","popularity":15.273,"poster_path":"/hHDj1h3lJvYd9Cervoswz9crhWg.jpg","release_date":"2013-07-11","title":"The
         Frozen Ground","video":false,"vote_average":6.271,"vote_count":1413},{"adult":false,"backdrop_path":"/53JTJ5G6CX8xrnb7OAlmCnfG67g.jpg","genre_ids":[35,18,10749],"id":369569,"original_language":"ka","original_title":"სხვისი
         სახლი","overview":"Does air temperature really matter for fountains to be
         frozen or melt? One just need to stop and look around... It''s a mosaic of
         several interrelated characters in search of their own happiness. It''s about
         hopes and disapointments, betrayal and forgivness... and of course it''s all
-        about love...","popularity":0.576,"poster_path":"/80CQ7H6rTDZmR2nAKpB83PFptH4.jpg","release_date":"2015-11-16","title":"The
+        about love...","popularity":0.806,"poster_path":"/80CQ7H6rTDZmR2nAKpB83PFptH4.jpg","release_date":"2015-11-16","title":"The
         Summer of Frozen Fountains","video":false,"vote_average":6.1,"vote_count":7},{"adult":false,"backdrop_path":"/xUHUpmcR7Cgp4GMq966R2kTpi7q.jpg","genre_ids":[18],"id":18279,"original_language":"fi","original_title":"Paha
         maa","overview":"When a schoolteacher is sacked, he projects his bad mood
         at his troubled teenage son. The son, in turn, buys a CD player from a pawnshop
         with counterfeit money. This starts a chain reaction of misery as every victim
-        projects his problems on to another person.","popularity":6.091,"poster_path":"/dTrzRNF1HKCBnHfq5XK3J500aGA.jpg","release_date":"2005-01-14","title":"Frozen
+        projects his problems on to another person.","popularity":8.527,"poster_path":"/dTrzRNF1HKCBnHfq5XK3J500aGA.jpg","release_date":"2005-01-14","title":"Frozen
         Land","video":false,"vote_average":6.9,"vote_count":56},{"adult":false,"backdrop_path":"/6IRztXkJZroYG2ZmOmtSi4mppfE.jpg","genre_ids":[14,53,10749],"id":95174,"original_language":"cn","original_title":"Wai
         Nei Chung Ching","overview":"A young 20-year-old-woman named Wing (Lan Wei)
         visits her grandfather''s laboratory in Hong Kong. By accident, Wing opens
@@ -146,24 +146,24 @@ http_interactions:
         newly acquainted mother and daughter duo then set out to find Gigi''s boyfriend
         Kit (Aarif Lee) who is also Wing''s biological father. When they find Kit,
         they learn that he''s not the same man as he was twenty years ago and, in
-        fact, a middle-aged homeless man who lives under a bridge ...","popularity":2.165,"poster_path":"/etDRhc599Q2JCaUu8k7ei2hqmgZ.jpg","release_date":"2010-09-02","title":"Frozen","video":false,"vote_average":6.0,"vote_count":1},{"adult":false,"backdrop_path":"/jtr93LYk6EITJzXH4RpTMOUtDU6.jpg","genre_ids":[18,35],"id":15303,"original_language":"sr","original_title":"Mrtav
+        fact, a middle-aged homeless man who lives under a bridge ...","popularity":3.031,"poster_path":"/etDRhc599Q2JCaUu8k7ei2hqmgZ.jpg","release_date":"2010-09-02","title":"Frozen","video":false,"vote_average":6.0,"vote_count":1},{"adult":false,"backdrop_path":"/jtr93LYk6EITJzXH4RpTMOUtDU6.jpg","genre_ids":[18,35],"id":15303,"original_language":"sr","original_title":"Mrtav
         ''ladan","overview":"The basic plot revolves around drug dealer Limeni and
         two men, Lemi and Kiza, who are trying to transport their dead grandfather
         for burial, until their car breaks down and they end up struggling to get
         him home onboard a train. This is when these two plots intersect and all hell
-        breaks loose.","popularity":11.181,"poster_path":"/hXbGz9XJy9HqxdJyursXIv4669x.jpg","release_date":"2002-03-15","title":"Frozen
+        breaks loose.","popularity":15.653,"poster_path":"/hXbGz9XJy9HqxdJyursXIv4669x.jpg","release_date":"2002-03-15","title":"Frozen
         Stiff","video":false,"vote_average":7.5,"vote_count":47},{"adult":false,"backdrop_path":"/zytEeKtncCKk2jnBaS89r0cQSlo.jpg","genre_ids":[10752,9648,18],"id":85434,"original_language":"es","original_title":"Silencio
         en la nieve","overview":"Russian front, winter 1943. Soldier Arturo Andrade
         and Sergeant Fernando Espinosa are commissioned to investigate a mysterious
         murder while the Spanish Blue Division of the German Army endures the fierce
-        counterattack of the Red Army.","popularity":2.883,"poster_path":"/753mxMXHKLXl9YUVxnpFH6OgaLQ.jpg","release_date":"2012-01-20","title":"Frozen
+        counterattack of the Red Army.","popularity":4.036,"poster_path":"/753mxMXHKLXl9YUVxnpFH6OgaLQ.jpg","release_date":"2012-01-20","title":"Frozen
         Silence","video":false,"vote_average":5.243,"vote_count":37},{"adult":false,"backdrop_path":"/tf1HhoUfQaRJ2Sdig5OB2NaQPTH.jpg","genre_ids":[99],"id":594676,"original_language":"th","original_title":"ความหวังแช่แข็ง:
         ขอเกิดอีกครั้ง","overview":"A Buddhist scientist from Bangkok decides to cryo-preserve
         his daughter''s brain. As scandal swirls around the family, they struggle
         to grieve a child that, in their view, is suspended between death and a future
-        reawakening.","popularity":2.288,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
+        reawakening.","popularity":3.203,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
         Frozen: A Quest To Live Twice","video":false,"vote_average":6.2,"vote_count":18}],"total_pages":12,"total_results":228}'
-  recorded_at: Thu, 04 Jul 2024 23:30:19 GMT
+  recorded_at: Fri, 05 Jul 2024 14:41:19 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/search/movie?api_key=<TMDB_API_KEY>&query=Frozen
@@ -188,37 +188,37 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
+      Date:
+      - Fri, 05 Jul 2024 13:46:25 GMT
       Server:
       - openresty
+      Cache-Control:
+      - public, max-age=19782
       X-Memc:
       - HIT
       X-Memc-Key:
       - 7f1425ce752faf04c9a666582e323023
       X-Memc-Age:
-      - '7914'
+      - '4316'
       X-Memc-Expires:
-      - '13936'
-      Date:
-      - Thu, 04 Jul 2024 22:39:32 GMT
-      Cache-Control:
-      - public, max-age=24741
+      - '19782'
       Etag:
-      - W/"13c3a46de9c9bd725311a0e4e5fc17d2"
+      - W/"85b56673986fbc884da396e8179e4370"
       Vary:
+      - Accept-Encoding,accept-encoding
       - Origin
-      - accept-encoding
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a70648d67d4a5a7f7eed7b14595ab4fe.cloudfront.net (CloudFront)
+      - 1.1 d09fd0ac0a8733df98f134da74eec098.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 6Xiw3Ueiiu95MaCaKa80vQcp5dCxdrlI2pnOwoIhhGFxpo4-FxQ4hg==
+      - dUNIboli4jno_NeiahNjvMC8hUWCLsHILpnauTpo1Oe0BbLo8U6i_w==
       Age:
-      - '3047'
+      - '3294'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg","genre_ids":[16,10751,12,14],"id":109445,"original_language":"en","original_title":"Frozen","overview":"Young
@@ -227,17 +227,17 @@ http_interactions:
         eternal winter that has fallen over the kingdom. She''s accompanied by ice
         delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure
         where she will find out what friendship, courage, family, and true love really
-        means.","popularity":120.74,"poster_path":"/itAKcobTYGpYT8Phwjd8c9hleTo.jpg","release_date":"2013-11-20","title":"Frozen","video":false,"vote_average":7.248,"vote_count":16185},{"adult":false,"backdrop_path":"/vD1yKObsRS2cvpmtuaCaMhr4zxe.jpg","genre_ids":[53],"id":44363,"original_language":"en","original_title":"Frozen","overview":"When
+        means.","popularity":116.615,"poster_path":"/itAKcobTYGpYT8Phwjd8c9hleTo.jpg","release_date":"2013-11-20","title":"Frozen","video":false,"vote_average":7.248,"vote_count":16186},{"adult":false,"backdrop_path":"/vD1yKObsRS2cvpmtuaCaMhr4zxe.jpg","genre_ids":[53],"id":44363,"original_language":"en","original_title":"Frozen","overview":"When
         three skiers find themselves stranded on a chair lift at a New England ski
         resort that has closed for the next week, they are forced to make life or
         death choices that prove to be more perilous than staying put and freezing
-        to death.","popularity":22.485,"poster_path":"/2J3URUnDrIpNvh0uVqINQvr4HhW.jpg","release_date":"2010-02-05","title":"Frozen","video":false,"vote_average":5.984,"vote_count":1759},{"adult":false,"backdrop_path":"/sGjhRHNiQSkgVec18D3oX45hPmz.jpg","genre_ids":[53],"id":26041,"original_language":"en","original_title":"Frozen","overview":"It''s
+        to death.","popularity":18.375,"poster_path":"/2J3URUnDrIpNvh0uVqINQvr4HhW.jpg","release_date":"2010-02-05","title":"Frozen","video":false,"vote_average":5.985,"vote_count":1760},{"adult":false,"backdrop_path":"/sGjhRHNiQSkgVec18D3oX45hPmz.jpg","genre_ids":[53],"id":26041,"original_language":"en","original_title":"Frozen","overview":"It''s
         two years since the mysterious disappearance of Kath Swarbrick''s older sister
         Annie, but Kath remains haunted by a need to know what happened. When police
         investigations wind down, Kath continues the search herself. She gets nowhere
         until she steals some CCTV footage of her sister on her final day. Visiting
         the spot where Annie was filmed, Kath becomes convinced she has found a portal
-        to another reality and from this portal Kath is trying to say something.","popularity":5.772,"poster_path":"/a6RlPQUerliQLkAieku5B8Loamk.jpg","release_date":"2005-03-12","title":"Frozen","video":false,"vote_average":5.7,"vote_count":18},{"adult":false,"backdrop_path":null,"genre_ids":[18,27],"id":170986,"original_language":"hi","original_title":"Frozen","overview":"This
+        to another reality and from this portal Kath is trying to say something.","popularity":4.907,"poster_path":"/a6RlPQUerliQLkAieku5B8Loamk.jpg","release_date":"2005-03-12","title":"Frozen","video":false,"vote_average":5.7,"vote_count":18},{"adult":false,"backdrop_path":null,"genre_ids":[18,27],"id":170986,"original_language":"hi","original_title":"Frozen","overview":"This
         is a touching and somber journey of Lasya, who lives with her father Karma
         and younger brother Chomo in a remote village in the Himalayas. Pristine snow
         capped mountains surround their tiny hamlet and barren harsh land stretches
@@ -245,24 +245,24 @@ http_interactions:
         across their doorstep. The last bit of comfort the family draws from their
         familiar surroundings changes into a harsh ceaseless irreversible conflict.
         The film depicts the life of this family whose dream like existence is interrupted
-        by inevitable odds, one after the other.","popularity":3.896,"poster_path":"/2GL9yZtrgbYKCeKBc3TF9gGfZpX.jpg","release_date":"2007-07-21","title":"Frozen","video":false,"vote_average":7.2,"vote_count":4},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":950554,"original_language":"en","original_title":"Frozen","overview":"A
-        film by Adonia Bouchehri.","popularity":0.281,"poster_path":null,"release_date":"","title":"Frozen","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/wODqakS0jinTUECNS6n4VomQbew.jpg","genre_ids":[14,12,35],"id":967847,"original_language":"en","original_title":"Ghostbusters:
+        by inevitable odds, one after the other.","popularity":5.206,"poster_path":"/2GL9yZtrgbYKCeKBc3TF9gGfZpX.jpg","release_date":"2007-07-21","title":"Frozen","video":false,"vote_average":7.2,"vote_count":4},{"adult":false,"backdrop_path":null,"genre_ids":[],"id":950554,"original_language":"en","original_title":"Frozen","overview":"A
+        film by Adonia Bouchehri.","popularity":0.393,"poster_path":null,"release_date":"","title":"Frozen","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/wODqakS0jinTUECNS6n4VomQbew.jpg","genre_ids":[14,12,35],"id":967847,"original_language":"en","original_title":"Ghostbusters:
         Frozen Empire","overview":"When the discovery of an ancient artifact unleashes
         an evil force, Ghostbusters new and old must join forces to protect their
-        home and save the world from a second Ice Age.","popularity":224.752,"poster_path":"/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg","release_date":"2024-03-20","title":"Ghostbusters:
-        Frozen Empire","video":false,"vote_average":6.7,"vote_count":1062},{"adult":false,"backdrop_path":"/9PxXSAnbVfvFacsGTJu1aXEWVg7.jpg","genre_ids":[16,12,35,10751],"id":573171,"original_language":"es","original_title":"Huevitos
+        home and save the world from a second Ice Age.","popularity":231.397,"poster_path":"/e1J2oNzSBdou01sUvriVuoYp0pJ.jpg","release_date":"2024-03-20","title":"Ghostbusters:
+        Frozen Empire","video":false,"vote_average":6.69,"vote_count":1064},{"adult":false,"backdrop_path":"/9PxXSAnbVfvFacsGTJu1aXEWVg7.jpg","genre_ids":[16,12,35,10751],"id":573171,"original_language":"es","original_title":"Huevitos
         Congelados","overview":"In the final Huevos adventure, Toto and his family
         will have to travel to the South Pole to fulfill their promise to return a
         polar bear and some Spanish penguins to their home. In order to do so, they
         will have to overcome some obstacles that will teach them how important teamwork
-        is.","popularity":53.342,"poster_path":"/8xCO3IarklLD4tK1rPn0e4gSMoV.jpg","release_date":"2022-12-14","title":"Little
+        is.","popularity":54.284,"poster_path":"/8xCO3IarklLD4tK1rPn0e4gSMoV.jpg","release_date":"2022-12-14","title":"Little
         Eggs: A Frozen Rescue","video":false,"vote_average":7.65,"vote_count":336},{"adult":false,"backdrop_path":"/9bvn5SWwAK6qB79UevNi0jqhfke.jpg","genre_ids":[18],"id":17903,"original_language":"ko","original_title":"쌍화점","overview":"A
         historical drama set in the Koryo dynasty and focused on the relationship
-        between a king and his bodyguard.","popularity":21.569,"poster_path":"/jvGmbNUh0eq9ShQmMSof0DXXHWY.jpg","release_date":"2008-12-30","title":"A
+        between a king and his bodyguard.","popularity":30.197,"poster_path":"/jvGmbNUh0eq9ShQmMSof0DXXHWY.jpg","release_date":"2008-12-30","title":"A
         Frozen Flower","video":false,"vote_average":6.89,"vote_count":136},{"adult":false,"backdrop_path":"/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg","genre_ids":[10751,16,12,35,14],"id":330457,"original_language":"en","original_title":"Frozen
         II","overview":"Elsa, Anna, Kristoff and Olaf head far into the forest to
-        learn the truth about an ancient mystery of their kingdom.","popularity":87.35,"poster_path":"/mINJaa34MtknCYl5AjtNJzWj8cD.jpg","release_date":"2019-11-20","title":"Frozen
-        II","video":false,"vote_average":7.262,"vote_count":9506},{"adult":false,"backdrop_path":"/9K1zhrS8jZ3NFZwzc5RgtwxskLT.jpg","genre_ids":[16,18,53,14],"id":566451,"original_language":"ja","original_title":"Re:ゼロから始める異世界生活
+        learn the truth about an ancient mystery of their kingdom.","popularity":74.113,"poster_path":"/mINJaa34MtknCYl5AjtNJzWj8cD.jpg","release_date":"2019-11-20","title":"Frozen
+        II","video":false,"vote_average":7.263,"vote_count":9507},{"adult":false,"backdrop_path":"/9K1zhrS8jZ3NFZwzc5RgtwxskLT.jpg","genre_ids":[16,18,53,14],"id":566451,"original_language":"ja","original_title":"Re:ゼロから始める異世界生活
         氷結の絆","overview":"Covered in ice and snow, Elior Forest is the home to dangerous
         magical beasts and 50 elves frozen in ice. One day, the great spirit Puck
         helps a young girl break out of her ice prison. Her name is Emilia, a half-elf
@@ -273,32 +273,32 @@ http_interactions:
         committing, she spends her days trying to find a way to help her frozen kin.
         But when the great spirit Melakuera, the Arbitrator of the world, finds Emilia,
         her right to stay alive is brought into question. Will the bonds of ice she
-        formed with Puck prove to be the warm thread that defies fate?","popularity":40.446,"poster_path":"/maF1pZONLuFu8bRaEvuxVgF14Ml.jpg","release_date":"2019-11-08","title":"Re:ZERO
+        formed with Puck prove to be the warm thread that defies fate?","popularity":35.577,"poster_path":"/maF1pZONLuFu8bRaEvuxVgF14Ml.jpg","release_date":"2019-11-08","title":"Re:ZERO
         -Starting Life in Another World- The Frozen Bond","video":false,"vote_average":7.5,"vote_count":179},{"adult":false,"backdrop_path":"/7nFkj8E1s7MRl7eqZLnszitoy0c.jpg","genre_ids":[16,10751],"id":431562,"original_language":"en","original_title":"LEGO
         Frozen Northern Lights","overview":"Elsa, Anna and friends search for the
-        Northern Lights.","popularity":23.335,"poster_path":"/jlk5MeGlNSiy773SWot9dGAQ2as.jpg","release_date":"2017-01-05","title":"LEGO
+        Northern Lights.","popularity":26.106,"poster_path":"/jlk5MeGlNSiy773SWot9dGAQ2as.jpg","release_date":"2017-01-05","title":"LEGO
         Frozen Northern Lights","video":false,"vote_average":6.584,"vote_count":95},{"adult":false,"backdrop_path":"/ic16B2KUfEFicIB3eiBUAYqrwz7.jpg","genre_ids":[16,10751,12,35],"id":326359,"original_language":"en","original_title":"Frozen
         Fever","overview":"On Anna''s birthday, Elsa and Kristoff are determined to
         give her the best celebration ever, but Elsa''s icy powers may put more than
-        just the party at risk.","popularity":29.337,"poster_path":"/mPrDJ7puYzPLG5kPM96iNszF2sM.jpg","release_date":"2015-03-09","title":"Frozen
+        just the party at risk.","popularity":25.905,"poster_path":"/mPrDJ7puYzPLG5kPM96iNszF2sM.jpg","release_date":"2015-03-09","title":"Frozen
         Fever","video":false,"vote_average":6.843,"vote_count":1790},{"adult":false,"backdrop_path":"/6tzHlmxmWs2ZXXdghMtFcBMB4cg.jpg","genre_ids":[16,10751,12,35,14],"id":460793,"original_language":"en","original_title":"Olaf''s
         Frozen Adventure","overview":"Olaf is on a mission to harness the best holiday
-        traditions for Anna, Elsa, and Kristoff.","popularity":26.496,"poster_path":"/As8WTtxXs9e3cBit3ztTf7zoRmm.jpg","release_date":"2017-10-27","title":"Olaf''s
+        traditions for Anna, Elsa, and Kristoff.","popularity":22.481,"poster_path":"/As8WTtxXs9e3cBit3ztTf7zoRmm.jpg","release_date":"2017-10-27","title":"Olaf''s
         Frozen Adventure","video":false,"vote_average":6.466,"vote_count":1401},{"adult":false,"backdrop_path":"/xLW4UQ4zYf7fHrei9pqx4fJsfKy.jpg","genre_ids":[53,80],"id":199373,"original_language":"en","original_title":"The
         Frozen Ground","overview":"An Alaska State Trooper partners with a young woman
         who escaped the clutches of serial killer Robert Hansen to bring the murderer
-        to justice. Based on actual events.","popularity":16.797,"poster_path":"/hHDj1h3lJvYd9Cervoswz9crhWg.jpg","release_date":"2013-07-11","title":"The
+        to justice. Based on actual events.","popularity":15.273,"poster_path":"/hHDj1h3lJvYd9Cervoswz9crhWg.jpg","release_date":"2013-07-11","title":"The
         Frozen Ground","video":false,"vote_average":6.271,"vote_count":1413},{"adult":false,"backdrop_path":"/53JTJ5G6CX8xrnb7OAlmCnfG67g.jpg","genre_ids":[35,18,10749],"id":369569,"original_language":"ka","original_title":"სხვისი
         სახლი","overview":"Does air temperature really matter for fountains to be
         frozen or melt? One just need to stop and look around... It''s a mosaic of
         several interrelated characters in search of their own happiness. It''s about
         hopes and disapointments, betrayal and forgivness... and of course it''s all
-        about love...","popularity":0.576,"poster_path":"/80CQ7H6rTDZmR2nAKpB83PFptH4.jpg","release_date":"2015-11-16","title":"The
+        about love...","popularity":0.806,"poster_path":"/80CQ7H6rTDZmR2nAKpB83PFptH4.jpg","release_date":"2015-11-16","title":"The
         Summer of Frozen Fountains","video":false,"vote_average":6.1,"vote_count":7},{"adult":false,"backdrop_path":"/xUHUpmcR7Cgp4GMq966R2kTpi7q.jpg","genre_ids":[18],"id":18279,"original_language":"fi","original_title":"Paha
         maa","overview":"When a schoolteacher is sacked, he projects his bad mood
         at his troubled teenage son. The son, in turn, buys a CD player from a pawnshop
         with counterfeit money. This starts a chain reaction of misery as every victim
-        projects his problems on to another person.","popularity":6.091,"poster_path":"/dTrzRNF1HKCBnHfq5XK3J500aGA.jpg","release_date":"2005-01-14","title":"Frozen
+        projects his problems on to another person.","popularity":8.527,"poster_path":"/dTrzRNF1HKCBnHfq5XK3J500aGA.jpg","release_date":"2005-01-14","title":"Frozen
         Land","video":false,"vote_average":6.9,"vote_count":56},{"adult":false,"backdrop_path":"/6IRztXkJZroYG2ZmOmtSi4mppfE.jpg","genre_ids":[14,53,10749],"id":95174,"original_language":"cn","original_title":"Wai
         Nei Chung Ching","overview":"A young 20-year-old-woman named Wing (Lan Wei)
         visits her grandfather''s laboratory in Hong Kong. By accident, Wing opens
@@ -310,22 +310,22 @@ http_interactions:
         newly acquainted mother and daughter duo then set out to find Gigi''s boyfriend
         Kit (Aarif Lee) who is also Wing''s biological father. When they find Kit,
         they learn that he''s not the same man as he was twenty years ago and, in
-        fact, a middle-aged homeless man who lives under a bridge ...","popularity":2.165,"poster_path":"/etDRhc599Q2JCaUu8k7ei2hqmgZ.jpg","release_date":"2010-09-02","title":"Frozen","video":false,"vote_average":6.0,"vote_count":1},{"adult":false,"backdrop_path":"/jtr93LYk6EITJzXH4RpTMOUtDU6.jpg","genre_ids":[18,35],"id":15303,"original_language":"sr","original_title":"Mrtav
+        fact, a middle-aged homeless man who lives under a bridge ...","popularity":3.031,"poster_path":"/etDRhc599Q2JCaUu8k7ei2hqmgZ.jpg","release_date":"2010-09-02","title":"Frozen","video":false,"vote_average":6.0,"vote_count":1},{"adult":false,"backdrop_path":"/jtr93LYk6EITJzXH4RpTMOUtDU6.jpg","genre_ids":[18,35],"id":15303,"original_language":"sr","original_title":"Mrtav
         ''ladan","overview":"The basic plot revolves around drug dealer Limeni and
         two men, Lemi and Kiza, who are trying to transport their dead grandfather
         for burial, until their car breaks down and they end up struggling to get
         him home onboard a train. This is when these two plots intersect and all hell
-        breaks loose.","popularity":11.181,"poster_path":"/hXbGz9XJy9HqxdJyursXIv4669x.jpg","release_date":"2002-03-15","title":"Frozen
+        breaks loose.","popularity":15.653,"poster_path":"/hXbGz9XJy9HqxdJyursXIv4669x.jpg","release_date":"2002-03-15","title":"Frozen
         Stiff","video":false,"vote_average":7.5,"vote_count":47},{"adult":false,"backdrop_path":"/zytEeKtncCKk2jnBaS89r0cQSlo.jpg","genre_ids":[10752,9648,18],"id":85434,"original_language":"es","original_title":"Silencio
         en la nieve","overview":"Russian front, winter 1943. Soldier Arturo Andrade
         and Sergeant Fernando Espinosa are commissioned to investigate a mysterious
         murder while the Spanish Blue Division of the German Army endures the fierce
-        counterattack of the Red Army.","popularity":2.883,"poster_path":"/753mxMXHKLXl9YUVxnpFH6OgaLQ.jpg","release_date":"2012-01-20","title":"Frozen
+        counterattack of the Red Army.","popularity":4.036,"poster_path":"/753mxMXHKLXl9YUVxnpFH6OgaLQ.jpg","release_date":"2012-01-20","title":"Frozen
         Silence","video":false,"vote_average":5.243,"vote_count":37},{"adult":false,"backdrop_path":"/tf1HhoUfQaRJ2Sdig5OB2NaQPTH.jpg","genre_ids":[99],"id":594676,"original_language":"th","original_title":"ความหวังแช่แข็ง:
         ขอเกิดอีกครั้ง","overview":"A Buddhist scientist from Bangkok decides to cryo-preserve
         his daughter''s brain. As scandal swirls around the family, they struggle
         to grieve a child that, in their view, is suspended between death and a future
-        reawakening.","popularity":2.288,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
+        reawakening.","popularity":3.203,"poster_path":"/co5OvO1gICmqpqmhhpiIYpo5xRw.jpg","release_date":"2018-06-15","title":"Hope
         Frozen: A Quest To Live Twice","video":false,"vote_average":6.2,"vote_count":18}],"total_pages":12,"total_results":228}'
-  recorded_at: Thu, 04 Jul 2024 23:30:19 GMT
+  recorded_at: Fri, 05 Jul 2024 14:41:19 GMT
 recorded_with: VCR 6.2.0

@@ -49,7 +49,7 @@ RSpec.describe Movie do
   describe "#instance_methods" do
     describe "#format_runtime" do
       it "formats the given runtime to hours and minutes" do
-        expect(@movie.format_runtime).to eq("2 hours 14 minutes")
+        expect(@movie.format_runtime).to eq("2hr 14min")
       end
     end
 

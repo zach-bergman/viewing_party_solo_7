@@ -18,3 +18,160 @@
    border: 1px solid #000;
    padding: 15px;
 }
+
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+color: #333;
+text-align: center;
+margin-top: 20px;
+}
+
+h2 {
+color: #555;
+}
+
+.section {
+width: 80%;
+margin: 0 auto;
+padding: 20px;
+}
+
+.viewing_parties {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.invited_parties, .host_parties {
+background: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+width: 48%;
+margin-bottom: 20px;
+padding: 15px;
+}
+
+.party_1, .party_2 {
+margin-bottom: 20px;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+.party_1:last-child, .party_2:last-child {
+border-bottom: none;
+}
+
+img {
+max-width: 100%;
+border-radius: 5px;
+}
+
+a {
+color: #007BFF;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+p {
+margin: 5px 0;
+}
+
+.invited_users ol {
+padding-left: 20px;
+}
+
+.invited_users li {
+margin: 3px 0;
+}
+
+strong {
+color: #007BFF;
+}
+
+.movie_list {
+   list-style-type: none;
+   padding: 0;
+}
+
+.movie_info {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+.movie_title {
+flex: 1;
+text-align: left;
+}
+
+.movie_vote {
+flex: 0 0 200px;
+text-align: right;
+}
+
+.movie_info a {
+text-decoration: none;
+color: #000;
+}
+
+.movie_info a:hover {
+text-decoration: underline;
+}
+
+.create_party_form {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   background-color: #f9f9f9;
+}
+
+.create_party_form h3 {
+margin-bottom: 20px;
+color: #333;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.form-group input {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.submit-button {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.submit-button:hover {
+background-color: #45a049;
+}

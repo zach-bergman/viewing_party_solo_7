@@ -9,7 +9,7 @@ class MovieFacade
   end
   
   def movies
-    results = @service.movie_search(@search)
+    results = (@search.nil? ? @service.get_top_rated_movies : @service.movie_search(@search))
     
     movies = results.map { |movie_data| Movie.new(movie_data) }
     

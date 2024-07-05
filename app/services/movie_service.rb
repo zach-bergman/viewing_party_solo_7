@@ -25,4 +25,8 @@ class MovieService
   def get_similar_movies(id)
     get_url("movie/#{id}/similar")[:results]
   end
+
+  def get_top_rated_movies
+    get_url("movie/top_rated")[:results]
+  end
 end

@@ -25,124 +25,129 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Jul 2024 19:18:00 GMT
+      - Fri, 05 Jul 2024 13:46:26 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=19302
+      - public, max-age=17660
       X-Memc:
       - HIT
       X-Memc-Key:
       - e0d37035b8a756c8b2af8edc5fdcc39b
       X-Memc-Age:
-      - '6892'
+      - '8732'
       X-Memc-Expires:
-      - '19302'
+      - '17660'
       Etag:
-      - W/"4c03a2196f48f30d30c69c45ce0fb981"
+      - W/"3f1d6f87f13796a1a9c6f946b73cc0fa"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 5d351175d5947d478733fbecdab866f6.cloudfront.net (CloudFront)
+      - 1.1 d9fe97589e952f97209f7a422c89d876.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - StSDFyjABYXI2XR_y7VvIoCt93oow10AFd-SMsko1ucHpZREJJE7Fw==
+      - 1NNGoFWDsdJmKx3A1EMmuS_NNNH9kCFIMpwrdFUFipyf3XD7XiTmUg==
       Age:
-      - '15151'
+      - '3304'
     body:
       encoding: UTF-8
-      string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/7jQf9wRUwXdi7Mgo2wPnnYw76GQ.jpg","genre_ids":[18,28,35,53],"id":11556,"original_language":"es","original_title":"Nicotina","overview":"A
-        hacker who is spying on a pretty neighbour messes up his assignment to break
-        into Swiss bank accounts for Russian mobsters.","popularity":11.81,"poster_path":"/Y5O3hU5DpH4Kz1wcPDumGjTkxb.jpg","release_date":"2003-10-03","title":"Nicotina","video":false,"vote_average":6.451,"vote_count":82},{"adult":false,"backdrop_path":"/25uFrOg2psCxLtzY4nDCMz9CIvC.jpg","genre_ids":[18,9648,53,80],"id":11560,"original_language":"en","original_title":"High
-        Crimes","overview":"A female attorney learns that her husband is really a
-        marine officer awol for fifteen years and accused of murdering fifteen civilians
-        in El Salvador. Believing her husband when he tells her that he''s being framed
-        as part of a U.S. Military cover-up, the attorney defends him in a military
-        court.","popularity":39.711,"poster_path":"/9sj9rUr7Vu5IfOQHnYKnJuVEw0B.jpg","release_date":"2002-04-05","title":"High
-        Crimes","video":false,"vote_average":6.345,"vote_count":759},{"adult":false,"backdrop_path":"/ke6cDBFg4IPb8MWjPOBlIhtosQ0.jpg","genre_ids":[28,80,18,53],"id":11564,"original_language":"en","original_title":"Class
-        of 1984","overview":"Andy is a new teacher at an inner city high school that
-        is unlike any he has seen before. There are metal detectors at the front door
-        and the place is basically run by a tough kid named Peter Stegman. Soon, Andy
-        and Stegman become enemies and Stegman will stop at nothing to protect his
-        turf and drug dealing business.","popularity":13.765,"poster_path":"/zaPeoSMiWM23g2M8qVMfNJdEeQa.jpg","release_date":"1982-08-20","title":"Class
-        of 1984","video":false,"vote_average":6.426,"vote_count":331},{"adult":false,"backdrop_path":"/reKKVrgeaKozpODdLCbhEQAhN0x.jpg","genre_ids":[53,9648,878,18],"id":11588,"original_language":"en","original_title":"The
-        I Inside","overview":"Simon Cable wakes up in a hospital bed, confused and
-        disoriented. He soon discovers from doctors that he has amnesia and is unable
-        to remember the last two years of his life. Cable investigates what has happened
-        to him and slowly pieces together his enigmatic past.","popularity":9.361,"poster_path":"/6uHG4HpORiTVq2PVT6s5nzvJGzh.jpg","release_date":"2004-01-15","title":"The
-        I Inside","video":false,"vote_average":5.976,"vote_count":252},{"adult":false,"backdrop_path":"/dwxhN4acPEA0xIFduHJ7RfS6SvV.jpg","genre_ids":[27,9648,53],"id":11601,"original_language":"en","original_title":"Stir
-        of Echoes","overview":"After being hypnotized by his sister-in-law, Tom Witzky
-        begins seeing haunting visions of a girl''s ghost and a mystery begins to
-        unfold around her.","popularity":18.32,"poster_path":"/9CyJ5aYF27cITX1WSUTENeP4wBE.jpg","release_date":"1999-09-10","title":"Stir
-        of Echoes","video":false,"vote_average":6.68,"vote_count":1165},{"adult":false,"backdrop_path":"/1e45m6B7KWX5HjdBjm2K6XStTUF.jpg","genre_ids":[18,53,10770],"id":11603,"original_language":"en","original_title":"Rear
-        Window","overview":"Jason Kemp is a quadriplegic who passes the time spying
-        on his neighbors from his window. By chance he catches one of them, Julian
-        Thorpe, beating his wife and reports it to the police. He becomes certain
-        that Julian has killed her, but fails to convince his nurse or his friends
-        of any foul play.","popularity":12.031,"poster_path":"/zmbPjkZhlnt0JEOU9xMYtbjNXuL.jpg","release_date":"1998-11-22","title":"Rear
-        Window","video":false,"vote_average":5.5,"vote_count":99},{"adult":false,"backdrop_path":"/v5k7ek69SKPH2r7BNzZhn5GyB9i.jpg","genre_ids":[80,28,35],"id":11612,"original_language":"it","original_title":"Anche
-        gli angeli mangiano fagioli","overview":"Two mismatched buddies are mistaken
-        for mob enforcers in Depression-era America.","popularity":9.706,"poster_path":"/hEeC0pFHZ4gK13czO0BJHwDpdzI.jpg","release_date":"1973-03-22","title":"Even
-        Angels Eat Beans","video":false,"vote_average":6.428,"vote_count":207},{"adult":false,"backdrop_path":"/1h1oKWZM4ZCDneEXLJ8fd3wsPPa.jpg","genre_ids":[28,35,80],"id":11613,"original_language":"it","original_title":"Cane
-        e gatto","overview":"A Lothario (Tomas Milian), in trouble for fooling around
-        with a Senator''s wife, becomes an unwitting witness to a mob murder. Police
-        Lieutenant Parker (Bud Spencer) tries to solve the case in enough time to
-        take his long-suffering family on vacation.","popularity":9.333,"poster_path":"/zs81YnizFSwcNZHxUyCY7CCjSH5.jpg","release_date":"1983-02-11","title":"Thieves
-        and Robbers","video":false,"vote_average":6.222,"vote_count":116},{"adult":false,"backdrop_path":"/zXrCizgblz8SGoYgLGw4laib9GL.jpg","genre_ids":[28,35,18],"id":11614,"original_language":"it","original_title":"Bomber","overview":"Bomber
-        is an unemployed boat captain. One day he meets Jerry, a manager of boxers
-        who are struck by the force of his fists. That is when they see the chance
-        to win big money.","popularity":18.654,"poster_path":"/n82A7mfaWZHajDo2VhYyQpRbwvu.jpg","release_date":"1982-08-05","title":"Bomber","video":false,"vote_average":6.418,"vote_count":261},{"adult":false,"backdrop_path":"/88wEXW9NIURi496KrIgD50dw87l.jpg","genre_ids":[18,53,80],"id":11615,"original_language":"en","original_title":"The
-        Life of David Gale","overview":"A man against capital punishment is accused
-        of murdering a fellow activist and is sent to death row.","popularity":17.941,"poster_path":"/7tcAvE82JyxIi79cwQV5br90KVz.jpg","release_date":"2003-02-21","title":"The
-        Life of David Gale","video":false,"vote_average":7.423,"vote_count":1954},{"adult":false,"backdrop_path":null,"genre_ids":[80,9648,53],"id":241766,"original_language":"en","original_title":"Lords
-        of London","overview":"Tony is a notorious gangster with a big problem. He
-        has woken up in an abandoned farmhouse, with blood on his shirt, and no memory
-        of how he got there. He stumbles into a small town and discovers he’s in an
-        Italian village that seems to be lost in time.","popularity":3.868,"poster_path":"/sB6QoN9BlRnXEeN5KXiIuFthjnT.jpg","release_date":"2014-01-06","title":"Lords
-        of London","video":false,"vote_average":3.7,"vote_count":13},{"adult":false,"backdrop_path":"/v4kcnmWdu8AmNncx4WmBn05JotZ.jpg","genre_ids":[9648,53,28],"id":241848,"original_language":"en","original_title":"The
-        Guest","overview":"A soldier introduces himself to the Peterson family, claiming
-        to be a friend of their son who died in action. After the young man is welcomed
-        into their home, a series of accidental deaths seem to be connected to his
-        presence.","popularity":48.586,"poster_path":"/6zyl8uGWYjcCb8CJVMk7BZK0SfU.jpg","release_date":"2014-09-05","title":"The
-        Guest","video":false,"vote_average":6.659,"vote_count":1888},{"adult":false,"backdrop_path":"/ntsJFh4DMY3u2YUqanr5pYiJvFN.jpg","genre_ids":[27,53],"id":10984,"original_language":"en","original_title":"Valentine","overview":"Four
-        friends start to receive morbid Valentine cards and realise they are being
-        stalked by someone they had spurned 13 years ago. A masked killer is on the
-        loose and Valentine''s day is soon approaching.","popularity":31.704,"poster_path":"/jMtWV4FixMGTgUjbr9NFVEANGYQ.jpg","release_date":"2001-02-02","title":"Valentine","video":false,"vote_average":5.542,"vote_count":524},{"adult":false,"backdrop_path":"/cFFCNDLLJqPIsQDMH9dlniYDiIT.jpg","genre_ids":[27,53],"id":10987,"original_language":"en","original_title":"Halloween:
-        The Curse of Michael Myers","overview":"Six years after being kidnapped by
-        a cult, Jamie tries to escape the clutches of her serial killer uncle, Michael
-        Myers.","popularity":21.192,"poster_path":"/noCnM8nEI2bEDSdKHh0RKbwBwbC.jpg","release_date":"1995-09-29","title":"Halloween:
-        The Curse of Michael Myers","video":false,"vote_average":5.169,"vote_count":1058},{"adult":false,"backdrop_path":"/m2SXRnAd0d5N6qH2cbgluRgMX4z.jpg","genre_ids":[80,53],"id":11016,"original_language":"en","original_title":"Key
-        Largo","overview":"A hurricane swells outside, but it''s nothing compared
-        to the storm within the hotel at Key Largo. There, sadistic mobster Johnny
-        Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed
-        daughter-in-law Nora, and ex-GI Frank McCloud.","popularity":19.974,"poster_path":"/9ZhQ9iMUtck9DvKm7mfB2332fRr.jpg","release_date":"1948-07-16","title":"Key
-        Largo","video":false,"vote_average":7.485,"vote_count":513},{"adult":false,"backdrop_path":"/nd6CVurZnDebDXYOuWI5eNjnFLb.jpg","genre_ids":[80,10749,18,53],"id":11027,"original_language":"en","original_title":"The
-        Postman Always Rings Twice","overview":"The sensuous wife of a lunch wagon
-        proprietor and a rootless drifter begin a sordidly steamy affair and conspire
-        to murder her Greek husband.","popularity":13.278,"poster_path":"/xH3sEe7AVQ1bevdKVoBqdXWu3f5.jpg","release_date":"1981-03-20","title":"The
-        Postman Always Rings Twice","video":false,"vote_average":6.546,"vote_count":475},{"adult":false,"backdrop_path":"/mgkzNXXo94ISnkqlU4Ee4K221Tq.jpg","genre_ids":[18,28,80,9648],"id":11028,"original_language":"en","original_title":"The
-        Big Easy","overview":"Remy McSwain is a New Orleans police lieutenant who
-        investigates the murder of a local mobster. His investigation leads him to
-        suspect that fellow members of the police force may be involved.","popularity":12.165,"poster_path":"/h1zSdBuPRtKAD5R95dMQKMs5NyT.jpg","release_date":"1986-11-27","title":"The
-        Big Easy","video":false,"vote_average":6.2,"vote_count":179},{"adult":false,"backdrop_path":"/wmHfg56pvzmLCXz5Gs9D7d5rjvG.jpg","genre_ids":[9648,53,27],"id":11033,"original_language":"en","original_title":"Dressed
-        to Kill","overview":"After witnessing a mysterious woman brutally slay a homemaker,
-        prostitute Liz Blake finds herself trapped in a dangerous situation. While
-        the police thinks she is the murderer, the real killer is intent on silencing
-        her only witness.","popularity":23.318,"poster_path":"/oy1m5dd44foNrxV8U9l6Walx82V.jpg","release_date":"1980-07-25","title":"Dressed
-        to Kill","video":false,"vote_average":6.926,"vote_count":874},{"adult":false,"backdrop_path":"/2GK6KVgIAKrqjqg9VPAm5qdOly.jpg","genre_ids":[28,35,53,18],"id":11053,"original_language":"it","original_title":"Piedone
-        a Hong Kong","overview":"Inspector Rizzo is accused of drug trafficking. In
-        order to clear his name he has to find out who is the person, from a Mafia
-        ring, who has infiltrated his police department.","popularity":11.489,"poster_path":"/pQuv3NrVxFFAtkVrcoHtNM8qHSt.jpg","release_date":"1975-03-28","title":"Flatfoot
-        in Hong Kong","video":false,"vote_average":6.1,"vote_count":129},{"adult":false,"backdrop_path":"/fNkt4S5iXgBD4ea5bP9MZRHO8su.jpg","genre_ids":[27,53],"id":11186,"original_language":"en","original_title":"Child''s
-        Play 2","overview":"Chucky is reconstructed by a toy factory to dispel the
-        negative publicity surrounding the doll, and tracks young Andy Barclay to
-        a foster home where the chase begins again.","popularity":33.088,"poster_path":"/tFcol3qTcL5ImNRbcGLSsLPTTv1.jpg","release_date":"1990-11-09","title":"Child''s
-        Play 2","video":false,"vote_average":6.287,"vote_count":1757}],"total_pages":4346,"total_results":86903}'
-  recorded_at: Thu, 04 Jul 2024 23:30:31 GMT
+      string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/lp8pxl0L0GPTPfLifhox83wFv5H.jpg","genre_ids":[18,53],"id":389301,"original_language":"en","original_title":"Madtown","overview":"A
+        stand-up comedian confesses to a murder on-stage at an open mic night to a
+        shocked audience - his crime the result of a deadly triangle formed between
+        his older sister, just released from prison after a 20-year stay for the murder
+        of their parents, the loving bond he now shares with a caring surrogate family,
+        and the ultimate choice he must make between them - his dysfunctional blood
+        ties with his own sister, or his picturesque view of the ideal family.","popularity":5.389,"poster_path":"/i5FctRgBTs0Dleo7VkwtZgoCEKX.jpg","release_date":"2016-03-31","title":"Madtown","video":false,"vote_average":5.7,"vote_count":24},{"adult":false,"backdrop_path":"/bmQsHhCOCWBWxhsi3jhd0qBf4C2.jpg","genre_ids":[80,35,53],"id":1021130,"original_language":"bn","original_title":"হুব্বা","overview":"The
+        notorious Bimal Mandal, who ruled the Rishra-Hindmotor-Konnagar area for years,
+        gets arrested by Dibakar Sen. However, he gets away due to lack of evidence.
+        Soon, Dibakar and Hubba, seem to become alter egos of one another and morality
+        gets blurred.","popularity":4.088,"poster_path":"/qfyNt7wMeYpbjVU5vt5ZVfeSy98.jpg","release_date":"2024-01-19","title":"Hubba","video":false,"vote_average":10.0,"vote_count":1},{"adult":false,"backdrop_path":null,"genre_ids":[18,53],"id":857394,"original_language":"en","original_title":"Spearphishing","overview":"An
+        Afghan war veteran looks to live the quiet life as a small-town police officer.
+        That changes when a group of Russian hackers moves to the area, intending
+        to disrupt the Canadian elections.","popularity":0.646,"poster_path":"/5jAm8Ygp7mCkhw6tRnuVcIqhvXW.jpg","release_date":"2021-07-24","title":"Spearphishing","video":false,"vote_average":0.0,"vote_count":0},{"adult":false,"backdrop_path":"/6M2IeELPSKZZ4iAPz2w0i7wdm6X.jpg","genre_ids":[80,53],"id":3432,"original_language":"en","original_title":"Mr.
+        Brooks","overview":"A psychological thriller about a man who is sometimes
+        controlled by his murder-and-mayhem-loving alter ego.","popularity":42.721,"poster_path":"/yYleq0qmb67Ig2ViY3hFmUOrH77.jpg","release_date":"2007-06-01","title":"Mr.
+        Brooks","video":false,"vote_average":6.92,"vote_count":1642},{"adult":false,"backdrop_path":"/oP0ecogQSsJGCYOustBaiBfeAK2.jpg","genre_ids":[18,80,53],"id":232382,"original_language":"th","original_title":"Goal
+        Club เกมล้มโต๊ะ","overview":"A group of teens gets involved in the underground
+        football betting scene where lots of money can be quickly won or lost.","popularity":2.156,"poster_path":"/v7149hVoTkefzTrfopDTSedUiob.jpg","release_date":"2001-11-02","title":"Goal
+        Club","video":false,"vote_average":5.5,"vote_count":2},{"adult":false,"backdrop_path":"/mo91VtUnf3n6aNNgsBd2E1RCjPP.jpg","genre_ids":[28,53],"id":232422,"original_language":"en","original_title":"The
+        Hit List","overview":"A hit man''s boss refers him to a client, a dangerous
+        woman who mixes business with pleasure.","popularity":12.251,"poster_path":"/oivPqqQ5UpigKSRGePf2XkJdidO.jpg","release_date":"1993-01-17","title":"The
+        Hit List","video":false,"vote_average":4.4,"vote_count":8},{"adult":false,"backdrop_path":null,"genre_ids":[28,53],"id":546856,"original_language":"kn","original_title":"Maasthi
+        Gudi","overview":"Masti Gudi is a 2017 Indian Kannada-language action film
+        directed by Nagshekar, starring Duniya Vijay who is also credited for the
+        film''s story, Kriti Kharbanda and Amulya in lead roles","popularity":1.353,"poster_path":"/2q8XZcCFyHgriUEZ5czqL2kQpp2.jpg","release_date":"2017-05-17","title":"Maasthi
+        Gudi","video":false,"vote_average":10.0,"vote_count":1},{"adult":false,"backdrop_path":"/eYDAnSidN4rIEuneS5gEJkTyk3l.jpg","genre_ids":[28,80,53],"id":9056,"original_language":"cn","original_title":"警察故事","overview":"Officer
+        Chan Ka Kui manages to put a major Hong Kong drug dealer behind the bars practically
+        alone, after a shooting and an impressive chase inside a slum. Now, he must
+        protect the boss'' secretary, Selina, who will testify against the gangster
+        in court.","popularity":34.544,"poster_path":"/c6OVw4icIHr5LIyTWYnc3SNGh06.jpg","release_date":"1985-12-14","title":"Police
+        Story","video":false,"vote_average":7.528,"vote_count":838},{"adult":false,"backdrop_path":"/i9opFwOh2DvFyjy8uQXC17UEUzL.jpg","genre_ids":[28,18,9648,53],"id":9061,"original_language":"en","original_title":"Just
+        Cause","overview":"A Harvard professor is lured back into the courtroom after
+        twenty-five years to take the case of a young black man condemned to death
+        for the horrific murder of a child.","popularity":15.523,"poster_path":"/z8WqDIUC00TPX6U24ah0C7IMEKf.jpg","release_date":"1995-02-17","title":"Just
+        Cause","video":false,"vote_average":6.2,"vote_count":527},{"adult":false,"backdrop_path":"/g3B1OkWVXXaseAV3iyhCV41IUEJ.jpg","genre_ids":[28,12,18,10749,10752],"id":9093,"original_language":"en","original_title":"The
+        Four Feathers","overview":"A young British officer resigns his post when he
+        learns of his regiment''s plan to ship out to the Sudan for the conflict with
+        the Mahdi. His friends and fiancée send him four white feathers as symbols
+        of what they view as his cowardice. To redeem his honor, he disguises himself
+        as an Arab and secretly saves their lives.","popularity":21.421,"poster_path":"/jE5Fdoq2xZqfNEptdSXMJr1uN8x.jpg","release_date":"2002-09-08","title":"The
+        Four Feathers","video":false,"vote_average":6.592,"vote_count":513},{"adult":false,"backdrop_path":"/h02PKNxjnklbZhK8sqhNvO2Yg3q.jpg","genre_ids":[18,35,10752,80,53],"id":9104,"original_language":"en","original_title":"Buffalo
+        Soldiers","overview":"A criminal subculture operates among U.S. soldiers stationed
+        in West Germany just before the fall of the Berlin wall.","popularity":16.309,"poster_path":"/qNl4T8xxC0xDeX8JFJVCBzH4Kg8.jpg","release_date":"2002-10-31","title":"Buffalo
+        Soldiers","video":false,"vote_average":6.2,"vote_count":299},{"adult":false,"backdrop_path":"/A9tj65S3GU44JwSYaIlnVbi5qiA.jpg","genre_ids":[53],"id":9265,"original_language":"de","original_title":"Die
+        dunkle Seite","overview":"After greengrocer Mehmet Üsker is murdered, police
+        detective Inspector Menemenci is put on the case. At the same time, detective
+        Vera Gemini is on the lookout for a former foreign legionnaire who, however,
+        has been presumed dead for years. It soon turns out that there must be a connection
+        between the two cases.","popularity":1.701,"poster_path":"/9JiCQgOjQwM55rBCKJYJnCnVxVR.jpg","release_date":"2008-05-20","title":"Die
+        dunkle Seite","video":false,"vote_average":4.5,"vote_count":2},{"adult":false,"backdrop_path":"/8n6ZCFJWwK7UiX7NYuIEvHLRPYG.jpg","genre_ids":[28,18,9648,53],"id":9268,"original_language":"en","original_title":"Eraser","overview":"U.S.
+        Marshall John Kruger erases the identities of people enrolled in the Witness
+        Protection Program. His current assignment is to protect Lee Cullen, who''s
+        uncovered evidence that the weapons manufacturer she works for has been selling
+        to terrorist groups. When Kruger discovers that there''s a corrupt agent within
+        the program, he must guard his own life while trying to protect Lee''s.","popularity":25.931,"poster_path":"/1FUV5ZmEkbxvqwQW0az4tFFOSmo.jpg","release_date":"1996-06-21","title":"Eraser","video":false,"vote_average":6.056,"vote_count":1748},{"adult":false,"backdrop_path":"/bBE2NdAjrbeRbTrcATvdaf1NeXp.jpg","genre_ids":[53,18,27],"id":9272,"original_language":"en","original_title":"The
+        Good Son","overview":"A young boy stays with his aunt and uncle, and befriends
+        his cousin who''s the same age. But his cousin begins showing increasing signs
+        of psychotic behavior.","popularity":18.143,"poster_path":"/iIV9zYVEFbb7AWc3BgnVQlfoeW.jpg","release_date":"1993-09-24","title":"The
+        Good Son","video":false,"vote_average":6.758,"vote_count":913},{"adult":false,"backdrop_path":"/ccvrJdQhfQ9WPtl9eHlqUiB0mjs.jpg","genre_ids":[35,80,18,53],"id":9275,"original_language":"en","original_title":"Death
+        to Smoochy","overview":"Tells the story of Rainbow Randolph, the corrupt,
+        costumed star of a popular children''s TV show, who is fired over a bribery
+        scandal and replaced by squeaky-clean Smoochy, a puffy fuchsia rhinoceros.
+        As Smoochy catapults to fame - scoring hit ratings and the affections of a
+        network executive - Randolph makes the unsuspecting rhino the target of his
+        numerous outrageous attempts to exact revenge and reclaim his status as America''s
+        sweetheart.","popularity":13.07,"poster_path":"/jLOgkwcXzlCmwjbWVaWS1vETutl.jpg","release_date":"2002-03-29","title":"Death
+        to Smoochy","video":false,"vote_average":5.938,"vote_count":378},{"adult":false,"backdrop_path":"/72jbXJIXiGdLzrqfbKynVhtnl5b.jpg","genre_ids":[53,35,80,9648,18],"id":9282,"original_language":"en","original_title":"11:14","overview":"Tells
+        the seemingly random yet vitally connected story of a set of incidents that
+        all converge one evening at 11:14pm. The story follows the chain of events
+        of five different characters and five different storylines that all converge
+        to tell the story of murder and deceit.","popularity":18.452,"poster_path":"/lP7evJZFn8PJh5YMDnYPkTEwjlU.jpg","release_date":"2003-09-05","title":"11:14","video":false,"vote_average":6.793,"vote_count":824},{"adult":false,"backdrop_path":"/cMsLVAG6I2DdFR9krJh1oy0MH1q.jpg","genre_ids":[28,12,35],"id":9292,"original_language":"en","original_title":"Hudson
+        Hawk","overview":"Eddie Hawkins, called Hudson Hawk has just been released
+        from ten years of prison and is planning to spend the rest of his life honestly.
+        But then the crazy Mayflower couple blackmail him to steal some of the works
+        of Leonardo da Vinci. If he refuses, they threaten to kill his friend Tommy.","popularity":42.504,"poster_path":"/g1FJLGg9TaCzgjCmTJmONGIhTar.jpg","release_date":"1991-05-23","title":"Hudson
+        Hawk","video":false,"vote_average":5.659,"vote_count":952},{"adult":false,"backdrop_path":"/pZdJJH9mNRfBrUitEG6vHPqfBvg.jpg","genre_ids":[28,18,80,53],"id":540313,"original_language":"hi","original_title":"Udaan","overview":"A
+        wealthy industrialist who refuses to doctor his product is killed by his corrupt
+        business partners (the great trio of Danny Denzongpa, Dilip Tahil, and Prem
+        Chopra), and his share of the company goes to his daughter Versha (Rekha).
+        When she begins to figure out the truth, the nefarious partners conspire to
+        have her locked in a mental institute--but that''s not enough to stop our
+        heroine, who makes some new, insane friends and returns with revenge on her
+        mind.","popularity":2.171,"poster_path":"/eWszaR1TBt0ekGlgF7Sm2rMoY4E.jpg","release_date":"1997-10-03","title":"Udaan","video":false,"vote_average":6.0,"vote_count":3},{"adult":false,"backdrop_path":null,"genre_ids":[9648,53],"id":385238,"original_language":"ml","original_title":"വേട്ട","overview":"Two
+        police officers trapped in a web of deception and lies from everyone they
+        trust after they take up a case involving a mysterious man who is arrested
+        for a double homicide.","popularity":3.202,"poster_path":"/pcuA4E3M4RO7227XMDfV0EfhA5X.jpg","release_date":"2016-02-26","title":"Vettah","video":false,"vote_average":6.9,"vote_count":14},{"adult":false,"backdrop_path":"/pIRrWfRdx5rICNQa960YgOQEgtA.jpg","genre_ids":[80,18,53],"id":385332,"original_language":"en","original_title":"Terminal","overview":"In
+        the dark heart of a sprawling, anonymous city, two assassins carry out a sinister
+        mission, a teacher battles a fatal illness, and an enigmatic janitor and a
+        curious waitress lead dangerous double lives.  Murderous consequences unravel
+        in the dead of night, as their lives intertwine at the hands of a mysterious
+        criminal mastermind who is hell-bent on revenge.","popularity":16.614,"poster_path":"/xi7pA3lL6Wb78p6Y6PgWoHDMjrM.jpg","release_date":"2018-05-10","title":"Terminal","video":false,"vote_average":5.504,"vote_count":779}],"total_pages":4346,"total_results":86918}'
+  recorded_at: Fri, 05 Jul 2024 14:41:30 GMT
 recorded_with: VCR 6.2.0

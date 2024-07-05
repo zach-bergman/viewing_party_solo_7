@@ -94,5 +94,20 @@ RSpec.describe MovieService do
         end
       end
     end
+
+    describe "#get_top_rated_movies" do
+      it "returns array of top rated movies data", :vcr do
+        movies = MovieService.new.get_top_rated_movies
+
+        expect(movies).to be_an(Array)
+
+        movies.each do |movie|
+          expect(movie).to have_key(:title)
+          expect(movie).to have_key(:vote_average)
+          expect(movie).to have_key(:id)
+          expect(movie).to have_key(:poster_path)
+        end
+      end
+    end
   end
 end
