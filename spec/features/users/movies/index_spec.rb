@@ -21,7 +21,7 @@ RSpec.describe "User Movies Index Page", type: :feature do
 
         within "div.movie_967847_info" do
           expect(page).to have_link("Ghostbusters: Frozen Empire", href: user_movie_path(user.id, 967847))
-          expect(page).to have_content("Vote Average: 6.7")
+          expect(page).to have_content("Vote Average: 6.69")
         end
       end
 

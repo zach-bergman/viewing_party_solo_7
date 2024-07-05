@@ -10,7 +10,7 @@ class Movie
               :release_date,
               :poster_path
 
-  def initialize(attributes) # do i need all of this data?
+  def initialize(attributes)
     @id = attributes[:id].to_i
     @title = attributes[:title]
     @vote_average = attributes[:vote_average]
@@ -24,7 +24,7 @@ class Movie
   end
 
   def format_runtime
-    "#{@runtime / 60} hours #{@runtime % 60} minutes"
+    "#{@runtime / 60}hr #{@runtime % 60}min"
   end
 
   def genre_names
@@ -38,10 +38,4 @@ class Movie
   def review_count
     @reviews.count
   end
-
-  # def review_maker
-  #   @reviews.map do |review|
-  #     binding.pry
-  #   end
-  # end
 end

@@ -38,7 +38,7 @@ RSpec.describe "Movie Show Page" do
 
       within "div.movie_info" do
         expect(page).to have_content("Vote Average: 7.43")
-        expect(page).to have_content("Runtime: 1 hours 41 minutes")
+        expect(page).to have_content("Runtime: 1hr 41min")
         expect(page).to have_content("Genre: Action, Thriller")
         expect(page).to have_content("Summary: #{overview}")
       end

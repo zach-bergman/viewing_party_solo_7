@@ -1,27 +1,42 @@
 <h1>New Movie Party for <%= @facade.movie.title %></h1>
 
+<%= button_to "Discover Page", user_discover_index_path(@user.id), method: :get %>
+
 <div class="create_party_form">
   <h3>Title: <%= @facade.movie.title %></h3>
-  <%= form_with url: user_movie_viewing_party_index_path(@user.id, @facade.movie.id), data:{turbo:false} do |f| %>
+  <%= form_with url: user_movie_viewing_party_index_path(@user.id, @facade.movie.id), data: { turbo: false } do |f| %>
+    <div class="form-group">
+      <%= f.label :duration, "Duration: " %>
+      <%= f.number_field :duration, value: @facade.movie.runtime %>
+    </div>
 
-    <%= f.label :duration, "Duration: " %>
-    <%= f.number_field :duration, value: @facade.movie.runtime %>
+    <div class="form-group">
+      <%= f.label :date, "Date: " %>
+      <%= f.date_field :date %>
+    </div>
 
-    <%= f.label :date, "Date: " %>
-    <%= f.date_field :date %>
+    <div class="form-group">
+      <%= f.label :start_time, "Start Time: " %>
+      <%= f.time_field :start_time %>
+    </div>
 
-    <%= f.label :start_time, "Start Time: " %>
-    <%= f.time_field :start_time %>
+    <div class="form-group">
+      <%= f.label :guest_1_email, "Guest 1 Email: " %>
+      <%= f.text_field :guest_1_email %>
+    </div>
 
-    <%= f.label :guest_1_email, "Guest 1 Email: " %>
-    <%= f.text_field :guest_1_email %>
+    <div class="form-group">
+      <%= f.label :guest_2_email, "Guest 2 Email: " %>
+      <%= f.text_field :guest_2_email %>
+    </div>
 
-    <%= f.label :guest_2_email, "Guest 2 Email: " %>
-    <%= f.text_field :guest_2_email %>
+    <div class="form-group">
+      <%= f.label :guest_3_email, "Guest 3 Email: " %>
+      <%= f.text_field :guest_3_email %>
+    </div>
 
-    <%= f.label :guest_3_email, "Guest 3 Email: " %>
-    <%= f.text_field :guest_3_email %>
-
-    <%= f.submit 'Create Viewing Party' %>
+    <div class="form-group">
+      <%= f.submit 'Create Viewing Party', class: "submit-button" %>
+    </div>
   <% end %>
 </div>

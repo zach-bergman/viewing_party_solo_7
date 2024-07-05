@@ -1,4 +1,5 @@
 <h1><%= "#{@user.name}'s Dashboard" %></h1><br>
+<%= button_to "Discover Movies", user_discover_index_path(@user.id), method: :get %>
 
 <section class="viewing_parties">
   <div class="invited_parties">
