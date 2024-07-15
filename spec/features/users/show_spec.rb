@@ -3,10 +3,14 @@ require "rails_helper"
 RSpec.describe "User Show/Dashboard Page", type: :feature do
   before(:each) do
     # create users
-    @user_1 = User.create!(name: "User 1", email: "user_1@email.com")
-    @user_2 = User.create!(name: "User 2", email: "user_2@email.com")
-    @user_3 = User.create!(name: "User 3", email: "user_3@email.com")
-    @user_4 = User.create!(name: "User 4", email: "user_4@email.com")
+    @user_1 = User.create!(name: "User 1", email: "user_1@email.com", password: "password1",
+    password_confirmation: "password1")
+    @user_2 = User.create!(name: "User 2", email: "user_2@email.com", password: "password2",
+    password_confirmation: "password2")
+    @user_3 = User.create!(name: "User 3", email: "user_3@email.com", password: "password3",
+    password_confirmation: "password3")
+    @user_4 = User.create!(name: "User 4", email: "user_4@email.com", password: "password4",
+    password_confirmation: "password4")
 
     # create viewing parties
     @party_1 = ViewingParty.create!(date: "2024-12-01", start_time: "07:25", duration: 175, movie_id: 245891)

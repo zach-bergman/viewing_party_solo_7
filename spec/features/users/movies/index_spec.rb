@@ -4,7 +4,8 @@ RSpec.describe "User Movies Index Page", type: :feature do
   describe "User Story 2" do
     it "shows each movies title as a link to movie details page and shows vote average, and 
     shows a button that links to the discover page", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_discover_index_path(user.id)
 

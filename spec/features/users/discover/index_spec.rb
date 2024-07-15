@@ -3,7 +3,9 @@ require "rails_helper"
 RSpec.describe "User Discover Movies Page", type: :feature do
   describe "User Story 1" do
     it "shows a button to discover top rated movies, a text field to enter keyword(s) to search by movie title, a button to search by movie title", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
+      
       visit user_discover_index_path(user.id)
 
       expect(page).to have_button("Discover Top Rated Movies")
