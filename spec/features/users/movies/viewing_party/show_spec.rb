@@ -4,7 +4,8 @@ RSpec.describe "Viewing Party Show Page" do
   describe "User Story 5" do
     it "shows logos of video providers to buy or rent the movie, 
       and data attribution for JustWatch platform", :vcr do
-      user = User.create!(name: 'User', email: "user@email.com")
+      user = User.create!(name: 'User', email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       party_data = {
         duration: 130,

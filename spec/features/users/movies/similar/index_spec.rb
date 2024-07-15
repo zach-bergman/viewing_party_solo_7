@@ -3,7 +3,8 @@ require "rails_helper"
 RSpec.describe "Similar Index Page" do
   describe "User Story 6" do
     it "shows a list of similar movies to the movie the user searched for", :vcr do
-      user = User.create!(name: 'User', email: "user@email.com")
+      user = User.create!(name: 'User', email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_movie_similar_index_path(user.id, 245891)
 

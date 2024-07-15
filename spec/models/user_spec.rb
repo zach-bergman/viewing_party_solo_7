@@ -10,6 +10,10 @@ RSpec.describe User, type: :model do
     it { should_not allow_value('something.something@').for(:email) }
     it { should_not allow_value('something').for(:email) }
 
+    it { should have_secure_password }
+    it { should validate_presence_of :password_digest }
+    it { should validate_presence_of :password }
+    it { should validate_confirmation_of :password }
   end
 
   describe 'associations' do
@@ -17,16 +21,26 @@ RSpec.describe User, type: :model do
     it { should have_many(:viewing_parties).through(:user_parties) }
   end
 
+  it "should have a secure password" do
+    user = User.create!(name: "User", email: "user@email.com", password: "password",
+    password_confirmation: "password")
+
+    expect(user.authenticate("password")).to eq(user)
+    
+    expect(user).to_not have_attribute(:password)
+    expect(user.password_digest).to_not eq("password")
+  end
+
   before(:each) do
     # create users
-    @user_1 = User.create!(name: "User 1", email: "user_1@email.com")
-    @user_2 = User.create!(name: "User 2", email: "user_2@email.com")
-    @user_3 = User.create!(name: "User 3", email: "user_3@email.com")
-    @user_4 = User.create!(name: "User 4", email: "user_4@email.com")
+    @user_1 = User.create!(name: "User 1", email: "user_1@email.com", password: "password1", password_confirmation: "password1")
+    @user_2 = User.create!(name: "User 2", email: "user_2@email.com", password: "password2", password_confirmation: "password2")
+    @user_3 = User.create!(name: "User 3", email: "user_3@email.com", password: "password3", password_confirmation: "password3")
+    @user_4 = User.create!(name: "User 4", email: "user_4@email.com", password: "password4", password_confirmation: "password4")
 
     # create viewing parties
     @party_1 = ViewingParty.create!(date: "2024-12-01", start_time: "07:25", duration: 175, movie_id: 245891)
-    @party_2 = ViewingParty.create!(date: "2024-12-02", start_time: "07:25", duration: 175, movie_id: 245891) #change movies
+    @party_2 = ViewingParty.create!(date: "2024-12-02", start_time: "07:25", duration: 175, movie_id: 245891)
     @party_3 = ViewingParty.create!(date: "2024-12-03", start_time: "07:25", duration: 175, movie_id: 245891)
     @party_4 = ViewingParty.create!(date: "2024-12-04", start_time: "07:25", duration: 175, movie_id: 245891)
     @party_5 = ViewingParty.create!(date: "2024-12-04", start_time: "07:25", duration: 175, movie_id: 245891)

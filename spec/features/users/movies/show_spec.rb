@@ -3,7 +3,8 @@ require "rails_helper"
 RSpec.describe "Movie Show Page" do
   describe "User Story 3" do
     it "shows a button to create a viewing party", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_movie_path(user.id, 245891)
 
@@ -15,7 +16,8 @@ RSpec.describe "Movie Show Page" do
     end
 
     it "shows a button that links back to Discover Page", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_movie_path(user.id, 245891)
 
@@ -28,7 +30,8 @@ RSpec.describe "Movie Show Page" do
 
     it "shows the title, vote average, runtime in hours and minutes, genres, summary, 
       first 10 cast members, count of total reviews, each reviews author and info", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_movie_path(user.id, 245891)
 
@@ -71,7 +74,8 @@ RSpec.describe "Movie Show Page" do
 
   describe "User Story 6" do
     it "shows a link to Get Similar Movies, links to Similar Movies page", :vcr do
-      user = User.create!(id: 1, name: "User", email: "user@email.com")
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
 
       visit user_movie_path(user.id, 245891)
 
