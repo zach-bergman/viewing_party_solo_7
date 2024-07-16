@@ -11,9 +11,11 @@ RSpec.describe "Viewing Party New Page", type: :feature do
       user_3 = User.create!(id: 3, name: "User 3", email: "user3@email.com", password: "password3",
       password_confirmation: "password3")
 
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
       visit new_user_movie_viewing_party_path(user.id, 245891)
 
-      within "div.create_party_form" do
+      within ".create_party_form" do
         expect(page).to have_content("Title: John Wick")
         expect(page).to have_field("Duration:", with: "101")
         
@@ -37,6 +39,8 @@ RSpec.describe "Viewing Party New Page", type: :feature do
       password_confirmation: "password2")
       user_3 = User.create!(id: 3, name: "User 3", email: "user3@email.com", password: "password3",
       password_confirmation: "password3")
+
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
       visit new_user_movie_viewing_party_path(user.id, 245891)
 

@@ -5,6 +5,8 @@ RSpec.describe User, type: :model do
     it { should validate_presence_of :name }
     it { should validate_presence_of :email }
     it { should validate_uniqueness_of :email }
+    it { should validate_presence_of :role }
+
     it { should allow_value('something@something.something').for(:email) }
     it { should_not allow_value('something somthing@something.something').for(:email) }
     it { should_not allow_value('something.something@').for(:email) }
@@ -21,6 +23,10 @@ RSpec.describe User, type: :model do
     it { should have_many(:viewing_parties).through(:user_parties) }
   end
 
+  describe 'roles' do
+    it { should define_enum_for(:role).with_values(%i[default manager admin])}
+  end
+
   it "should have a secure password" do
     user = User.create!(name: "User", email: "user@email.com", password: "password",
     password_confirmation: "password")
@@ -33,7 +39,7 @@ RSpec.describe User, type: :model do
 
   before(:each) do
     # create users
-    @user_1 = User.create!(name: "User 1", email: "user_1@email.com", password: "password1", password_confirmation: "password1")
+    @user_1 = User.create!(name: "User 1", email: "user_1@email.com", password: "password1", password_confirmation: "password1", role: 2)
     @user_2 = User.create!(name: "User 2", email: "user_2@email.com", password: "password2", password_confirmation: "password2")
     @user_3 = User.create!(name: "User 3", email: "user_3@email.com", password: "password3", password_confirmation: "password3")
     @user_4 = User.create!(name: "User 4", email: "user_4@email.com", password: "password4", password_confirmation: "password4")
@@ -79,6 +85,14 @@ RSpec.describe User, type: :model do
     describe "#host_parties" do
       it "returns all viewing parties the user has been invited to", :vcr do
         expect(@user_2.host_parties).to eq([@party_2, @party_5])
+      end
+    end
+  end
+
+  describe "class methods" do
+    describe ".default_users" do
+      it "returns all users with a default role" do
+        expect(User.default_users).to eq([@user_2, @user_3, @user_4])
       end
     end
   end

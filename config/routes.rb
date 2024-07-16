@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
+  post '/logout', to: 'sessions#destroy'
 
   resources :users, only: [:show, :create] do
     resources :discover, only: :index
@@ -16,5 +17,10 @@ Rails.application.routes.draw do
       resources :similar, only: :index
       resources :viewing_party, only: [:new, :create, :show]
     end
+  end
+
+  namespace :admin do
+    resources :dashboard, only: :index
+    resources :users, only: [:show]
   end
 end
