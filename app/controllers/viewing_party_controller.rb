@@ -1,4 +1,6 @@
 class ViewingPartyController < ApplicationController
+  before_action :require_user, only: [:new, :create]
+
   def new
     @facade = MovieFacade.new(nil, params[:movie_id])
     @user = User.find(params[:user_id])
@@ -28,5 +30,12 @@ class ViewingPartyController < ApplicationController
   private
     def party_params
       params.permit(:duration, :date, :start_time, :movie_id, :party_id)
+    end
+
+    def require_user
+      if !current_user
+        flash[:error] = 'You must be logged in or registered to view this page'
+        redirect_to user_movie_path(params[:user_id], params[:movie_id])
+      end
     end
 end

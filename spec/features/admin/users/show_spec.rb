@@ -1,12 +1,12 @@
 require "rails_helper"
 
-RSpec.describe "User Show/Dashboard Page", type: :feature do
+RSpec.describe "Admin User Show/Dashboard Page", type: :feature do
   before(:each) do
     # create users
     @user_1 = User.create!(name: "User 1", email: "user_1@email.com", password: "password1",
     password_confirmation: "password1")
     @user_2 = User.create!(name: "User 2", email: "user_2@email.com", password: "password2",
-    password_confirmation: "password2")
+    password_confirmation: "password2", role: 2) # admin
     @user_3 = User.create!(name: "User 3", email: "user_3@email.com", password: "password3",
     password_confirmation: "password3")
     @user_4 = User.create!(name: "User 4", email: "user_4@email.com", password: "password4",
@@ -48,10 +48,10 @@ RSpec.describe "User Show/Dashboard Page", type: :feature do
       movie title as link to movie show, date, start time, and host - list of users invited, 
       current users name in bold", :vcr do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user_2)
+      
+      visit admin_user_path(@user_2.id)
 
-      visit user_path(@user_2.id)
-
-      within "div.invited_parties" do
+      within ".invited_parties" do
         within "div.party_#{@party_1.id}" do
           expect(page).to have_css("img[src*='https://image.tmdb.org/t/p/w200']")
           expect(page).to have_link("John Wick", href: user_movie_path(@user_2.id, 245891))
@@ -91,7 +91,7 @@ RSpec.describe "User Show/Dashboard Page", type: :feature do
       current users name in bold", :vcr do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user_2)
 
-      visit user_path(@user_2.id)
+      visit admin_user_path(@user_2.id)
 
       within "div.host_parties" do
         within "div.party_#{@party_2.id}" do
@@ -108,6 +108,27 @@ RSpec.describe "User Show/Dashboard Page", type: :feature do
           end
         end
       end
+    end
+  end
+
+  describe "visitors or default users are now allowed" do
+    it "won't allow default users or visitors to access the admin user show page" do
+      user = User.create!(name: 'Tommy', email: 'tommy@email.com', password: "password",
+      password_confirmation: "password")
+
+      visit root_path
+      visit admin_user_path(user.id)
+
+      expect(current_path).to eq(root_path)
+      expect(page).to have_content("You're not authorized to access this page.")
+
+      # Login as user
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
+      visit admin_user_path(user.id)
+
+      expect(current_path).to eq(root_path)
+      expect(page).to have_content("You're not authorized to access this page.")
     end
   end
 end

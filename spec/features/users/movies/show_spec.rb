@@ -6,6 +6,8 @@ RSpec.describe "Movie Show Page" do
       user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
       password_confirmation: "password")
 
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
       visit user_movie_path(user.id, 245891)
 
       within "div.buttons" do
@@ -13,6 +15,18 @@ RSpec.describe "Movie Show Page" do
       end
 
       expect(current_path).to eq(new_user_movie_viewing_party_path(user_id: user.id, movie_id: 245891))
+    end
+
+    it "redirects to user dashboard if user does not exist when creating a viewing party" do
+      user = User.create!(id: 1, name: "User", email: "user@email.com", password: "password",
+      password_confirmation: "password")
+      
+      visit user_movie_path(user.id, 245891)
+
+      click_button "Create Viewing Party for John Wick"
+
+      expect(current_path).to eq(user_movie_path(user.id, 245891))
+      expect(page).to have_content("You must be logged in or registered to view this page")
     end
 
     it "shows a button that links back to Discover Page", :vcr do

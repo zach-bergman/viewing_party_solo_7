@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+   before_action :require_user, only: [:show]
+
    def new
       @user = User.new
    end
@@ -23,5 +25,12 @@ class UsersController < ApplicationController
    private
    def user_params
       params.require(:user).permit(:name, :email, :password, :password_confirmation)
+   end
+
+   def require_user
+      if !current_user
+         flash[:error] = 'You must be logged in or registered to view this page'
+         redirect_to root_path
+      end
    end
 end
